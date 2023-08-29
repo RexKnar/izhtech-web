@@ -1,7 +1,12 @@
 import { Button, Navbar } from "flowbite-react";
 import logo from "../../../assets/images/izhtech-logo.png";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 export function HeaderNavigationMenu() {
+  const [activeLink, setActiveLink] = useState("home");
+  const handleLinkClick = (link:string) => {
+    setActiveLink(link);
+  };
   return (
     <main>
       <section>
@@ -18,13 +23,41 @@ export function HeaderNavigationMenu() {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Link to={"/home"}> Home</Link>
+            <Link
+              className={activeLink === "home" ? "text-blue-500" : ""}
+              to={"/home"}
+              onClick={() => handleLinkClick("home")}
+            >
+              {" "}
+              Home
+            </Link>
 
-            <Link to={"/about"}> About</Link>
+            <Link
+              className={activeLink === "about" ? "text-blue-500" : ""}
+              to={"/about"}
+              onClick={() => handleLinkClick("about")}
+            >
+              {" "}
+              About
+            </Link>
 
-            <Link to={"/service"}> Service</Link>
+            <Link
+              className={activeLink === "service" ? "text-blue-500" : ""}
+              to={"/service"}
+              onClick={() => handleLinkClick("service")}
+            >
+              {" "}
+              Service
+            </Link>
 
-            <Link to={"/contact"}> Contact</Link>
+            <Link
+              className={activeLink === "contact" ? "text-blue-500" : ""}
+              to={"/contact"}
+              onClick={() => handleLinkClick("contact")}
+            >
+              {" "}
+              Contact
+            </Link>
           </Navbar.Collapse>
         </Navbar>
       </section>
