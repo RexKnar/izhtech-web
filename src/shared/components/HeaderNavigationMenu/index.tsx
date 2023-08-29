@@ -1,5 +1,6 @@
 import { Button, Navbar } from "flowbite-react";
 import logo from "../../../assets/images/izhtech-logo.png";
+import { Link } from "react-router-dom";
 export function HeaderNavigationMenu() {
   return (
     <main>
@@ -17,18 +18,13 @@ export function HeaderNavigationMenu() {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link active href='/home'>
-              Home
-            </Navbar.Link>
-            <Navbar.Link href='/about'>
-              About
-            </Navbar.Link>
-            <Navbar.Link href='/service'>
-             Service
-            </Navbar.Link>
-            <Navbar.Link href='/contact'>
-             Contact
-            </Navbar.Link>
+            <Link to={"/home"}> Home</Link>
+
+            <Link to={"/about"}> About</Link>
+
+            <Link to={"/service"}> Service</Link>
+
+            <Link to={"/contact"}> Contact</Link>
           </Navbar.Collapse>
         </Navbar>
       </section>
