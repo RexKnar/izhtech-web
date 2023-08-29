@@ -1,12 +1,22 @@
 import { Button, Navbar } from "flowbite-react";
 import logo from "../../../assets/images/izhtech-logo.png";
-import { Link } from "react-router-dom";
-import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 export function HeaderNavigationMenu() {
+  const location = useLocation();
   const [activeLink, setActiveLink] = useState("home");
-  const handleLinkClick = (link:string) => {
-    setActiveLink(link);
-  };
+  useEffect(() => {
+    const currentPathname = location.pathname;
+    if (currentPathname === '/' || currentPathname === '/home' ) {
+      setActiveLink('home');
+    } else if (currentPathname === '/about') {
+      setActiveLink('about');
+    } else if (currentPathname === '/service') {
+      setActiveLink('service');
+    } else if (currentPathname === '/contact') {
+      setActiveLink('contact');
+    }
+  }, [location]);
   return (
     <main>
       <section>
@@ -26,7 +36,6 @@ export function HeaderNavigationMenu() {
             <Link
               className={activeLink === "home" ? "text-blue-500" : ""}
               to={"/home"}
-              onClick={() => handleLinkClick("home")}
             >
               {" "}
               Home
@@ -35,7 +44,6 @@ export function HeaderNavigationMenu() {
             <Link
               className={activeLink === "about" ? "text-blue-500" : ""}
               to={"/about"}
-              onClick={() => handleLinkClick("about")}
             >
               {" "}
               About
@@ -44,7 +52,6 @@ export function HeaderNavigationMenu() {
             <Link
               className={activeLink === "service" ? "text-blue-500" : ""}
               to={"/service"}
-              onClick={() => handleLinkClick("service")}
             >
               {" "}
               Service
@@ -53,7 +60,6 @@ export function HeaderNavigationMenu() {
             <Link
               className={activeLink === "contact" ? "text-blue-500" : ""}
               to={"/contact"}
-              onClick={() => handleLinkClick("contact")}
             >
               {" "}
               Contact
