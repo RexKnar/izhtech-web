@@ -13,7 +13,7 @@ export function HeaderNavigationMenu() {
             />
           </Navbar.Brand>
           <div className="flex md:order-2">
-            <Button>Let's Talk</Button>
+            <Button className='bg-black'>Let's Talk</Button>
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
