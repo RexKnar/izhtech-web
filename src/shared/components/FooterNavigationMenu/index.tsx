@@ -2,6 +2,7 @@ import { Footer } from "flowbite-react";
 import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 import footerLogo from "../../../assets/images/footer-logo.png";
 export function FooterNavigationMenu() {
+ 
   return (
     <main>
       <section className="bg-black">

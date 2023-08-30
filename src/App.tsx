@@ -6,29 +6,22 @@ import { ServicesPage } from "./pages/services";
 import { FooterNavigationMenu } from "./shared/components/FooterNavigationMenu";
 import { HeaderNavigationMenu } from "./shared/components/HeaderNavigationMenu";
 import {
+  Navigate,
   Route,
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  redirect,
+  Routes,
 } from "react-router-dom";
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <>
-      <Route index loader={() => redirect("home")} />
-      <Route path="home" element={<HomePage />} />
-      <Route path="about" element={<AboutUsPage />} />
-      <Route path="service" element={<ServicesPage />} />
-      <Route path="contact" element={<ContactUsPage />} />
-    </>
-  )
-);
 function App() {
   return (
     <>
       <HeaderNavigationMenu />
-      <RouterProvider router={router} />
+      <Routes>
+      <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="home" element={<HomePage />} />
+        <Route path="about" element={<AboutUsPage />} />
+        <Route path="service" element={<ServicesPage />} />
+        <Route path="contact" element={<ContactUsPage />} />
+      </Routes>
       <FooterNavigationMenu />
     </>
   );
