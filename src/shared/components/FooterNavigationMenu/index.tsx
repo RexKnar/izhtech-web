@@ -4,15 +4,15 @@ import footerLogo from "../../../assets/images/footer-logo.png";
 export function FooterNavigationMenu() {
  
   return (
-    <main>
-      <section className="bg-black">
+    <main className="flex justify-center bg-black ">
+      <section  className="bg-black container flex justify-evenly">
         <Footer
           container
           className="bg-black w-full "
         >
           <div className="w-full">
             <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1 p-6">
-              <div className="grid pl-8 ">
+              <div className="grid  ">
                 <Footer.Brand
                   alt="Footer Logo"
                   href=""
@@ -29,8 +29,8 @@ export function FooterNavigationMenu() {
                   </Footer.LinkGroup>
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-slate-50">
-                <div className="mb-6 text-sm font-semibold text-slate-50">
+              <div className="grid grid-cols-2 ml-20 gap-2 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-slate-50">
+                <div className="mb-2 text-sm font-semibold text-slate-50">
                   <Footer.Title title="Singapore" className="text-slate-50" />
                   <p>
                     Head Office <br />
@@ -38,7 +38,7 @@ export function FooterNavigationMenu() {
                     506889.
                   </p>
                 </div>
-                <div className="mb-6 text-sm font-semibold text-slate-50">
+                <div className="mb-2 text-sm font-semibold text-slate-50">
                   <Footer.Title
                     title="Work inquiries"
                     className="text-slate-50"
@@ -48,12 +48,9 @@ export function FooterNavigationMenu() {
                     <Footer.Link href="#">hello@izhtech.com</Footer.Link>
                   </Footer.LinkGroup>
                 </div>
-                <div className="mb-6 text-sm font-semiboldtext-slate-50">
-                  <form className="flex max-w-md flex-col gap-4 mb-6 text-sm font-semiboldtext-slate-50">
-                    <div
-                      className=" grid
-      "
-                    >
+                <div className="mb-2 text-sm font-semiboldtext-slate-50">
+                  <form className="flex max-w-md flex-col gap-2 mb-6 text-sm font-semiboldtext-slate-50">
+                    <div className=" grid ">
                       <div className="mb-2 ">
                         <Label
                           htmlFor="email"

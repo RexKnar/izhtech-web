@@ -18,8 +18,8 @@ export function HeaderNavigationMenu() {
     }
   }, [location]);
   return (
-    <main>
-      <section className="pl-32 pr-32 pt-6">
+    <main className="flex justify-center">
+      <section className=" container ">
         <Navbar fluid rounded  >
           <Navbar.Brand href="#">
             <img
