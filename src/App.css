@@ -38,3 +38,64 @@
 .read-the-docs {
   color: #888;
 }
+
+.bgLine{
+ background-image: url('../public/images/homeBackground/section1/Vector\ line.png');
+}
+.Ellipse{
+ background-image: url('../public/images/homeBackground/section1/Ellipse 22.png');
+}
+.EllipseOne{
+ background-image: url('../public/images/homeBackground/section1/Ellipse 25.png');
+}
+
+.EllipseTwo{
+  background-image: url('../public/images/homeBackground/section1/Ellipse 20.png');
+ }
+.EllipseThree{
+  background-image: url('../public/images/homeBackground/section1/Ellipse 24.png');
+ }
+.EllipseFour{
+  background-image: url('../public/images/homeBackground/section1/Ellipse 23.png');
+ }
+
+.GroupOne{
+ background-image: url('../public/images/homeBackground/section1/Group 12.png');
+}
+.GroupTwo{
+ background-image: url('../public/images/homeBackground/section1/Group 9.png');
+}
+.Vector{
+ background-image: url('../public/images/homeBackground/section1/Vector.svg');
+}
+
+.IntersectSecOne{
+  background-image: url('../public/images/homeBackground/section1/Intersect\ \(2\).png');
+ }
+.IntersectSecTwo{
+  background-image: url('../public/images/homeBackground/section1/Intersect\ \(1\).png');
+ }
+.IntersectSecThree{
+  background-image: url('../public/images/homeBackground/section1/Intersect.png');
+ }
+.VectorSecOne{
+  background-image: url('../../../public/images/homeBackground/Vector.png');
+  width: 380px;
+  height: 12%;
+ }
+
+
+.Intersect{
+  background-image: url('../public/images/homeBackground/vidoSection/Intersect.png');
+ }
+ 
+ .VectorVd{
+  background-image: url('../public/images/homeBackground/vidoSection/Vector.png');
+ }
+ 
+ .VectordemoSec{
+  background-image: url('../public/images/homeBackground/demoSection//Vector.png');
+ }
+ .VectorDatatracking{
+  background-image: url('../public/images/homeBackground/Datatracking/Vector.png');
+ }

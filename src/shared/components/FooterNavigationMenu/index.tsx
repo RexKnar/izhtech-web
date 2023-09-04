@@ -1,5 +1,5 @@
-import { Footer } from "flowbite-react";
-import { Button, Checkbox, Label, TextInput } from "flowbite-react";
+
+import { Button, Checkbox, Label, TextInput, Footer  } from "flowbite-react";
 import footerLogo from "../../../assets/images/footer-logo.png";
 export function FooterNavigationMenu() {
  
@@ -58,7 +58,7 @@ export function FooterNavigationMenu() {
                           className=" mb-6 text-sm font-semibold text-slate-50"
                         />
                       </div>
-                      <div className="flex  rounded-r-lg">
+                      <div className="flex  rounded-r-lg ">
                         <TextInput
                           id="email"
                           placeholder="yoy@domain.com"
