@@ -99,3 +99,12 @@
  .VectorDatatracking{
   background-image: url('../public/images/homeBackground/Datatracking/Vector.png');
  }
+ .guideBg{
+  background-image: url('../public/images/homeBackground/guide//guideImg.png');
+ }
+ .blueround{
+  background-image: url('../public/images/homeBackground/service/blueround.png');
+ }
+ .yellowround{
+  background-image: url('../public/images/homeBackground/service/yellowround.png');
+ }

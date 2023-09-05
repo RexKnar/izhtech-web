@@ -5,7 +5,7 @@ export function FooterNavigationMenu() {
  
   return (
     <main className="flex justify-center bg-black ">
-      <section  className="bg-black container flex justify-evenly">
+      <section  className="bg-black container flex justify-evenly z-40">
         <Footer
           container
           className="bg-black w-full "

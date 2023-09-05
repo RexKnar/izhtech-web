@@ -1,6 +1,6 @@
 import "../../../../App.css";
 import heroImg from "../../../../assets/images/Home/Hero-Img/heroImg.png";
-// import heroImg from '../../.././../../public/images/homeBackground/section1/Vector.svg'
+
 
 function HeroComponent() {
   return (
