@@ -1,8 +1,6 @@
 import React from "react";
 import { Card } from "flowbite-react";
 
-import { useSearchParams } from 'react-router-dom';
-
 function GuideCard(props:any) {
 const cardDitails=props.cartValue
   return (

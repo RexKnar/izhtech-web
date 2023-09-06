@@ -6,13 +6,14 @@ import DemoSection from './home-components/demoSection-component';
 import Datatracking from './home-components/datatracking-component';
 import GuideComponent from './home-components/Guide-Component';
 import ServiceComponrnt from './home-components/service-component';
+import ProcessComponent from './home-components/process-component';
+import CustomerComponent from './home-components/customer-component';
+import Ourservice from './home-components/ourService-component';
 export function HomePage() {
   return (
     <main className=" ">
       <section className="">
-        <div>
-
-        </div>
+       
       <HeroComponent/>
       <ContentComponent/>
       <WebAppComponent/>
@@ -21,6 +22,9 @@ export function HomePage() {
       <Datatracking/>
       <GuideComponent/>
       <ServiceComponrnt/>
+      <ProcessComponent/>
+      <CustomerComponent/>
+      <Ourservice/>
 
       </section>
     </main>

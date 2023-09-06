@@ -108,3 +108,15 @@
  .yellowround{
   background-image: url('../public/images/homeBackground/service/yellowround.png');
  }
+ .redLineOne{
+  background-image: url('../public/images/homeBackground/process/redLineOne.png');
+ }
+ .redLineTwo{
+  background-image: url('../public/images/homeBackground/process/redLineTwo.png');
+ }
+ .redLineThree{
+  background-image: url('../public/images/homeBackground/process/redLineThree.png');
+ }
+ .coustBg{
+  background-image: url('../public/images/homeBackground/customer/Vector.png');
+ }

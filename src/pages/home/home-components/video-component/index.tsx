@@ -14,7 +14,7 @@ function VideoComponent() {
         className="absolute h-[27vh] w-[10vw] top-[3rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
         
       <section className=" container bg-[#f4f8fd] rounded p-8 ">
-        <div className=" container grid grid-flow-row grid-cols-3 gap-8 justify-center justify-items-center pt-[5rem] pb-[5rem] pr-4 pl-5">
+        <div className=" container grid grid-flow-row grid-cols-3  justify-center justify-items-center pt-[5rem] pb-[1rem] pr-4 pl-5">
           <div className="gap-6 grid justify-start p-6">
             <div className="relative ">
               <img src={videoImg} alt="" />
@@ -42,9 +42,9 @@ function VideoComponent() {
           </div>
         </div>
 
-        <div className="grid grid-flow-col justify-items-center gap-[10vh] p-9 ">
+        <div className="grid grid-flow-col justify-items-center gap-[10vh] p-1 ">
           <div className="columns-3xs ">
-            <hr className="border-top-2 border-black p-6" />
+            <hr className="border-top-1 border-black p-6" />
             <img src={mission} alt="" className="pb-6" />
             <h1 className="text-2xl font-bold pb-4">Mission</h1>
             <p className="pb-4">Untangling Knots to give Clear Digital Solution</p>
@@ -53,11 +53,11 @@ function VideoComponent() {
             </button>
           </div>
           <div className="columns-3xs ">
-            <hr className="border-top-2 border-black p-6" />
+            <hr className="border-top-1 border-black p-6" />
             <img src={vision} alt="" className="pb-6" />
             <h1 className="text-2xl font-bold pb-4">Vision</h1>
             <p className="pb-4">Make life simpler by providing complex tech in a simpler way.</p>
-            <button className="border-2 bg-black text-white border-black rounded flex content-center items-center">
+            <button className="border-1 bg-black text-white border-black rounded flex content-center items-center">
               Read More <AiOutlineArrowRight/>
             </button>
           </div>

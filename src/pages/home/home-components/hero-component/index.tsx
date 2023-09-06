@@ -1,11 +1,19 @@
 import "../../../../App.css";
 import heroImg from "../../../../assets/images/Home/Hero-Img/heroImg.png";
+import { Footer} from "flowbite-react";
 
 
 function HeroComponent() {
   return (
     <main className="flex justify-center relative min-h-screen   ">
        <span className="absolute h-full w-full bg-no-repeat z-20 Ellipse"></span>
+      
+                  
+                  <div className="flex- absolute top-1/2 right-6">
+                    <a href="">/Bg.</a>
+                    <a href="">/Ig</a>
+                    <a href="">Tw</a>
+                  </div>
  <div>
   <div>
    <span className="absolute h-[30%] top-[1rem] left-[7rem] w-1 bg-no-repeat z-20 bgLine"></span>

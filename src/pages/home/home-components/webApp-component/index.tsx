@@ -8,11 +8,26 @@ import inteltLogo from "../../../../assets/images/Home/webAppImg/Intel-logo.png"
 function WepApp() {
   return (
     <main className=" flex justify-center">
-      <section className="container min-w-screen">
+      <section className="container min-w-screen p-10">
         <div className="flex justify-around item-center g-6 m-6">
           <div>
             <a href="">
               <img src={spotifyLogo} alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src={walmartLogo} alt="" />
+            </a>
+          </div>        
+          <div>
+            <a href="">
+              <img src={amazonLogo} alt="" />
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src={inteltLogo} alt="" />
             </a>
           </div>
           <div>
@@ -22,22 +37,7 @@ function WepApp() {
           </div>
           <div>
             <a href="">
-              <img src={amazonLogo} alt="" />
-            </a>
-          </div>
-          <div>
-            <a href="">
               <img src={linkedinLogo} alt="" />
-            </a>
-          </div>
-          <div>
-            <a href="">
-              <img src={walmartLogo} alt="" />
-            </a>
-          </div>
-          <div>
-            <a href="">
-              <img src={inteltLogo} alt="" />
             </a>
           </div>
         </div>

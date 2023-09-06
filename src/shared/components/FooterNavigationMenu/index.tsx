@@ -18,10 +18,10 @@ export function FooterNavigationMenu() {
                   href=""
                   name=""
                   src={footerLogo}
-                  className="h-20 w-28 "
+                  className="h-20 w-30 "
                 />
-                <div className="flex justify-evenly ">
-                  <Footer.LinkGroup className="text-slate-50">
+                <div className="">
+                  <Footer.LinkGroup className="text-slate-50 !flex-nowrap">
                     <Footer.Link href="#">Fb.</Footer.Link>
                     <Footer.Link href="#">/Ig.</Footer.Link>
                     <Footer.Link href="#">/Tw.</Footer.Link>
@@ -32,7 +32,7 @@ export function FooterNavigationMenu() {
               <div className="grid grid-cols-2 ml-20 gap-2 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-slate-50">
                 <div className="mb-2 text-sm font-semibold text-slate-50">
                   <Footer.Title title="Singapore" className="text-slate-50" />
-                  <p>
+                  <p className="text-[#FFFFFFBF]">
                     Head Office <br />
                     Flora Drive,Singapore <br />
                     506889.
@@ -95,12 +95,11 @@ export function FooterNavigationMenu() {
                 </div>
               </div>
             </div>
-            <Footer.Divider />
-            <div className="w-full sm:flex sm:items-center sm:justify-between p-8 ">
+            <Footer.Divider className=" bg-gray-500"/>
+            <div className="w-full sm:flex sm:items-center sm:justify-between p-6 ">
               <Footer.Copyright
-                by="izh tech"
+                by="izh tech 2023 All rights reserved."
                 href="#"
-                year={2022}
                 className="text-slate-50"
               />
               <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center ">
