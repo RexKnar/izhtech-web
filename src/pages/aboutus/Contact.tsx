@@ -3,8 +3,8 @@ function Contact() {
     return (
         <>
             
-                <section>
-                    <div className="text-left bg-black text-white p-4">
+                <section className="bg-black">
+                    <div className="text-left bg-black text-white m-10 p-10">
 
                         <h1 className="text-xs mt-10">Let’s Collaborate</h1>
 

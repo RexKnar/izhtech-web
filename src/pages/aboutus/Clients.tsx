@@ -3,10 +3,10 @@ function Clients() {
   return (
 
     <>
-      <section>
-        <div className="pb-10">
-          <h1 className="text-xs text-left ml-[70px]">CLIENTS WE WORK FOR</h1>
-          <h2 className="text-2xl text-left ml-[70px]"><b>Our clients.</b></h2>
+      <section   className="bg-gray-100">
+        <div className="p-10 ">
+          <h1 className="text-xs text-left">CLIENTS WE WORK FOR</h1>
+          <h2 className="text-2xl text-left"><b>Our clients.</b></h2>
           <div className="relative grid justify-stretch grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 bg-rgba(144, 145, 156, 0.06) text-xs  leading-8">
             <div className="bg-rgba(144, 145, 156, 0.06) p-4 text-left">
 
@@ -76,7 +76,7 @@ function Clients() {
               <p>www.allianz.com</p>
 
 
-              <div className="absolute  transform -ml-8">
+              <div className="absolute -mt-10 -pt-10 transform ml-0 mt-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="321" height="542" viewBox="0 0 371 742" fill="none" className=" mx-auto ">
                   <g opacity="0.25">
                     <path d="M371 0.997253C166.402 0.997256 0.543053 166.856 0.543056 371.454C0.543058 576.052 166.402 741.911 371 741.911L371 735.737C169.812 735.737 6.71731 572.642 6.71731 371.454C6.71731 170.266 169.812 7.17151 371 7.17151L371 0.997253Z" fill="#DC9731" />

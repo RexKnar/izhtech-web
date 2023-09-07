@@ -6,10 +6,10 @@ function Strategy() {
           <img src="src\assets\images\img7.jpg" className="h-400" />
         </div>
 
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 relative ml-[20px]">
           <div className="bg-white rounded-md p-6 w-full">
 
-            <div className="text-3xl font-semibold text-left mt-10 pt-10 mb-2">
+            <div className="text-3xl font-semibold text-left mb-2 ">
               <div className="mt-10 pt-10"><div> Strategy &</div></div> <div>Art Direction</div></div>
             <p className="text-gray-600 text-xs leading-6 text-left"><b>Established stages</b> which reader, taken <div>possession of my entire soul, like these </div><div>sweet morning of springs of enjoying</div><div>with the theory of ethics.</div>
               <div></div><div>Praesant commodo curses magna,velbr </div><div>scelerisque nisl venenatis dapibus  </div><div>posuere velit aliquet</div><div></div>
@@ -29,8 +29,8 @@ function Strategy() {
                   </div>
                 </div>
                 <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gradient-to-r from-red-500 to-blue-500">
-                  <div style={{ width: '93%' }} className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-red-500 to-blue-500"></div>
-                  <div style={{ width: '7%' }} className="bg-gray-200"></div>
+                  <div style={{ width: '93%' }} className=" shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-red-500 to-blue-500"></div>
+                  <div style={{ width: '7%' }} className=" bg-gray-200"></div>
                 </div>
               </div>
             </p>
@@ -39,28 +39,18 @@ function Strategy() {
           <div className="bg-white rounded-md p-6">
             <div className="mt-0 pt-0">
               <h2 className="text-3xl font-semibold text-left  mb-2"><div className="mt-10 pt-10"></div>
-                <div className="mt-10 pt-10"><div>Website</div></div> <div>UX/UI Design</div></h2></div>
+                <div><div>Website</div></div> <div>UX/UI Design</div></h2></div>
             <p className="text-gray-600 text-xs leading-6 text-left"><div>Each time when our clients want to </div><div> porta sem malesuada magna mollis</div><div></div> euismod.<b>Praesant commodo curses <br></br> for the sclerisque</b> <br></br><br></br> Sclerisque nisl consectetur of your<br></br>posuere erat a ante venenatis.</p>
           </div>
         </div>
       </div>
 
-      <div className="absolute">
+      <div className="absolute mt-[65px]">
 
         <span
-          className=""
-          style={{
-            backgroundImage: "",
-            backgroundSize: "cover",
-            backgroundPosition: "right",
-            display: "inline-block",
-            width: "400px",
-            height: "400px",
-            marginLeft: "-40px",
-            marginTop: "-99px"
-          }}
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="142" className=" items-center top-1/2 left-[462px] mt-[-860px]  justify-center absolute" height="254" viewBox="0 0 187 174" fill="none">
+          className="bg-cover bg-right inline-block w-96 h-96 -ml-10 -mt-24">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="144" className=" items-center top-1/2 left-[460px] mt-[-859px]  justify-center absolute" height="254" viewBox="0 0 187 174" fill="none">
             <g opacity="0.25">
               <path d="M186.009 0.96167L186.009 3.98193L0.262466 3.98192L0.262466 0.961662L186.009 0.96167Z" fill="#8793FE" />
               <path d="M186.009 13.0427L186.009 16.063L0.262466 16.063L0.262466 13.0427L186.009 13.0427Z" fill="#8793FE" />
@@ -88,20 +78,9 @@ function Strategy() {
 
 
           <span
-            className=""
-            style={{
-              backgroundImage: "",
-              backgroundSize: "cover",
-              backgroundPosition: "right",
-              display: "inline-block",
-              width: "400px",
-              height: "400px",
-              marginLeft: "985px",
-              marginTop: "149px"
-            }}
-          >
+            className="bg-cover bg-right inline-block w-[400px] h-[400px] ml-[1002px] mt-[155px]">
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="162" height="280" viewBox="0 0 182 364" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="162" height="280" viewBox="0 0 182 364"  fill="none" className="ml-502px">
               <g opacity="0.25">
                 <path d="M0.00861028 0.961792C100.091 0.961793 181.224 82.0949 181.224 182.178C181.224 282.26 100.091 363.393 0.00860596 363.393L0.00860599 360.373C98.4233 360.373 178.204 280.592 178.204 182.178C178.204 83.7629 98.4233 3.98206 0.00861024 3.98206L0.00861028 0.961792Z" fill="#8793FE" />
                 <path d="M0.00861013 13.0428C93.4191 13.0428 169.143 88.767 169.143 182.178C169.143 275.588 93.4191 351.312 0.0086061 351.312L0.00860614 348.292C91.7511 348.292 166.123 273.92 166.123 182.178C166.123 90.4351 91.7511 16.0631 0.0086101 16.0631L0.00861013 13.0428Z" fill="#8793FE" />

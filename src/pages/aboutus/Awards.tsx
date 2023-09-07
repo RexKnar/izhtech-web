@@ -4,7 +4,7 @@ function Awards() {
 
     <>
     <section>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-10 m-10 xl:grid-cols-3 gap-4">
         <div className="text-left pb-20 ">
 
           <h1 className="text-xs mt-10 "><b>AWARDS & HONORS</b></h1>
