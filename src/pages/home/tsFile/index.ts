@@ -1,5 +1,6 @@
 import cardImg from '../../../assets/images/Home/guide img/Avatar.png'
 
+
 export const cardValue = [
     {
         img:cardImg ,
@@ -34,3 +35,4 @@ export const cardValue = [
 
     },
 ]
+

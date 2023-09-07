@@ -3,7 +3,7 @@ import GuideCard from "../guideCard-component";
 import {cardValue} from '../../tsFile/index'
 
 function GuideComponent() {
-  console.log(cardValue);
+
   
   return (
     <main className="relative flex justify-center ">

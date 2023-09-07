@@ -5,7 +5,7 @@ import VideoComponent from './home-components/video-component';
 import DemoSection from './home-components/demoSection-component';
 import Datatracking from './home-components/datatracking-component';
 import GuideComponent from './home-components/Guide-Component';
-import ServiceComponrnt from './home-components/service-component';
+import ServiceComponent from './home-components/service-component';
 import ProcessComponent from './home-components/process-component';
 import CustomerComponent from './home-components/customer-component';
 import Ourservice from './home-components/ourService-component';
@@ -21,7 +21,7 @@ export function HomePage() {
       <DemoSection/>
       <Datatracking/>
       <GuideComponent/>
-      <ServiceComponrnt/>
+      <ServiceComponent/>
       <ProcessComponent/>
       <CustomerComponent/>
       <Ourservice/>

@@ -120,3 +120,7 @@
  .coustBg{
   background-image: url('../public/images/homeBackground/customer/Vector.png');
  }
+.itemTab{
+  float: left;
+  flex:auto !important;
+}

@@ -41,10 +41,10 @@ export function FooterNavigationMenu() {
                 <div className="mb-2 text-sm font-semibold text-slate-50">
                   <Footer.Title
                     title="Work inquiries"
-                    className="text-slate-50"
+                    className="text-[#FFFFFFBF]"
                   />
-                  <p>Interested in working with us?</p>
-                  <Footer.LinkGroup col className="text-slate-50">
+                  <p className="text-[#FFFFFFBF]">Interested in working with us?</p>
+                  <Footer.LinkGroup col className="text-gray-600">
                     <Footer.Link href="#">hello@izhtech.com</Footer.Link>
                   </Footer.LinkGroup>
                 </div>
@@ -85,7 +85,7 @@ export function FooterNavigationMenu() {
                         className="flex mb-6 text-sm font-semibold text-slate-50"
                         htmlFor="agree"
                       >
-                        <p className="text-slate-50">
+                        <p className="text-[#FFFFFFBF]">
                           I’m okay with getting emails and having that activity
                           tracked to improve my experience.
                         </p>
@@ -95,7 +95,7 @@ export function FooterNavigationMenu() {
                 </div>
               </div>
             </div>
-            <Footer.Divider className=" bg-gray-500"/>
+            <Footer.Divider className=" border-gray-600"/>
             <div className="w-full sm:flex sm:items-center sm:justify-between p-6 ">
               <Footer.Copyright
                 by="izh tech 2023 All rights reserved."

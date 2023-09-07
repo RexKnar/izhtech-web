@@ -15,12 +15,11 @@ function CustomerComponent() {
             <div className="p-6 ">
               <Tabs.Group
                 aria-label="Tabs with icons"
-                className="flex justify-center bg-transparent 
-              text-black !font-bold"
+                className="grid grid-flow-col grid-cols-2 "
               >
                 <Tabs.Item active title="G2 Crowd">
                   <div>
-                  <Carousel>
+                  <Carousel className="h-40vh w-[50vw]">
               <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
                 <a href="" className="bg-[#90919C26] rounded">
                   Design Quality
