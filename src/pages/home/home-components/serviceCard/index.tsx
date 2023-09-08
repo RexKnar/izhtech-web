@@ -13,8 +13,9 @@ function ServiceCard() {
   return (
     
 <main className='flex'>
-<section >
-         <Card imgAlt="" imgSrc={serviceCardImg}>
+<section className='pr-8' >
+       <div className=''>
+       <Card imgAlt="" imgSrc={serviceCardImg}>
                     <div className="">
                       <h1 className="font-bold pb-4">Website & Mobile</h1>
                       <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 p">
@@ -39,36 +40,37 @@ function ServiceCard() {
                       </p>
                     </div>
                   </Card>
+       </div>
 
     </section>
     <section>
-           <div className=" p-4">
-                    <div className="pb-6 ">
+           <div className=" ">
+                    <div className="p-6 ">
                       <img src={fingerprintLOgo} alt="" />
                       <h1 className="font-bold pt-4">
                         1. Create a Free Account
                       </h1>
-                      <p>
+                      <p className='pr-16'>
                         Spaces of each debt in the digital world can help you
                         with overall simplest authentic.{" "}
                         <b>Go to Sign Up / Create an Account.</b>
                       </p>
                     </div>
-                    <div className="pb-6">
+                    <div className="p-6 ">
                       <img src={shareLogo} alt="" />
-                      <h1 className="font-bold pt-4">
+                      <h1 className="font-bold pt-4 ">
                         2. Generate an API key for your app
                       </h1>
-                      <p>
+                      <p className='pr-16'>
                         To achieve best results in digital world can help you
                         with overall create an API Key.{" "}
                         <b>Spaces of each debt in the.</b>
                       </p>
                     </div>
-                    <div className="pb-6 ">
+                    <div className="p-6 ">
                       <img src={collectionLogo} alt="" />
                       <h1 className="font-bold pt-4">3. That’s it!</h1>
-                      <p>Now you can use the app and improve your scores.</p>
+                      <p className='pr-16'>Now you can use the app and improve your scores.</p>
                     </div>
                   </div>
     </section>

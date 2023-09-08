@@ -120,7 +120,12 @@
  .coustBg{
   background-image: url('../public/images/homeBackground/customer/Vector.png');
  }
-.itemTab{
-  float: left;
-  flex:auto !important;
-}
+ .secOneBg{
+  background-image: url('../public/images/contactbackground/secOne/Vector.png');
+ }
+ .sectwoBgleft{
+  background-image: url('../public/images/contactbackground/secTwo/Vector.png');
+ }
+ .secTwoBgright{
+  background-image: url('../public/images/contactbackground/secTwo/Group.png');
+ }

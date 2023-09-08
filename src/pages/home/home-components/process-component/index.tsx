@@ -1,5 +1,7 @@
 
-import { BsArrowUpRightSquare } from "react-icons/bs";
+import { BsArrowUpRightSquare  } from "react-icons/bs";
+import { Accordion } from 'flowbite-react';
+
 
 function ProcessComponent() {
   return (
@@ -15,56 +17,104 @@ function ProcessComponent() {
             Our app works for businesses of all sizes and shapes. <br />
             <b>Starting at just $5 for an agent.</b>
           </h4>
-          <button className=" bg-transparent rounded p-1 border-black  border-2">
+          <button className=" bg-transparent rounded p-2 border-black  border-2">
             Contact Us
           </button>
         </div>
-        <div className="grid grid-flow-row gap-8 grid-cols-2 ">
+
+        <div className="grid grid-flow-row gap-8 grid-cols-2 pt-24">
           <div className="pb-8">
-            <h1 className="font-bold flex items-center text-2xl pb-6 ">
-              <BsArrowUpRightSquare className='mr-3'/> 
-              Client centric requisites
+          <Accordion collapseAll >
+      <Accordion.Panel >
+        <Accordion.Title >
+        <h1 className="font-bold flex items-center text-2xl pb-6 ">
+            <BsArrowUpRightSquare className='mr-3'/> 
+        Client centric requisites      
             </h1>
-            <p className="pb-4">
+        </Accordion.Title>
+        <Accordion.Content>
+        <p className="pb-4">
               We benchmark the requirements by analyzing customers’ needs and
               put forth practically functional outcomes to make the product
               scalable.
             </p>
             <div className="pb-6">
-            <button className="bg-black text-white p-1 rounded ">Read More</button>
+            <button className="bg-black text-white p-2  rounded ">Read More</button>
             </div>
-            <h5 className="font-bold flex items-center pb-4">
-              <BsArrowUpRightSquare className='mr-3'/>
-              Design
-            </h5>
-            <h5 className="font-bold flex items-center">
-              <BsArrowUpRightSquare className='mr-3'/>
-              What discounts are available?
-            </h5>
+        </Accordion.Content>
+      </Accordion.Panel>
+
+      <Accordion.Panel>
+        <Accordion.Title>
+           <h1 className="font-bold flex items-center text-2xl pb-6 ">
+            <BsArrowUpRightSquare className='mr-3'/> 
+            Design
+            </h1>
+        </Accordion.Title>
+        <Accordion.Content>
+         
+        </Accordion.Content>
+      </Accordion.Panel>
+      <Accordion.Panel>
+        <Accordion.Title>
+        <h1 className="font-bold flex items-center text-2xl pb-6 ">
+            <BsArrowUpRightSquare className='mr-3'/> 
+            What discounts are available?
+            </h1>
+        </Accordion.Title>
+        <Accordion.Content>
+         
+        </Accordion.Content>
+      </Accordion.Panel>
+    </Accordion>
           </div>
 
           <div className="pb-8">
-            <h1 className="font-bold flex items-center text-2xl pb-6">
-              <BsArrowUpRightSquare className='mr-3'/>
-              Screen Mockups are our mid-fidelity
+          <Accordion collapseAll>
+      <Accordion.Panel>
+        <Accordion.Title>
+        <h1 className="font-bold flex items-center text-2xl pb-6 ">
+            <BsArrowUpRightSquare className='mr-3'/> 
+            Screen Mockups are our mid-fidelity      
             </h1>
-            <p className="pb-4">
-              To envisage the requirements we formulate an exemplar design to
+        </Accordion.Title>
+        <Accordion.Content>
+        <p className="pb-4">
+        To envisage the requirements we formulate an exemplar design to
               foresee the static upshot of the final product.
             </p>
             <div className="pb-6">
-            <button className="bg-black text-white p-1 rounded ">Read More</button>
+            <button className="bg-black text-white p-2  rounded ">Read More</button>
             </div>
-            <h5 className="font-bold flex items-center pb-4">
-              <BsArrowUpRightSquare className='mr-3'/>
-              Development
-            </h5>
-            <h5 className="font-bold flex items-center ">
-              <BsArrowUpRightSquare className='mr-3'/>
-              How can I cancel my subscription?
-            </h5>
+        </Accordion.Content>
+      </Accordion.Panel>
+
+      <Accordion.Panel>
+        <Accordion.Title>
+           <h1 className="font-bold flex items-center text-2xl pb-6 ">
+            <BsArrowUpRightSquare className='mr-3'/> 
+            Design
+            </h1>
+        </Accordion.Title>
+        <Accordion.Content>
+         
+        </Accordion.Content>
+      </Accordion.Panel>
+      <Accordion.Panel>
+        <Accordion.Title>
+        <h1 className="font-bold flex items-center text-2xl pb-6 ">
+            <BsArrowUpRightSquare className='mr-3'/> 
+            Development
+            </h1>
+        </Accordion.Title>
+        <Accordion.Content>
+         
+        </Accordion.Content>
+      </Accordion.Panel>
+    </Accordion>  
           </div>
         </div>
+
       </section>
     </main>
   );
