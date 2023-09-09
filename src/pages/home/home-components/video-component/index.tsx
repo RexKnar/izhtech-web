@@ -1,18 +1,16 @@
 import "../../../../App.css";
 import videoImg from "../../../../assets/images/Home/videoImg/Fill.png";
 import mainVideoImg from "../../../../assets/images/Home/videoImg/Image.png";
-import { AiFillCaretRight,AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillCaretRight, AiOutlineArrowRight } from "react-icons/ai";
 import mission from "../../../../assets/images/Home/videoImg/mission.png";
 import vision from "../../../../assets/images/Home/videoImg/vision.png";
 import values from "../../../../assets/images/Home/videoImg/values.png";
 function VideoComponent() {
   return (
     <main className="flex justify-center relative z-20 ">
-            <span
-        className="absolute h-[57vh] w-[10vw] top-[3rem] left-[41.25rem] bg-no-repeat z-20 Intersect"></span>
-            <span
-        className="absolute h-[27vh] w-[10vw] top-[3rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
-        
+      <span className="absolute h-[57vh] w-[10vw] top-[2rem] left-[41.25rem] bg-no-repeat z-20 Intersect"></span>
+      <span className="absolute h-[27vh] w-[10vw] top-[2rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
+
       <section className=" container bg-[#f4f8fd] rounded p-8 ">
         <div className=" container grid grid-flow-row grid-cols-3  justify-center justify-items-center pt-[5rem] pb-[1rem] pr-4 pl-5">
           <div className="gap-6 grid justify-start p-6">
@@ -47,18 +45,22 @@ function VideoComponent() {
             <hr className="border-top-1 border-black p-6" />
             <img src={mission} alt="" className="pb-6" />
             <h1 className="text-2xl font-bold pb-4">Mission</h1>
-            <p className="pb-4">Untangling Knots to give Clear Digital Solution</p>
+            <p className="pb-4">
+              Untangling Knots to give Clear Digital Solution
+            </p>
             <button className="border-2 bg-black text-white border-black rounded flex content-center items-center">
-              Read More <AiOutlineArrowRight/>
+              Read More <AiOutlineArrowRight />
             </button>
           </div>
           <div className="columns-3xs ">
             <hr className="border-top-1 border-black p-6" />
             <img src={vision} alt="" className="pb-6" />
             <h1 className="text-2xl font-bold pb-4">Vision</h1>
-            <p className="pb-4">Make life simpler by providing complex tech in a simpler way.</p>
+            <p className="pb-4">
+              Make life simpler by providing complex tech in a simpler way.
+            </p>
             <button className="border-1 bg-black text-white border-black rounded flex content-center items-center">
-              Read More <AiOutlineArrowRight/>
+              Read More <AiOutlineArrowRight />
             </button>
           </div>
           <div className="columns-3xs  ">
@@ -67,10 +69,10 @@ function VideoComponent() {
             <h1 className="text-2xl font-bold pb-4">Values</h1>
             <p className="pb-4">Equally disciplined and relish work ethic.</p>
             <button className="border-2 bg-black text-white border-black rounded flex content-center items-center">
-              Read More <AiOutlineArrowRight/>
+              Read More <AiOutlineArrowRight />
             </button>
           </div>
-        </div> 
+        </div>
       </section>
     </main>
   );

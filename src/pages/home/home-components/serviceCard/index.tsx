@@ -44,10 +44,10 @@ function ServiceCard() {
 
     </section>
     <section>
-           <div className=" ">
-                    <div className="p-6 ">
+           <div className="p-1 ">
+                    <div className="pb-14 ">
                       <img src={fingerprintLOgo} alt="" />
-                      <h1 className="font-bold pt-4">
+                      <h1 className="font-bold pt-2">
                         1. Create a Free Account
                       </h1>
                       <p className='pr-16'>
@@ -56,9 +56,9 @@ function ServiceCard() {
                         <b>Go to Sign Up / Create an Account.</b>
                       </p>
                     </div>
-                    <div className="p-6 ">
+                    <div className="pb-14 ">
                       <img src={shareLogo} alt="" />
-                      <h1 className="font-bold pt-4 ">
+                      <h1 className="font-bold pt-2 ">
                         2. Generate an API key for your app
                       </h1>
                       <p className='pr-16'>
@@ -67,9 +67,9 @@ function ServiceCard() {
                         <b>Spaces of each debt in the.</b>
                       </p>
                     </div>
-                    <div className="p-6 ">
+                    <div className="pb-14 ">
                       <img src={collectionLogo} alt="" />
-                      <h1 className="font-bold pt-4">3. That’s it!</h1>
+                      <h1 className="font-bold pt-2">3. That’s it!</h1>
                       <p className='pr-16'>Now you can use the app and improve your scores.</p>
                     </div>
                   </div>

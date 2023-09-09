@@ -6,53 +6,57 @@ import { useTheme } from 'flowbite-react';
 
 function ServiceComponent() {
   const theme=useTheme().theme;
-theme.tab.base="flex flex-col";
-theme.tab.tablist={
-  "base": "flex custom-tab !flex !flex-col ",
-  "styles": {
-    "default": "flex-wrap flex-col !border-r border-gray-200 dark:border-gray-700",
-    "underline": "flex-wrap -mb-px !border-r border-gray-200 dark:border-gray-700",
-    "pills": "flex-wrap font-medium text-sm text-gray-500 dark:text-gray-400 space-x-2",
-    "fullWidth": "w-full text-sm flex  flex-col font-medium divide-x divide-gray-200 shadow grid grid-flow-col dark:divide-gray-700 dark:text-gray-400 rounded-none"
-  },
-  "tabitem": {
-    "base": "  !flex  items-center justify-center w-[13vw] p-4   text-sm font-medium first:ml-0 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500 focus:ring-4 focus:ring-cyan-300 focus:outline-none",
-    "styles": {
-      "default": {
-        "base": "rounded-none   ",
-        "active": {
-          "on": "bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500",
-          "off": "text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800  dark:hover:text-gray-300"
-        }
+  theme.tab={
+    "base": " flex flex-row p-16",   
+    "tablist": {
+      "base": "flex justify-start flex-col flex-nowarp  w-[17vw]",
+      "styles": {
+        "default": "flex flex-row border-r border-gray-200 dark:border-gray-700",
+        "underline": "flex-nowrap -mb-px border-r border-gray-200 dark:border-gray-700",
+        "pills": "flex flex-col font-medium text-sm text-gray-500 dark:text-gray-400 space-x-2",
+        "fullWidth": "w-full text-sm font-medium divide-x divide-gray-200 shadow grid grid-flow-col dark:divide-gray-700 dark:text-gray-400 rounded-none"
       },
-      "underline": {
-        "base": "!rounded-none ",
-        "active": {
-          "on": "text-cyan-600 rounded-t-lg border-r-2 border-[#FFD074] active dark:text-cyan-500 dark:border-cyan-500",
-          "off": "border-r-2 border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
-        }
-      },
-      "pills": {
-        "base": "rounded-none",
-        "active": {
-          "on": "rounded-none  bg-cyan-600 text-white",
-          "off": "rounded-none hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white"
-        }
-      },
-      "fullWidth": {
-        "base": "ml-0 first:ml-0 w-full rounded-none flex",
-        "active": {
-          "on": "p-4 text-gray-900 bg-gray-100 active dark:bg-gray-700 dark:text-white rounded-none",
-          "off": "bg-white hover:text-gray-700 hover:bg-gray-50 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700 rounded-none"
-        }
+      "tabitem": {
+        "base": "flex flex-col  content-start p-4 rounded-none text-sm font-medium first:ml-0 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500  focus:outline-none",
+        "styles": {
+          "default": {
+            "base": "rounded-none",
+            "active": {
+              "on": "bg-gray-100 text-cyan-600 dark:bg-gray-800 dark:text-cyan-500",
+              "off": "text-gray-500 hover:bg-gray-50 hover:text-gray-600 dark:text-gray-400 dark:hover:bg-gray-800  dark:hover:text-gray-300"
+            }
+          },
+          "underline": {
+            "base": "rounded-none",
+            "active": {
+              "on": "text-cyan-600 rounded-none border-r-2 border-[#FFD074] active dark:text-cyan-500 dark:border-cyan-500",
+              "off": "border-r-2 border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
+            }
+          },
+          "pills": {
+            "base": "",
+            "active": {
+              "on": "rounded-none bg-cyan-600 text-white",
+              "off": "rounded-none hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white"
+            }
+          },
+          "fullWidth": {
+            "base": "ml-0 first:ml-0 w-full rounded-none flex flex-row",
+            "active": {
+              "on": "p-4 text-gray-900 bg-gray-100 active dark:bg-gray-700 dark:text-white rounded-none",
+              "off": "bg-white hover:text-gray-700 hover:bg-gray-50 dark:hover:text-white dark:bg-gray-800 dark:hover:bg-gray-700 rounded-none"
+            }
+          }
+        },
+        "icon": "mr-2 h-5 w-5"
       }
     },
-    "icon": "mr-2 h-5 w-5"
+    "tabpanel": "py-3 flex-row"
   }
-};
+  
 
   return (
-    <main className="flex justify-center relative  ">
+    <main className="flex justify-center relative pt-16  ">
       <span className="h-[57%] w-[28%] absolute top-1 left-1 yellowround bg-no-repeat "></span>
       <span className="h-[57%] w-[17%] absolute bottom-0 right-0 blueround bg-no-repeat"></span>
       <section className="container bg-[#90919C26] rounded pt-24 pb-18 z-40">
@@ -61,20 +65,20 @@ theme.tab.tablist={
           <h1 className="text-4xl font-bold ">What to expect?</h1>
         </div>
 
-        <div className="flex p-6 justify-stretch">
+        <div className="">
           
             <Tabs.Group
               aria-label="Tabs with icons"
               style="underline"
               
-              className="  flex flex-row   p-1   "
+              className="  "
             >
               <Tabs.Item
                 active
                 title="Branding "
-                className="itemTab "
+                className=" "
               >
-                <div className="flex p-6"  > 
+                <div className=" "  > 
                
                 <ServiceCard/> 
                           
