@@ -1,9 +1,8 @@
-
 function AboutUs() {
   return (
     <>
-      <section>
-        <span className="absolute right-0 left-100 top-0 mt-0 ">
+      <section className="sm:p-0">
+        <span className="absolute right-0 left-100 top-0 mt-0  ">
           <svg
             className="z-40"
             xmlns="http://www.w3.org/2000/svg"
@@ -19,10 +18,10 @@ function AboutUs() {
             />
           </svg>
         </span>
-        <div className="text-left ml-16 mb-10">
-          <h1 className="py-5 text-5xl font-bold mb-4">About Us</h1>
+        <div className="text-left lg:ml-20 lg:pl-20 sm:text-left mb-10">
+          <h1 className="py-5 text-5xl sm:py-5 sm:text-5xl font-bold mb-1">About Us</h1>
           <p className="text-gray-600">Leave us a little info, and we'll be in touch</p>
-          <button className="bg-black text-white py-2 px-4 rounded-md mt-4 hover:bg-gray-800">
+          <button className="bg-black text-white py-2 px-4 rounded-md mt-4 mb-5 hover:bg-gray-800">
             Contact Us
           </button>
         </div>

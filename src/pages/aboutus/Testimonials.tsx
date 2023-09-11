@@ -5,12 +5,12 @@ function Testimonials() {
 
       <section className=" bg-black relative">
 
-        <div className=" pt-10 pb-10 pl-10 ml-[150px] bg-black flex flex-col lg:flex-row lg:space-x-4 text-white  relative">
+        <div className=" pt-20 pb-10 lg:ml-20 pl-20 bg-black flex flex-col lg:flex-row lg:space-x-4 text-white  relative">
           <div className="lg:w-1/2 text-left mb-6">
 
             <h1 className=" text-xs text-gray-500 pb-4 mb-3">TESTIMONIALS</h1>
 
-            <hr className="border border-gray-900 w-80"/>
+            <hr className="border border-gray-900 w-85"/>
 
             <div className="text-2xl mt-3 mb-3"><h1><b>What our clients say<br/>about our studio.</b></h1></div>
 
@@ -19,7 +19,7 @@ function Testimonials() {
             </button>
           </div>
 
-          <div className="lg:w-1/2  text-left">
+          <div className="lg:w-1/2  mr-[50px] text-left">
             <div className="mb-6">
 
               <span className="bg-gray-950 text-gray-500 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-100 dark:text-gray-800">customer support</span>

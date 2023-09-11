@@ -9,13 +9,13 @@ function Team() {
         <>
 
             <section>
-                <div className="text-left p-5 mr-5">
-                    <h1 className="text-xs mb-5 ">OUR TEAM</h1>
+                <div className="text-left pt-10 lg:ml-20 lg:pl-20">
+                    <h1 className="text-xs mb-5">OUR TEAM</h1>
                     <h2 className="text-3xl mb-5"><b>Meet the team.</b></h2>
                 </div>
 
 
-                <div className="container">
+                <div>
                     <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-4">
                         <div className="col-span-2 sm:col-span-1 text-left text-xs bg-black text-white py-4 p-4">
                             <div className="text-gray mt-[15rem]">

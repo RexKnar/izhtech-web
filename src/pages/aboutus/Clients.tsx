@@ -1,84 +1,90 @@
+
 function Clients() {
-
   return (
-
     <>
-      <section   className="bg-gray-100 overflow-hidden">
-        <div className="p-10 m-10">
+      <section className="bg-gray-100 overflow-hidden">
+        <div className="ml-20 lg:pl-20 mt-20">
           <h1 className="text-xs text-left">CLIENTS WE WORK FOR</h1>
-          <h2 className="text-2xl text-left"><b>Our clients.</b></h2>
-          <div className="relative grid justify-stretch grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 bg-rgba(144, 145, 156, 0.06) text-xs  leading-8">
-            <div className="bg-rgba(144, 145, 156, 0.06) p-4 text-left">
+          <h2 className="text-2xl text-left">
+            <b>Our clients.</b>
+          </h2>
+          <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 gap-4 bg-rgba(144, 145, 156, 0.06) text-.5xs leading-8">
+          <div className="bg-rgba(144, 145, 156, 0.06) text-left mt-10">
 
 
-              <p><b>JPMorgan Chase, 2020</b></p>
-              <p>www.jpmorgan.com</p>
+<p><b>JPMorgan Chase, 2020</b></p>
+<p>www.jpmorgan.com</p>
 
-              <p><b>Berkshire Hathaway, 2020</b></p>
-              <p>www.bhathaway.com</p>
+<p><b>Berkshire Hathaway, 2020</b></p>
+<p>www.bhathaway.com</p>
 
-              <p><b>Royal Dutch Shell, 2018</b></p>
-              <p>www.shell.com</p>
+<p><b>Royal Dutch Shell, 2018</b></p>
+<p>www.shell.com</p>
 
-              <p><b>Mastercard, 2018</b></p>
-              <p className="pb-10">www.mastercard.com</p>
+<p><b>Mastercard, 2018</b></p>
+<p className="pb-10">www.mastercard.com</p>
 
-            </div>
-            <div className="bg-rgba(144, 145, 156, 0.06) p-4 text-left">
+</div>
+<div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
 
-              <p><b>HSBC Holdings, 2018
-              </b></p>
-              <p>www.hsbc.com</p>
+<p><b>HSBC Holdings, 2018
+</b></p>
+<p>www.hsbc.com</p>
 
-              <p><b>Anheuser-Busch InBev, 2018
-              </b></p>
-              <p>www.anheuserbusch.com</p>
+<p><b>Anheuser-Busch InBev, 2018
+</b></p>
+<p>www.anheuserbusch.com</p>
 
-              <p><b>Procter & Gamble, 2017
-              </b></p>
-              <p>www.pg.com</p>
+<p><b>Procter & Gamble, 2017
+</b></p>
+<p>www.pg.com</p>
 
-              <p><b>Merck & Co., 2017
-              </b></p>
-              <p>www.merck.com</p>
+<p><b>Merck & Co., 2017
+</b></p>
+<p>www.merck.com</p>
 
-            </div>
-            <div className="bg-rgba(144, 145, 156, 0.06) p-4 text-left">
-
-
-              <p><b>Unilever, 2017
-
-              </b></p>
-              <p>www.uniliver.com</p>
-
-              <p><b>L'Oréal Group, 2016
-
-              </b></p>
-              <p>www.loreal.com</p>
-
-              <p><b>Novo Nordisk, 2016
-
-              </b></p>
-              <p>www.novonordisk.com</p>
-
-            </div>
-            <div className="bg-rgba(144, 145, 156, 0.06) p-4 text-left">
-
-              <p><b>Naspers, 2016
-                Naspers, 2016
-
-              </b></p>
-              <p>www.naspers.com</p>
-
-              <p><b>Allianz, 2016
-
-              </b></p>
-              <p>www.allianz.com</p>
+</div>
+<div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
 
 
-              <div className="absolute -mt-20 -pt-10 ml-[100px] transform">
-                <svg xmlns="http://www.w3.org/2000/svg" width="321" height="542" viewBox="0 0 371 742" fill="none" className=" mx-auto ">
-                  <g opacity="0.25">
+<p><b>Unilever, 2017
+
+</b></p>
+<p>www.uniliver.com</p>
+
+<p><b>L'Oréal Group, 2016
+
+</b></p>
+<p>www.loreal.com</p>
+
+<p><b>Novo Nordisk, 2016
+
+</b></p>
+<p>www.novonordisk.com</p>
+
+</div>
+<div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
+
+<p><b>Naspers, 2016
+</b></p>
+<p>www.naspers.com</p>
+
+<p><b>Allianz, 2016
+
+</b></p>
+<p>www.allianz.com</p>
+
+          </div>
+          <div className="absolute -mt-16 -pt-20 ml-[65.5rem] transform">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="321"
+              height="602"
+              viewBox="0 0 371 742"
+              fill="none"
+              className=" mx-auto "
+            >
+              <g opacity="0.25">
                     <path d="M371 0.997253C166.402 0.997256 0.543053 166.856 0.543056 371.454C0.543058 576.052 166.402 741.911 371 741.911L371 735.737C169.812 735.737 6.71731 572.642 6.71731 371.454C6.71731 170.266 169.812 7.17151 371 7.17151L371 0.997253Z" fill="#DC9731" />
                     <path d="M371 25.6943C180.042 25.6943 25.2402 180.496 25.2402 371.454C25.2402 562.412 180.042 717.214 371 717.214L371 711.04C183.452 711.04 31.4145 559.002 31.4145 371.454C31.4145 183.906 183.452 31.8687 371 31.8687L371 25.6943Z" fill="#DC9731" />
                     <path d="M371 50.3915C193.682 50.3915 49.9373 194.136 49.9373 371.454C49.9373 548.772 193.682 692.517 371 692.517L371 686.343C197.092 686.343 56.1116 545.362 56.1116 371.454C56.1116 197.546 197.092 56.5658 371 56.5658L371 50.3915Z" fill="#DC9731" />
@@ -95,20 +101,13 @@ function Clients() {
                     <path d="M371 420.848C343.72 420.848 321.606 398.734 321.606 371.454C321.606 344.175 343.72 322.06 371 322.06L371 328.234C347.13 328.234 327.78 347.584 327.78 371.454C327.78 395.324 347.13 414.674 371 414.674L371 420.848Z" fill="#DC9731" />
                     <path d="M371 396.151C357.36 396.151 346.303 385.094 346.303 371.454C346.303 357.814 357.36 346.757 371 346.757L371 352.931C360.77 352.931 352.477 361.224 352.477 371.454C352.477 381.684 360.77 389.977 371 389.977L371 396.151Z" fill="#DC9731" />
                   </g>
-                </svg>
-              </div>
-
-            </div>
+            </svg>
           </div>
-
-
         </div>
-
+        </div>
       </section>
-      </>
+    </>
   );
-
-
 }
 
-export default Clients
+export default Clients;

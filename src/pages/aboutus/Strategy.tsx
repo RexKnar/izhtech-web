@@ -1,8 +1,10 @@
+
+
 function Strategy() {
   return (
-    <><section>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-2 ">
-        <div className="bg-white rounded-md w-full  relative col-span-2 md:col-span-1 " style={{ height: '200px' }}>
+    <section>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-2">
+        <div className="bg-white rounded-md w-full relative col-span-2 md:col-span-1" style={{ height: '200px' }}>
           <img src="src\assets\images\img7.jpg" className="h-400" />
         </div>
 
@@ -10,50 +12,47 @@ function Strategy() {
           <div className="bg-white rounded-md p-6 w-full">
 
             <div className="text-3xl font-semibold text-left mb-2 ">
-              <div className="mt-10 pt-10"><div> Strategy &</div></div> <div>Art Direction</div></div>
-            <p className="text-gray-600 text-xs leading-6 text-left"><b>Established stages</b> which reader, taken <div>possession of my entire soul, like these </div><div>sweet morning of springs of enjoying</div><div  className="pb-7">with the theory of ethics.</div>
-              <div>Praesant commodo curses magna,velbr </div><div>scelerisque nisl venenatis dapibus  </div><div className="mb-5">posuere velit aliquet</div><div></div>
+              <div className="lg:mt-10 lg:pt-10 bold"> Strategy &<br/>Art Direction</div>
+            </div>
+            <p className="text-gray-600 text-xs lg:mt-7 leading-6 text-left"><b>Established stages</b> which reader, taken <div>possession of my entire soul, like these </div><div>sweet morning of springs of enjoying</div><div  className="pb-7">with the theory of ethics.</div>
+              <div>Praesant commodo curses magna, velbr </div><div>scelerisque nisl venenatis dapibus  </div><div className="mb-5">posuere velit aliquet</div><div></div>
 
               <div className="relative pt-1">
-  <div className="flex mb-2 items-center justify-between">
-    <div>
-      <span className="">
-        <b>Structured Media Insights</b>
-      </span>
-    </div>
-    <div className="text-right">
-      <span className="text-xs font-semibold inline-block text-teal-600 bg-black text-white">
-        93%
-      </span>
-    </div>
-  </div>
-  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gradient-to-r from-red-500 to-blue-500">
-    <div
-      style={{ width: '93%' }}
-      className="animate-progress-bar shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-red-500 to-blue-500"
-    ></div>
-    <div style={{ width: '7%' }} className="bg-gray-200"></div>
-  </div>
-</div>
+                <div className="flex mb-2 items-center justify-between">
+                  <div>
+                    <span className="">
+                      <b>Structured Media Insights</b>
+                    </span>
+                  </div>
+                  <div className="text-right">
+                    <span className="text-xs font-semibold inline-block text-teal-600 bg-black text-white">
+                      93%
+                    </span>
+                  </div>
+                </div>
+                <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gradient-to-r from-red-500 to-blue-500">
+                  <div
+                    style={{ width: '93%' }}
+                    className="animate-progress-bar shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-red-500 to-blue-500"
+                  ></div>
+                  <div style={{ width: '7%' }} className="bg-gray-200"></div>
+                </div>
+              </div>
 
             </p>
           </div>
 
-          <div className="bg-white rounded-md p-6">
-            <div className="mt-0 pt-0">
-              <h2 className="text-3xl font-semibold text-left  mb-2"><div className="mt-10 pt-10"></div>
-                <div><div>Website</div></div> <div>UX/UI Design</div></h2></div>
-            <p className="text-gray-600 text-xs leading-6 text-left"><div>Each time when our clients want to </div><div> porta sem malesuada magna mollis</div><div></div> euismod.<b>Praesant commodo curses <br></br> for the sclerisque</b> <br></br><br></br> Sclerisque nisl consectetur of your<br></br>posuere erat a ante venenatis.</p>
+          <div className="bg-white rounded-md p-6 lg:-ml-19">
+              <h1 className="text-3xl font-semibold text-left mt-10 pt-10 mb-2">Website<br/>UX/UI Design</h1>
+              <p className="text-gray-600 text-xs leading-6 mt-7 text-left"><div>Each time when our clients want to </div><div> porta sem malesuada magna mollis</div><div></div> euismod.<b>Praesant commodo curses <br></br> for the sclerisque</b> <br></br><br></br> Sclerisque nisl consectetur of your<br></br>posuere erat a ante venenatis.</p>
           </div>
         </div>
       </div>
 
-      <div className="absolute mt-[65px]">
-
+      <div className="absolute lg:mt-[36px]">
         <span
-          className="bg-cover bg-right inline-block w-96 h-96 ml-[16rem] -mt-24">
-
-          <svg xmlns="http://www.w3.org/2000/svg" width="144" className=" items-center top-1/2 left-[608px] mt-[-886px]  justify-center absolute" height="254" viewBox="0 0 187 174" fill="none">
+          className="bg-cover bg-right inline-block w-96 h-96 lg:ml-[16rem] lg:-mt-24">
+              <svg xmlns="http://www.w3.org/2000/svg" width="144" className=" items-center top-1/2 left-[608px] mt-[-886px]  justify-center absolute" height="254" viewBox="0 0 187 174" fill="none">
             <g opacity="0.25">
               <path d="M186.009 0.96167L186.009 3.98193L0.262466 3.98192L0.262466 0.961662L186.009 0.96167Z" fill="#8793FE" />
               <path d="M186.009 13.0427L186.009 16.063L0.262466 16.063L0.262466 13.0427L186.009 13.0427Z" fill="#8793FE" />
@@ -74,15 +73,9 @@ function Strategy() {
           </svg>
         </span>
 
-
-
-
-        <div className="absolute  inset-0 flex items-center justify-center    top-1/2 mt-[-1500px]">
-
-
+        <div className="absolute inset-0 flex items-center justify-center top-1/2 mt-[-1500px]">
           <span
             className="bg-cover bg-right inline-block w-[400px] h-[400px] ml-[1002px] mt-[100px]">
-
             <svg xmlns="http://www.w3.org/2000/svg" width="162" height="280" viewBox="0 0 182 364"  fill="none" className="ml-502px">
               <g opacity="0.25">
                 <path d="M0.00861028 0.961792C100.091 0.961793 181.224 82.0949 181.224 182.178C181.224 282.26 100.091 363.393 0.00860596 363.393L0.00860599 360.373C98.4233 360.373 178.204 280.592 178.204 182.178C178.204 83.7629 98.4233 3.98206 0.00861024 3.98206L0.00861028 0.961792Z" fill="#8793FE" />
@@ -101,13 +94,14 @@ function Strategy() {
                 <path d="M0.00860783 206.34C13.353 206.34 24.1707 195.522 24.1707 182.178C24.1707 168.833 13.353 158.015 0.00860841 158.015L0.00860837 161.036C11.6849 161.036 21.1504 170.501 21.1504 182.178C21.1504 193.854 11.6849 203.319 0.00860787 203.319L0.00860783 206.34Z" fill="#8793FE" />
                 <path d="M0.00860797 194.259C6.68078 194.259 12.0897 188.85 12.0897 182.178C12.0897 175.505 6.68078 170.096 0.00860826 170.096L0.00860823 173.117C5.01274 173.117 9.0694 177.173 9.0694 182.178C9.0694 187.182 5.01274 191.238 0.00860801 191.238L0.00860797 194.259Z" fill="#8793FE" />
               </g>
-            </svg></span></div>
-
+            </svg>
+          </span>
+        </div>
       </div>
-
-      </section>
-    </>
+    </section>
   );
 }
 
 export default Strategy;
+
+
