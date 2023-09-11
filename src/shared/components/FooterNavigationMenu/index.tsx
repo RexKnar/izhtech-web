@@ -93,15 +93,16 @@ export function FooterNavigationMenu() {
                 </div>
               </div>
             </div>
-            <Footer.Divider className=" border-gray-600" />
-            <div className="w-full sm:flex sm:items-center sm:justify-between p-6 ">
+            <Footer.Divider className=" border-gray-600 " />
+            <div className="w-full sm:flex sm:items-center  sm:justify-between p-6 ">
               <Footer.Copyright
                 by="izh tech 2023 All rights reserved."
+
                 href="#"
-                className="text-slate-50"
+                className="text-[#FFFFFFBF]"
               />
               <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center ">
-                <Footer.LinkGroup className="text-slate-50">
+                <Footer.LinkGroup className="text-[#FFFFFFBF]">
                   <Footer.Link href="#">Sitemap</Footer.Link>
                   <Footer.Link href="#">Security</Footer.Link>
                   <Footer.Link href="#">Privacy Policy</Footer.Link>

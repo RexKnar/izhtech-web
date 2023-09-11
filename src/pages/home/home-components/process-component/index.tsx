@@ -50,8 +50,8 @@ function ProcessComponent() {
             Our app works for businesses of all sizes and shapes. <br />
             <b>Starting at just $5 for an agent.</b>
           </h4>
-          <button className=" bg-transparent rounded p-2 border-black  border-2">
-            Contact Us
+          <button className=" bg-transparent rounded p-1 border-black  border-2">
+           <span className="p-2"> Contact Us</span>
           </button>
         </div>
 
