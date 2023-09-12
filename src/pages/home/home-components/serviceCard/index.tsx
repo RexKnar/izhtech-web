@@ -3,8 +3,7 @@ import serviceCardImg from "../../../../assets/images/Home/service/Image.png";
 import shareLogo from "../../../../assets/images/Home/service/share.png";
 import fingerprintLOgo from "../../../../assets/images/Home/service/fingerprint.png";
 import collectionLogo from "../../../../assets/images/Home/service/collection.png";
-import { Card } from "flowbite-react";
-
+import { Button, Card, Tooltip } from "flowbite-react";
 function ServiceCard() {
   return (
     <main className="flex">
@@ -13,22 +12,17 @@ function ServiceCard() {
           <Card imgAlt="" imgSrc={serviceCardImg}>
             <div className="">
               <h1 className="font-bold pb-4">Website & Mobile</h1>
-              <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 p">
-                <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[50%] relative">
-                  <div className=" absolute top-0 left-[93%]">
-                    <div className="absolute bg-black h-8 w-12 rounded-full bottom-4 left-0">
-                      <img
-                        src={progressLogo}
-                        alt=""
-                        className="absolute bottom-[-13px] left-[15px] h-[14px] w-[16px]"
-                      />
-                      <h3 className="absolute bottom-[3px] left-[11px] text-white">
-                        93%
-                      </h3>
+
+              <div className="">
+                <Tooltip content="93%" className="">
+                  <Button className="bg-transparent hover:!bg-transparent !border-hidden">
+                    <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 w-[600px]">
+                      <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[50%] relative"></div>
                     </div>
-                  </div>
-                </div>
+                  </Button>
+                </Tooltip>
               </div>
+
               <p className="pt-4">
                 Packed with API features you will love to collaborate with
                 issues and change business.

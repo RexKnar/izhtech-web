@@ -29,10 +29,10 @@ function Datatracking() {
                 <div className="w-[184px] h-[102px]  ">
                   <hr className="border-top-2 border-black" />
                   <p>
-                    <span className="font-bold text-5xl">36</span>{" "}
+                    <span className="font-bold text-5xl">36</span>
                     <span className="text-transparent bg-gradient-to-r bg-clip-text from-indigo-500 via-purple-500 to-pink-500 font-bold text-3xl ">
                       +
-                    </span>{" "}
+                    </span>
                     <br />
                     designers and developers
                   </p>

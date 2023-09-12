@@ -30,7 +30,6 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
 .card {
   padding: 2em;
 }
@@ -129,3 +128,10 @@
  .secTwoBgright{
   background-image: url('../public/images/contactbackground/secTwo/Group.png');
  }
+ .blueRound{
+  background-image: url('../public/images/aboutBackground/heading//blueRound-About.png');
+ }
+ .Gradient{
+  background: linear-gradient(to right, #0074e4, #8e2de2)
+ }
+ 
