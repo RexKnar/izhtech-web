@@ -19,7 +19,7 @@ function WepApp() {
             <a href="">
               <img src={walmartLogo} alt="" />
             </a>
-          </div>        
+          </div>
           <div>
             <a href="">
               <img src={amazonLogo} alt="" />

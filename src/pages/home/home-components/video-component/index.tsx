@@ -10,7 +10,6 @@ function VideoComponent() {
     <main className="flex justify-center relative z-20 ">
       <span className="absolute h-[57vh] w-[10vw] top-[2rem] left-[41.25rem] bg-no-repeat z-20 Intersect"></span>
       <span className="absolute h-[27vh] w-[10vw] top-[2rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
-
       <section className=" container bg-[#f4f8fd] rounded p-8 ">
         <div className=" container grid grid-flow-row grid-cols-3  justify-center justify-items-center pt-[5rem] pb-[1rem] pr-4 pl-5">
           <div className="gap-6 grid justify-start p-6">
@@ -20,7 +19,6 @@ function VideoComponent() {
                 <AiFillCaretRight />
               </span>
             </div>
-
             <p>#datatracking app</p>
             <h1 className="text-4xl font-bold">
               The app is great for basic setup and adjusts.
@@ -39,7 +37,6 @@ function VideoComponent() {
             <img src={mainVideoImg} alt="" />
           </div>
         </div>
-
         <div className="grid grid-flow-col justify-items-center gap-[10vh] p-1 ">
           <div className="columns-3xs ">
             <hr className="border-top-1 border-black p-6" />

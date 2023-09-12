@@ -18,17 +18,17 @@ export function HeaderNavigationMenu() {
     }
   }, [location]);
   return (
-    <main className="flex justify-center ">
-      <section className=" container  absolute z-10">
+    <main className="flex justify-center bg-transparent ">
+      <section className=" container  absolute bg-transparent  ">
         <Navbar fluid rounded>
           <Navbar.Brand href="#">
             <img alt="Flowbite React Logo" className=" h-20 w-28 " src={logo} />
           </Navbar.Brand>
-          <div className="flex md:order-2">
-            <Button className="bg-black ">Let's Talk</Button>
+          <div className="flex  md:order-2">
+            <Button className="bg-black z-50  ">Let's Talk</Button>
             <Navbar.Toggle />
           </div>
-          <Navbar.Collapse>
+          <Navbar.Collapse className="z-50">
             <Link
               className={activeLink === "home" ? "text-blue-500" : ""}
               to={"/home"}

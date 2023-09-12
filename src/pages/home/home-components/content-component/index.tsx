@@ -8,11 +8,8 @@ function ContentComponent() {
     <main className=" ">
       <section className="  ">
         <div className="  bg-[#F3FEFD] grid grid-cols-4 grid-flow-row   content-center justify-center p-11 ">
-          <div  className="text-center  ">
-            <a
-              href="#"
-              className="block max-w-sm p-6 bg-[#F3FEFD]"
-            >
+          <div className="text-center  ">
+            <a href="#" className="block max-w-sm p-6 bg-[#F3FEFD]">
               <div className="flex justify-center">
                 <img src={BrandingLogo} alt="" />
               </div>
@@ -25,50 +22,41 @@ function ContentComponent() {
             </a>
           </div>
           <div className="text-center   ">
-             <a
-              href="#"
-              className="block max-w-sm p-6  bg-[#F3FEFD]"
-            >
+            <a href="#" className="block max-w-sm p-6  bg-[#F3FEFD]">
               <div className="flex justify-center">
                 <img src={WebAppLogo} alt="" />
               </div>
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Web App
+                Web App
               </h5>
               <p className="font-normal text-[#010A44] text-base">
-              Make a regular review for the enterprises attributing rewards.
-              </p>
-            </a>
-            </div>
-          <div className="text-center  ">
-          <a
-              href="#"
-              className="block max-w-sm p-6  bg-[#F3FEFD]"
-            >
-              <div className="flex justify-center">
-                <img src={MobileAppLogo} alt="" />
-              </div>
-              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Mobile App
-              </h5>
-              <p className="font-normal text-[#010A44] text-base">
-              Get a full control of debts in the digital world simplesity.
+                Make a regular review for the enterprises attributing rewards.
               </p>
             </a>
           </div>
           <div className="text-center  ">
-          <a
-              href="#"
-              className="block max-w-sm p-6  bg-[#F3FEFD]"
-            >
+            <a href="#" className="block max-w-sm p-6  bg-[#F3FEFD]">
+              <div className="flex justify-center">
+                <img src={MobileAppLogo} alt="" />
+              </div>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                Mobile App
+              </h5>
+              <p className="font-normal text-[#010A44] text-base">
+                Get a full control of debts in the digital world simplesity.
+              </p>
+            </a>
+          </div>
+          <div className="text-center  ">
+            <a href="#" className="block max-w-sm p-6  bg-[#F3FEFD]">
               <div className="flex justify-center">
                 <img src={DigitalMarketingLogo} alt="" />
               </div>
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Digital Marketing
+                Digital Marketing
               </h5>
               <p className="font-normal text-[#010A44] text-base">
-              Get a full control of debts in the digital world simplesity. 
+                Get a full control of debts in the digital world simplesity.
               </p>
             </a>
           </div>

@@ -25,7 +25,6 @@ export function FooterNavigationMenu() {
                 </div>
               </div>
               <div className="grid grid-cols-2 justify-around ml-20 gap-2 sm:mt-4 sm:grid-cols-3 sm:gap-6 text-slate-50">
-
                 <div className="mb-2 text-sm font-semibold text-slate-50">
                   <Footer.Title title="Singapore" className="text-slate-50" />
                   <p className="text-[#FFFFFFBF]">
@@ -97,7 +96,6 @@ export function FooterNavigationMenu() {
             <div className="w-full sm:flex sm:items-center  sm:justify-between p-6 ">
               <Footer.Copyright
                 by="izh tech 2023 All rights reserved."
-
                 href="#"
                 className="text-[#FFFFFFBF]"
               />

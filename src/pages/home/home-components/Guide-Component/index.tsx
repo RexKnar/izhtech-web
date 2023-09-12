@@ -1,10 +1,8 @@
 import "../../../../App.css";
 import GuideCard from "../guideCard-component";
-import {cardValue} from '../../tsFile/index'
+import { cardValue } from "../../tsFile/index";
 
 function GuideComponent() {
-
-  
   return (
     <main className="relative flex justify-center">
       <span className="absolute bottom-[10vh] left-0 h-full bg-contain min-h-screen w-[38%] guideBg bg-no-repeat"></span>
@@ -19,14 +17,15 @@ function GuideComponent() {
               Our app works for businesses of all sizes and shapes. Starting at
               just <b>$5 for an agent</b>.
             </p>
-            <div><button className=" bg-transparent border-2 p-1 border-black rounded">
-              <b>Read all Guides</b>
-            </button></div>
+            <div>
+              <button className=" bg-transparent border-2 p-1 border-black rounded">
+                <b>Read all Guides</b>
+              </button>
+            </div>
           </div>
           {cardValue.map((item) => (
-                        <GuideCard cartValue={item}  />
-                    ))}
-      
+            <GuideCard cartValue={item} />
+          ))}
         </div>
       </section>
     </main>
