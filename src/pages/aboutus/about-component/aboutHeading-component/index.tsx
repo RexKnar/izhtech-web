@@ -5,11 +5,13 @@ import { Button, Progress, Tooltip } from "flowbite-react";
 
 function AboutHeading() {
   return (
-    <main className="flex justify-center relative">
+    <main className=" relative">
       <span className=" absolute right-0 top-0 h-[306px] w-[21vw] z-20 secOneBg"></span>
-      <span className=" absolute left-0 top-0 h-[365px] w-[368px] z-20 blueRound"></span>
-      <section className=" pt-24">
-        <div className="flex flex-col pt-24 ">
+      <span className=" absolute left-[38vw] top-[32vh] h-[365px] w-[368px] z-20 blueRound"></span>
+      <span className=" absolute left-[799px] bottom-0 h-[21vh] w-[17vw] vectorBlue z-20 "></span>
+
+      <section className=" flex justify-center">
+        <div className="flex flex-col pt-24 container  ">
           <h1 className="text-5xl font-bold pt-16  ">About Us</h1>
           <h3 className="pt-6 ">
             Leave us a little info, and we’ll be in touch.
@@ -20,64 +22,74 @@ function AboutHeading() {
             </button>
           </div>
         </div>
+      </section>
 
-        <div className="grid grid-cols-2 ">
+      <section className=" pt-24">
+        <div className="grid grid-cols-2 gap-20 ">
+
           <div>
-            <img src={videoImg} alt="" />
+            <img src={videoImg} alt="" className="w-full h-auto" />
           </div>
 
-          <div className="grid grid-cols-2 gap-32 justify-center ">
-            <div className="p-16">
-              <h1 className="text-3xl font-bold">Strategy & Art Direction.</h1>
-              <p>
+          <div className="grid grid-cols-3  justify-center gap-20 content-center items-start ">
+            <div className="grid leading-7 justify-start  ">
+              <h1 className="text-4xl font-bold ">
+                Strategy & <br /> Art Direction.
+              </h1>
+              <p className="pt-10">
                 <b>Established stages</b> which reader, taken possession of my
                 entire soul, like these sweet mornings of spring of enjoying
                 with the theory of ethics.
-                <br className="pb-4" />
+              </p>
+              <p className="pt-10">
                 Praesent commodo cursus magna, vel scelerisque nisl venenatis
                 dapibus posuere velit aliquet.
               </p>
-              <div className="grid justify-start ">
+              <div className="grid justify-start pt-16 ">
                 <p>Structured Media Insights</p>
-                <Tooltip content="93%" className="  ">
-                  <Button className="bg-transparent hover:!bg-transparent !pl-0">
-                    <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 w-[296px]">
-                      <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[50%] relative"></div>
+                <Tooltip content="93%" className="   ">
+                  <button className="bg-transparent hover:!bg-transparent !border-none !px-0 ">
+                    <div className="bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 w-[290px]">
+                      <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[93%] relative "></div>
                     </div>
-                  </Button>
+                  </button>
                 </Tooltip>
               </div>
             </div>
 
-            <div className="p-16">
-              <h1 className="text-3xl font-bold">Website UX/UI Design.</h1>
-              <p>
+            <div className=" ">
+              <h1 className="text-4xl font-bold">Website UX/UI Design.</h1>
+              <p className="pt-10">
                 Each time when our clients want to porta sem malesuada magna
                 mollis euismod.{" "}
-                <b> Praesent commodo cursus for the scelerisque.</b>
+                <b className="pb-10">
+                  {" "}
+                  Praesent commodo cursus for the scelerisque.
+                </b>
+              </p>
+              <p className="pt-10">
                 Scelerisque nisl consectetur of your posuere erat a ante
                 venenatis.
               </p>
             </div>
           </div>
 
-          <div>
-            <p className="">Capabilities</p>
-            <h1 className="text-3xl font-bold">
-              We work in the fields of UI/UX design, interiors, photography and
-              art direction.
-            </h1>
+          <div className="grid  items-center justify-center content-center gap-20 pb-0">
+            <div className="h-auto w-[25vw] ">
+              <p className="pb-4">CAPABILITIES</p>
+              <h1 className="text-5xl font-bold">
+                We work in the fields of UI/UX design, interiors, photography
+                and art direction.
+              </h1>
+            </div>
           </div>
 
-          <div>
-            <img src={capitalImg} alt="" />
+          <div className="">
+            <img src={capitalImg} alt="" className="w-full h-auto " />
           </div>
-
         </div>
 
-        <div className="">
-       
-        </div>
+        <div className=""></div>
       </section>
     </main>
   );

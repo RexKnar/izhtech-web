@@ -2,15 +2,15 @@ import { Label, TextInput, Select, Checkbox } from "flowbite-react";
 function ContactSecTwo() {
   return (
     <main className="flex justify-center relative pt-16">
-      <span className=" absolute left-0 top-0 h-[65vh] w-[17vw] z-20 sectwoBgleft"></span>
+      <span className=" absolute left-0 top-[9vh] h-[65vh] w-[17vw] z-20 sectwoBgleft"></span>
       <span className=" absolute right-0 top-0 h-[34vh] w-[17vw] z-20 secTwoBgright"></span>
       <section className="container pb-20">
         <div className="grid grid-flow-col gap-16 grid-cols-4 pb-16">
           <div className=" leading-7 ">
-            <h1 className="font-bold text-3xl ">Our offices</h1>
+            <h1 className="font-bold text-3xl pb-4">Our offices</h1>
             <p>Schedule your visit with us.</p>
           </div>
-          <div className="leading-7">
+          <div className="leading-6 p-1">
             <h1 className="font-bold pb-4">Singapore</h1>
             <p className="">
               Flora Drive, Singapore <br /> 506889.
@@ -21,7 +21,7 @@ function ContactSecTwo() {
         </div>
         <div className="grid grid-cols-4  justify-start gap-16">
           <div>
-            <h1 className="font-bold text-3xl">Work inquiries</h1>
+            <h1 className="font-bold text-3xl pb-4">Work inquiries</h1>
             <p>Fill in this form or send us an e-mail with your inquiry.</p>
           </div>
 
@@ -124,6 +124,7 @@ function ContactSecTwo() {
                   sizing="lg"
                   type="text"
                   placeholder="Brief project details"
+                  className=""
                 />
               </div>
               <div className="col-span-3 ">

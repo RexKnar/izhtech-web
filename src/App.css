@@ -131,7 +131,11 @@
  .blueRound{
   background-image: url('../public/images/aboutBackground/heading//blueRound-About.png');
  }
- .Gradient{
-  background: linear-gradient(to right, #0074e4, #8e2de2)
+ .vectorBlue{
+  background-image: url('../public/images/aboutBackground/heading/Vector.png');
  }
+ .orangeRound{
+  background-image: url('../public/images/aboutBackground/client/Intersect.png');
+ }
+
  

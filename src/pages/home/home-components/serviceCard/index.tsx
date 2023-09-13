@@ -3,7 +3,7 @@ import serviceCardImg from "../../../../assets/images/Home/service/Image.png";
 import shareLogo from "../../../../assets/images/Home/service/share.png";
 import fingerprintLOgo from "../../../../assets/images/Home/service/fingerprint.png";
 import collectionLogo from "../../../../assets/images/Home/service/collection.png";
-import { Button, Card, Tooltip } from "flowbite-react";
+import {Card, Tooltip } from "flowbite-react";
 function ServiceCard() {
   return (
     <main className="flex">
@@ -15,11 +15,11 @@ function ServiceCard() {
 
               <div className="">
                 <Tooltip content="93%" className="">
-                  <Button className="bg-transparent hover:!bg-transparent !border-hidden">
+                  <button className="bg-transparent hover:!bg-transparent !border-hidden">
                     <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 w-[600px]">
                       <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[50%] relative"></div>
                     </div>
-                  </Button>
+                  </button>
                 </Tooltip>
               </div>
 
