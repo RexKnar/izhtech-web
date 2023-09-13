@@ -11,7 +11,7 @@ export function Counts() {
 
 <div className=" col-span-2 relative  flex justify-start mr-[190px]">
                     <img className="absolute h-full p-0 w-full " />
-                    <div className="absolute bg-red-500 bg-opacity-80 grid text-white content-end pl-20 pt-10 pb-10 pr-24  bottom-0 right-64">
+                    <div className="absolute bg-red-500 bg-opacity-96 grid text-white content-end pl-20 pt-10 pb-10 pr-24  bottom-0 right-64">
                         <div className="flex flex-row  text-end">
                             <div>
                                 <img src="src\assets\images\SketchLogo.png" alt="" />

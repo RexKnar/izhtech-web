@@ -6,11 +6,11 @@ function Testimonials() {
       <section className=" bg-black relative">
 
         <div className=" pt-20 pb-10 lg:ml-20 pl-20 bg-black flex flex-col lg:flex-row lg:space-x-4 text-white  relative">
-          <div className="lg:w-1/2 text-left mb-6">
+          <div className="lg:w-1/2 text-left mb-20">
 
             <h1 className=" text-xs text-gray-500 pb-4 mb-3">TESTIMONIALS</h1>
 
-            <hr className="border border-gray-900 w-85"/>
+            <hr className="border border-gray-700  mr-[1rem]"/>
 
             <div className="text-2xl mt-3 mb-3"><h1><b>What our clients say<br/>about our studio.</b></h1></div>
 
@@ -20,18 +20,18 @@ function Testimonials() {
           </div>
 
           <div className="lg:w-1/2  mr-[50px] text-left">
-            <div className="mb-6">
+            <div className="mb-4">
 
               <span className="bg-gray-950 text-gray-500 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-100 dark:text-gray-800">customer support</span>
 
             </div>
-            <p className="mb-3 text-gray-500 text-xs">
+            <p className="mb-3 text-gray-500 leading-7 text-xs">
               “5 stars WordPress template! If anyone wants an example of what you can do <br />with this theme. I tell you what, there has never been an issue that Cory from the <br />colabrio support team hasn't been able to solve for me.”
             </p>
 
 
-            <p><b>Colin Lucido</b></p>
-            <p className="text-gray-500 mb-6 text-xs">UI Designer · Interactive Media</p>
+            <p className="font-bold text-xs text-gray">Colin Lucido</p>
+            <p className="text-gray-500 mb-6 mt-3 text-xs">UI Designer · Interactive Media</p>
 
             <p className="pb-10">03---05</p>
           </div>

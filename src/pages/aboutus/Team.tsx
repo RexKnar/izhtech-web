@@ -17,13 +17,13 @@ function Team() {
 
                 <div>
                     <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-4">
-                        <div className="col-span-2 sm:col-span-1 text-left text-xs bg-black text-white py-4 p-4">
-                            <div className="text-gray mt-[15rem]">
+                        <div className="col-span-2 sm:col-span-1 text-left text-xs bg-black opacity-95 text-white py-4 p-4">
+                            <div className="text-gray mt-[17rem]">
                                 <h1 >Colin Lucido</h1></div>
                             <p className="mt-4">UI Designer · <b>Interactive Media</b></p>
-                            <p className="mt-4 pb-3">George is an architect and founding partner,<br />providing flexible digital services.</p>
+                            <p className="mt-4 leading-6  pb-3">George is an architect and founding partner,<br />providing flexible digital services.</p>
 
-                            <div className=" flex">
+                            <div className=" gap-2 flex">
                                 <div className="rounded-full border border-gray-500 p-2">
                                     <FontAwesomeIcon icon={faFacebook} size="2x" />
                                 </div>
@@ -45,11 +45,11 @@ function Team() {
                         <div className="col-span-2 sm:col-span-1"><img src="src\assets\images\img2.jpg"></img></div>
                         <div className="col-span-2 sm:col-span-1"><img src="src\assets\images\img3.jpg"></img></div>
                         <div className="col-span-2 sm:col-span-1"><img src="src\assets\images\img4.jpg"></img></div>
-                        <div className="col-span-2 sm:col-span-1 text-left text-xs bg-black text-white py-4 p-4">
-                            <div className=" mt-[15rem]">
+                        <div className="col-span-2 sm:col-span-1 text-left text-xs bg-black gap-2 opacity-95 text-white py-4 p-4">
+                            <div className=" mt-[17rem]">
                                 <h1>Colin Lucido</h1></div>
                             <p className="mt-4">UI Designer · <b>Interactive Media</b></p>
-                            <p className="mt-4 pb-3">George is an architect and founding partner,<br />providing flexible digital services.</p>
+                            <p className="mt-4 leading-6 pb-3">George is an architect and founding partner,<br />providing flexible digital services.</p>
 
                             <div className=" flex">
                                 <div className="rounded-full border border-gray-500 p-2">

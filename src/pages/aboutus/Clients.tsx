@@ -4,75 +4,74 @@ function Clients() {
     <>
       <section className="bg-gray-100 overflow-hidden">
         <div className="ml-20 lg:pl-20 mt-20">
-          <h1 className="text-xs text-left">CLIENTS WE WORK FOR</h1>
-          <h2 className="text-2xl text-left">
-            <b>Our clients.</b>
+          <h1 className="text-xs mb-4 text-left">CLIENTS WE WORK FOR</h1>
+          <h2 className="text-3xl font-bold text-left">
+            Our clients.
           </h2>
           <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-5 gap-4 bg-rgba(144, 145, 156, 0.06) text-.5xs leading-8">
-          <div className="bg-rgba(144, 145, 156, 0.06) text-left mt-10">
+          <div className="bg-rgba(144, 145, 156, 0.06) pb-5 text-left mt-10">
 
 
-<p><b>JPMorgan Chase, 2020</b></p>
-<p>www.jpmorgan.com</p>
+<p className="font-bold">JPMorgan Chase, 2020</p>
+<p className="mb-5">www.jpmorgan.com</p>
 
-<p><b>Berkshire Hathaway, 2020</b></p>
-<p>www.bhathaway.com</p>
+<p className="font-bold">Berkshire Hathaway, 2020</p>
+<p className="mb-5">www.bhathaway.com</p>
 
-<p><b>Royal Dutch Shell, 2018</b></p>
-<p>www.shell.com</p>
+<p className="font-bold">Royal Dutch Shell, 2018</p>
+<p className="mb-5">www.shell.com</p>
 
-<p><b>Mastercard, 2018</b></p>
+<p className="font-bold">Mastercard, 2018</p>
 <p className="pb-10">www.mastercard.com</p>
 
 </div>
 <div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
 
-<p><b>HSBC Holdings, 2018
-</b></p>
-<p>www.hsbc.com</p>
+<p className="font-bold">HSBC Holdings, 2018
+</p>
+<p className="mb-5">www.hsbc.com</p>
 
-<p><b>Anheuser-Busch InBev, 2018
-</b></p>
-<p>www.anheuserbusch.com</p>
+<p className="font-bold">Anheuser-Busch InBev, 2018
+</p>
+<p className="mb-5">www.anheuserbusch.com</p>
 
-<p><b>Procter & Gamble, 2017
-</b></p>
-<p>www.pg.com</p>
+<p className="font-bold">Procter & Gamble, 2017
+</p>
+<p className="mb-5">www.pg.com</p>
 
-<p><b>Merck & Co., 2017
-</b></p>
-<p>www.merck.com</p>
-
-</div>
-<div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
-
-
-<p><b>Unilever, 2017
-
-</b></p>
-<p>www.uniliver.com</p>
-
-<p><b>L'Oréal Group, 2016
-
-</b></p>
-<p>www.loreal.com</p>
-
-<p><b>Novo Nordisk, 2016
-
-</b></p>
-<p>www.novonordisk.com</p>
+<p className="font-bold">Merck & Co., 2017
+</p>
+<p className="mb-5">www.merck.com</p>
 
 </div>
 <div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
 
-<p><b>Naspers, 2016
-</b></p>
-<p>www.naspers.com</p>
 
-<p><b>Allianz, 2016
+<p className="font-bold">Unilever, 2017
 
-</b></p>
-<p>www.allianz.com</p>
+</p>
+<p className="mb-5">www.uniliver.com</p>
+
+<p className="font-bold">L'Oréal Group, 2016
+
+</p>
+<p className="mb-5">www.loreal.com</p>
+
+<p className="font-bold">Novo Nordisk, 2016
+</p>
+<p className="mb-5">www.novonordisk.com</p>
+
+</div>
+<div className="bg-rgba(144, 145, 156, 0.06) mt-10 text-left">
+
+<p className="font-bold">Naspers, 2016
+</p>
+<p className="mb-5">www.naspers.com</p>
+
+<p className="font-bold">Allianz, 2016
+
+</p>
+<p >www.allianz.com</p>
 
           </div>
           <div className="absolute -mt-16 -pt-20 ml-[65.5rem] transform">

@@ -5,13 +5,13 @@ function Awards() {
     <>
     <section>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:p-10 m-10 xl:grid-cols-3 gap-4">
-        <div className="text-left pb-20 lg:ml-20 lg:pl-20">
+        <div className="text-left pb-20 lg:ml-20 ">
 
           <h1 className="text-xs mt-10  "><b>AWARDS & HONORS</b></h1>
           <p className="text-3xl pt-4"><b>The awards won <br></br>by our works.</b></p>
 
         </div>
-        <div className="text-sm text-left mt-10">
+        <div className="text-sm text-left lg:ml-18 mt-10">
           <p>
             When our team provides design and <br/> digital marketing. Applied arts can <br/>include <b>industrial design, graphic</b><br/> <b>design, fashion design,</b> and the<br/>decorative arts which traditionally <br/>includes craft objects.</p></div>
 
