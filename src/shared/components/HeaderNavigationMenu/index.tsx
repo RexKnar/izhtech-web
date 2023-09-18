@@ -26,6 +26,9 @@ export function HeaderNavigationMenu() {
             <Navbar.Link href='/service'>
              Service
             </Navbar.Link>
+            <Navbar.Link href='/branding'>
+             Branding
+            </Navbar.Link>
             <Navbar.Link href='/contact'>
              Contact
             </Navbar.Link>

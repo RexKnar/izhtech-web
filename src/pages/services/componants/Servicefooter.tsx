@@ -2,7 +2,7 @@ import arrowImage from "../../../assets/images/Service-page-image/arrow.png"
 const servicefooter = (props: any) => {
     return (
         <>
-             <section className="p-20 bg-black text-white"> 
+             <section className="p-20 bg-black text-white pr-[151px]"> 
                 <div className="flex container g">
                     <div className="flex-1">
                         <p className="text-sm text-gray-600">LET’S COLLABORATE</p>
@@ -10,22 +10,19 @@ const servicefooter = (props: any) => {
                             to discuss a new project.</h2>
                     </div>
                     <div className="flex-1">
-                        <div className="flex justify-end pt-10">
-                            <button className="flex  bg-gradient-to-tr from-blue-500 via-pink-500 to-yellow-300 rounded-md text-white text-small font-semibold 
-     bg-black  p-1  mt-2">Contact Us<img className="mt-0.5 ml-2" src={arrowImage} /></button>
+                        <div className="flex justify-end pt-10 mt-3">
+                            <button className="flex  bg-gradient-to-tl from-blue-500 via-pink-500 to-yellow-400 text-white font-semibold py-2 px-4 rounded-md transition">Contact Us<img className="mt-0.5 ml-2" src={arrowImage} /></button>
                         </div>
                     </div>
                 </div>
                 <section>
-                    <div className="border-t border-gray-300"></div>
+                    <div className=" mt-5 border-t opacity-20 border-graypx-3 py-1.5"></div>
                 </section>
                 <section className="flex ">
-                    <div className="flex-1 mt-5 text-xs">
-                    We're a <b>team of creatives</b>who are excited about unique ideas and help digital and fin-tech companies <b>to create amazing identity.</b>
+                    <div className="flex-1 mt-5 text-sm font-light text-slate-300 pr-[180px]">
+                    We're a <b>team of creatives</b> who are excited about unique ideas and help digital and fin-tech companies <b>to create amazing identity.</b>
                     </div>
-                    <div className="flex-1">
-
-                    </div>
+                    <div className="flex-1"></div>
                 </section>
             </section>
 

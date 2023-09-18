@@ -5,13 +5,13 @@ export default function DefaultAccordion() {
     <Accordion className='mt-10 mb-8'>
       <Accordion.Panel>
         <Accordion.Title >
-          <div className='flex gap-10'><img className='' src={vectorImage} alt="" />
+          <div className='flex gap-3'><img className='h-[1rem] mt-1 w-[1rem]' src={vectorImage} alt="" />
             <p> Website & Mobile App Design
-            </p></div>
-
+            </p>
+          </div>
         </Accordion.Title>
         <Accordion.Content>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
+          <p className="text-black-500 font-normal font-extralight text-sm">
             We have created a full stack structure for our working
             workflow processes, were from the funny the century initial all the madness.
           </p>
@@ -19,13 +19,13 @@ export default function DefaultAccordion() {
       </Accordion.Panel>
       <Accordion.Panel>
         <Accordion.Title>
-          <div className='flex gap-10'><img className='' src={vectorImage} alt="" />
+          <div className='flex gap-3'><img className='h-[1rem] mt-1 w-[1rem]' src={vectorImage} alt="" />
             <p> Motion Graphics & Animation
             </p></div>
         </Accordion.Title>
         <Accordion.Content>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-          We have created a full stack structure for our working
+          <p className="text-black-500 font-normal font-extralight text-sm">
+            We have created a full stack structure for our working
             workflow processes, were from the funny the century initial all the madness.
           </p>
         </Accordion.Content>

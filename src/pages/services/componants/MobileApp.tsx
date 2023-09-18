@@ -1,26 +1,28 @@
 import brandImage from "../../../assets/images/Service-page-image/brandImage.jpg"
 import arrowImage from "../../../assets/images/Service-page-image/arrow.png"
 import Mobileappaccordian from "../data/Mobileappaccordian"
-const Mobileapp  = (props: any) => {
-    return (
-        <>
-         <section className="grid grid-cols-4">
+const Mobileapp = (props: any) => {
+  return (
+    <>
+      <section className="grid grid-cols-4">
         <div className=" col-span-2">
-          <img src={brandImage} alt="" className="object-contain h-full,w-full " />
+          <img src={brandImage} alt="" className=" h-full p-0 w-auto" />
         </div>
-        <div className="col-span-2 text-left pl-20 pr-20 pt-10">
+        <div className="col-span-2 text-left  pl-24 pr-36  py-20">
           <p className="font-sans text-xs font-normal">OUR SERVICES</p>
-          <p className="font-sans text-4xl  font-semibold">{ props.serviceData.title }</p>
-          <p className="font-sans text-base pt-3 font-normal">Reduction in operating costs for the whole product team which <b>creates amazing UI/UX experiences</b>,
-            by crafting top-notch user experience of funny the century rather.</p>
-            <Mobileappaccordian/>
+          <h2 style={{
+            color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,
+            fontFamily: props.serviceData.styles.fontfamily, fontStyle: props.serviceData.styles.fontstyle,
+          }} > {props.serviceData.title}</h2>
+          <p className="font-sans text-sm justify-self-center pt-3 font-normal">{props.serviceData.description}</p>
+          <Mobileappaccordian />
           <button className="flex rounded-md text-white text-small font-semibold 
-            bg-black  p-1  mt-2">Learn More<img className=" bg-black mt-0.5 ml-2" src={arrowImage} /></button>
+            bg-black  px-3 py-1.5">Learn More<img className=" bg-black mt-0.5 ml-2" src={arrowImage} /></button>
         </div>
       </section>
-        </>
-        
-    );
+    </>
+
+  );
 };
 
 export default Mobileapp;
