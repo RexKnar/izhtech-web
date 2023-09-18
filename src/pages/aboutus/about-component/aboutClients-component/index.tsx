@@ -13,8 +13,7 @@ function AboutClient() {
           </div>
         </div>
 
-        <div className="grid grid-flow-col grid-cols-4  " >
-
+        <div className="grid grid-flow-col grid-cols-4  ">
           <div className="grid gap-7 ">
             <div>
               <h3 className="font-bold">JPMorgan Chase, 2020</h3>
@@ -78,7 +77,6 @@ function AboutClient() {
               <p>www.allianz.com</p>
             </div>
           </div>
-
         </div>
       </section>
     </main>

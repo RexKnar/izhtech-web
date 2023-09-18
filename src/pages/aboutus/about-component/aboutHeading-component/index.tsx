@@ -26,7 +26,6 @@ function AboutHeading() {
 
       <section className=" pt-24">
         <div className="grid grid-cols-2 gap-20 ">
-
           <div>
             <img src={videoImg} alt="" className="w-full h-auto" />
           </div>
