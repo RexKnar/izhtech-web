@@ -1,8 +1,15 @@
+import MapComponent from "./contact-component/contactMap-component";
+import ContactSecOne from "./contact-component/contactSecOne-component";
+import ContactSecTwo from "./contact-component/contactSecTwo-component";
+
+
 export function ContactUsPage() {
     return (
-      <main className="mt-0 transition-all duration-200 ease-in-out">
-        <section className="min-h-screen">
-         <h1>Contact Us Page</h1>
+      <main className="">
+        <section className="">
+          <ContactSecOne/>
+          <MapComponent/>
+         <ContactSecTwo/>
         </section>
       </main>
     );

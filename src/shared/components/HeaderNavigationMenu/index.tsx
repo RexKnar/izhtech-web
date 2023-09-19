@@ -7,32 +7,28 @@ export function HeaderNavigationMenu() {
   const [activeLink, setActiveLink] = useState("home");
   useEffect(() => {
     const currentPathname = location.pathname;
-    if (currentPathname === '/' || currentPathname === '/home' ) {
-      setActiveLink('home');
-    } else if (currentPathname === '/about') {
-      setActiveLink('about');
-    } else if (currentPathname === '/service') {
-      setActiveLink('service');
-    } else if (currentPathname === '/contact') {
-      setActiveLink('contact');
+    if (currentPathname === "/" || currentPathname === "/home") {
+      setActiveLink("home");
+    } else if (currentPathname === "/about") {
+      setActiveLink("about");
+    } else if (currentPathname === "/service") {
+      setActiveLink("service");
+    } else if (currentPathname === "/contact") {
+      setActiveLink("contact");
     }
   }, [location]);
   return (
-    <main>
-      <section>
+    <main className="flex justify-center bg-transparent ">
+      <section className=" container  absolute bg-transparent  ">
         <Navbar fluid rounded>
           <Navbar.Brand href="#">
-            <img
-              alt="Flowbite React Logo"
-              className="mr-3 h-32 w-16 sm:h-9"
-              src={logo}
-            />
+            <img alt="Flowbite React Logo" className=" h-20 w-28 " src={logo} />
           </Navbar.Brand>
-          <div className="flex md:order-2">
-            <Button>Let's Talk</Button>
+          <div className="flex  md:order-2">
+            <Button className="bg-black z-50  ">Let's Talk</Button>
             <Navbar.Toggle />
           </div>
-          <Navbar.Collapse>
+          <Navbar.Collapse className="z-50">
             <Link
               className={activeLink === "home" ? "text-blue-500" : ""}
               to={"/home"}
@@ -66,6 +62,7 @@ export function HeaderNavigationMenu() {
             </Link>
           </Navbar.Collapse>
         </Navbar>
+        <hr />
       </section>
     </main>
   );
