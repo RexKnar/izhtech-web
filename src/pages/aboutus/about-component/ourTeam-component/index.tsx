@@ -122,7 +122,7 @@ function OurTeam() {
                 </button>
               </div>
             </div>
-
+            
             <hr />
 
             <div className="grid grid-flow-col col-span-2 pt-6">

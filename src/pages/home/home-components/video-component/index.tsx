@@ -45,8 +45,8 @@ function VideoComponent() {
             <p className="pb-4">
               Untangling Knots to give Clear Digital Solution
             </p>
-            <button className="border-2 bg-black text-white border-black rounded flex content-center items-center">
-              Read More <AiOutlineArrowRight />
+            <button className="border-2 bg-black text-white border-black rounded flex content-center items-center px-3 py-1 ">
+            <p className="pr-2">Read More</p> <AiOutlineArrowRight/>
             </button>
           </div>
           <div className="columns-3xs ">
@@ -56,8 +56,8 @@ function VideoComponent() {
             <p className="pb-4">
               Make life simpler by providing complex tech in a simpler way.
             </p>
-            <button className="border-1 bg-black text-white border-black rounded flex content-center items-center">
-              Read More <AiOutlineArrowRight />
+            <button className="border-2 bg-black text-white border-black rounded flex content-center items-center px-3 py-1 ">
+              <p className="pr-2">Read More</p> <AiOutlineArrowRight/>
             </button>
           </div>
           <div className="columns-3xs  ">
@@ -65,8 +65,8 @@ function VideoComponent() {
             <img src={values} alt="" className="pb-6 " />
             <h1 className="text-2xl font-bold pb-4">Values</h1>
             <p className="pb-4">Equally disciplined and relish work ethic.</p>
-            <button className="border-2 bg-black text-white border-black rounded flex content-center items-center">
-              Read More <AiOutlineArrowRight />
+            <button className="border-2 bg-black text-white border-black rounded flex content-center items-center px-3 py-1 ">
+            <p className="pr-2">Read More</p> <AiOutlineArrowRight/>
             </button>
           </div>
         </div>

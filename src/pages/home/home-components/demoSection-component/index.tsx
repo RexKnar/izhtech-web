@@ -1,7 +1,10 @@
+import { useForm } from "react-hook-form";
 import "../../../../App.css";
 import { Button, TextInput } from "flowbite-react";
 
 function DemoSection() {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data: any) => console.log(data);
   return (
     <main className="flex justify-center relative m-6">
       <span className="VectordemoSec absolute bottom-[5rem]  h-[456.27px] w-[456.27px]"></span>
@@ -19,13 +22,15 @@ function DemoSection() {
             Helping SaaS teams to increase e-commerce conversions, reduce bounce
             rate, and <b>scale up fast</b>.
           </p>
-          <form className="flex max-w-md flex-col p-6  text-sm font-semiboldtext-slate-50 items-center ">
+          <form className="flex max-w-md flex-col p-6  text-sm font-semiboldtext-slate-50 items-center "
+          onSubmit={handleSubmit(onSubmit)}>
             <div className="flex  rounded ">
               <TextInput
                 id="email"
                 placeholder="yoy@domain.com"
                 required
                 type="email"
+                {...register("email", { required: true })}
               />
               <Button
                 type="submit"

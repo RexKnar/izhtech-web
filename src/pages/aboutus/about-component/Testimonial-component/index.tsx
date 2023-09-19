@@ -5,7 +5,7 @@ function AboutTestimonial() {
   return (
     <main className="grid grid-flow-col  justify-center bg-black ">
       <section className="container pt-16 pb-16">
-        <div className="flex">
+        <div className="flex ">
           <div>
             <p className="pb-5 uppercase text-[#c3c3c4]">Testimonials</p>
             <hr className="border-[#60606B]" />
@@ -20,9 +20,9 @@ function AboutTestimonial() {
             </div>
           </div>
 
-          <div className="p-6 flex justify-center">
-            <Carousel className=" h-auto   ">
-              <div className="grid grid-flow-row text-start justify-center h-auto w-auto text-white gap-">
+          <div className="p-6 flex ">
+            <Carousel className=" h-auto  w-[47vw] ">
+              <div className="grid grid-flow-row text-start justify-center h-auto w-auto text-white ">
                 <h3 className="text-[#91929B] w-fit p-2 space-2 bg-[#90919C26] ">
                   Customer Support
                 </h3>
@@ -38,13 +38,13 @@ function AboutTestimonial() {
                 </p>
               </div>
 
-              <div className="flex h-full items-center justify-center dark:text-white">
+              {/* <div className="flex h-full items-center justify-center dark:text-white">
                 Slide 2
               </div>
 
               <div className="flex h-full items-center justify-center dark:text-white">
                 Slide 3
-              </div>
+              </div> */}
             </Carousel>
           </div>
         </div>

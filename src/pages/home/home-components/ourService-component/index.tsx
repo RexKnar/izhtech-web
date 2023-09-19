@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 import { Button, TextInput } from "flowbite-react";
+import { useForm } from "react-hook-form";
 
 function Ourservice() {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data: any) => console.log(data);
+
   return (
-    <main className='flex justify-center'>
-     <section className='container'>
-     <div className="flex justify-between p-16 ">
+    <main className="flex justify-center">
+      <section className="container">
+        <div className="flex justify-between p-16 ">
           <div className="">
             <h1 className="text-5xl font-bold pb-6 ">
               Get started with <br />
@@ -16,15 +20,18 @@ function Ourservice() {
             </h3>
           </div>
           <div>
-            <form className="flex max-w-md flex-col p-4 text-sm font-semiboldtext-slate-50  ">
-          
-              <Button.Group className='rounded'>
+            <form
+              className="flex max-w-md flex-col p-4 text-sm font-semiboldtext-slate-50"
+              onSubmit={handleSubmit(onSubmit)}
+            >
+              <Button.Group className="rounded">
                 <TextInput
                   id="email"
                   placeholder="yoy@domain.com"
                   required
                   type="email"
-                  className=' rounded-l-none'
+                  className=" rounded-l-none"
+                  {...register("email", { required: true })}
                 />
                 <Button
                   type="submit"
@@ -33,8 +40,7 @@ function Ourservice() {
                 >
                   Get a Demo
                 </Button>
-                </Button.Group>
-            
+              </Button.Group>
             </form>
             <p className="p-6">
               Already using our service?{" "}
@@ -44,9 +50,9 @@ function Ourservice() {
             </p>
           </div>
         </div>
-     </section>
+      </section>
     </main>
-  )
+  );
 }
 
-export default Ourservice
+export default Ourservice;

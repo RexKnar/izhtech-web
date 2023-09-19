@@ -1,6 +1,9 @@
 import { Button, Checkbox, Label, TextInput, Footer } from "flowbite-react";
 import footerLogo from "../../../assets/images/footer-logo.png";
+import { useForm } from "react-hook-form";
 export function FooterNavigationMenu() {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (data: any) => console.log(data);
   return (
     <main className="flex justify-center bg-black ">
       <section className="bg-black container flex justify-around z-40">
@@ -46,7 +49,8 @@ export function FooterNavigationMenu() {
                   </Footer.LinkGroup>
                 </div>
                 <div className="mb-2 text-sm font-semiboldtext-slate-50">
-                  <form className="flex max-w-md flex-col gap-2 mb-6 text-sm font-semiboldtext-slate-50">
+                  <form className="flex max-w-md flex-col gap-2 mb-6 text-sm font-semiboldtext-slate-50" 
+                    onSubmit={handleSubmit(onSubmit)}>
                     <div className=" grid ">
                       <div className="mb-2 ">
                         <Label
@@ -56,19 +60,17 @@ export function FooterNavigationMenu() {
                         />
                       </div>
                     </div>
-                    <Button.Group className="">
+                    <Button.Group >
                       <TextInput
-                        id="email"
                         placeholder="yoy@domain.com"
-                        required
                         type="email"
-                        style={{ backgroundColor: "transparent" }}
-                        className="rounded-r rounded-none"
+                        style={{ backgroundColor: "#1f2937",color:'white',border:"none"}}
+                        {...register("email", { required: true })}
                       />
                       <Button
                         type="submit"
-                        color="dark"
-                        className="block border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 text-slate-50  focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500  text-sm  "
+                        color="dark"                        
+                        className="block border-none rounded disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 text-slate-50  focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500  text-sm  "
                       >
                         Sign Up
                       </Button>
@@ -77,6 +79,7 @@ export function FooterNavigationMenu() {
                       <Checkbox
                         id="agree"
                         className="bg-black self-start text-slate-500"
+                        {...register("agree", { required: true })}
                       />
                       <Label
                         className="flex mb-6 text-sm font-semibold text-slate-50"

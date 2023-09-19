@@ -1,5 +1,14 @@
 import { Label, TextInput, Select, Checkbox } from "flowbite-react";
+import { useForm } from "react-hook-form";
 function ContactSecTwo() {
+  const {
+    register,
+    handleSubmit,
+  } = useForm();
+  const onSubmit = (data: any) =>{
+     console.log(data);
+    }
+ ;
   return (
     <main className="flex justify-center relative pt-16">
       <span className=" absolute left-0 top-[9vh] h-[65vh] w-[17vw] z-20 sectwoBgleft"></span>
@@ -26,122 +35,106 @@ function ContactSecTwo() {
           </div>
 
           <div className="col-span-3">
-            <div className="grid grid-flow-row gap-6 grid-cols-3">
+            <form
+              className="grid grid-flow-row gap-6 grid-cols-2"
+              onSubmit={handleSubmit(onSubmit)}
+            >
               <div>
                 <div className="mb-2 block">
                   <Label
-                    htmlFor="base"
-                    value="Label (required)"
+                    htmlFor="Name"
+                    value="Name (required)"
                     className="font-bold"
                   />
                 </div>
                 <TextInput
-                  id="base"
+                  id="Name"
                   sizing="md"
                   type="text"
                   placeholder="Your name"
+                  {...register("Name", { required: true })}
                 />
               </div>
+
               <div>
                 <div className="mb-2 block">
                   <Label
-                    htmlFor="base"
+                    htmlFor="Company"
                     value="Company (optional)"
                     className="font-bold"
                   />
                 </div>
                 <TextInput
-                  id="base"
+                  id="Company"
                   sizing="md"
                   type="text"
                   placeholder="Your company name"
+                  {...register("Company", { required: true })}
                 />
               </div>
+
               <div>
                 <div className="mb-2 block">
                   <Label
-                    htmlFor="base"
+                    htmlFor="Email"
                     value="Email (required)"
                     className="font-bold"
                   />
                 </div>
                 <TextInput
-                  id="base"
+                  id="Email"
                   sizing="md"
                   type="text"
                   placeholder="Your actual number"
+                  {...register("Email", { required: true })}
                 />
               </div>
+
               <div>
                 <div className="mb-2 block">
                   <Label
-                    htmlFor="base"
+                    htmlFor="Phone"
                     value="Phone (optional)"
                     className="font-bold"
                   />
                 </div>
                 <TextInput
-                  id="base"
+                  id="Phone"
                   sizing="md"
                   type="number"
                   placeholder="Your company name"
+                  {...register("Phone", { required: true })}
                 />
               </div>
-              <div className="max-w-md " id="select">
-                <div className="mb-2 block">
-                  <Label
-                    htmlFor="countries"
-                    value="Subject (optional)"
-                    className="font-bold"
-                  />
-                </div>
-                <Select id="countries" required>
-                  <option>Choose a subject</option>
-                </Select>
-              </div>
-              <div className="max-w-md" id="select">
-                <div className="mb-2 block">
-                  <Label
-                    htmlFor="countries"
-                    value="Choose a Budget (USD)"
-                    className="font-bold"
-                  />
-                </div>
-                <Select id="countries" required>
-                  <option>Less than 5K</option>
-                </Select>
-              </div>
-              <div className="col-span-3 ">
+  
+              <div className="col-span-2 ">
                 <div className="mb-2 block ">
                   <Label
-                    htmlFor="large"
+                    htmlFor="Message"
                     value="Message (required)"
                     className="font-bold"
                   />
                 </div>
                 <TextInput
-                  id="large"
+                  id="Message"
                   sizing="lg"
                   type="text"
                   placeholder="Brief project details"
                   className=""
+                  {...register("Message", { required: true })}
                 />
               </div>
-              <div className="col-span-3 ">
-                <div className="flex items-center gap-2">
-                  <Checkbox id="age" className="border-black" />
-                  <Label htmlFor="age " className="">
-                    I’m okay with getting emails and having that activity
-                    tracked to improve my experience.
-                  </Label>
-                </div>
-              </div>
+
+             
               <div>
-                <button className="bg-black text-white p-1 rounded">
+                <button
+                  type="submit"
+                  className="bg-black text-white p-1 rounded"
+                >
                   <span className="p-3">Get a Quote</span>
                 </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </section>
