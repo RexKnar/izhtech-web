@@ -1,5 +1,3 @@
-import React from "react";
-
 function AboutClient() {
   return (
     <main className="flex justify-center relative bg-[#f8f8f9]">

@@ -1,4 +1,5 @@
-import { Label, TextInput, Select, Checkbox } from "flowbite-react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { Label, TextInput } from "flowbite-react";
 import { useForm } from "react-hook-form";
 function ContactSecTwo() {
   const {

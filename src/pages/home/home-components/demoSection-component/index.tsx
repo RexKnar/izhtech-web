@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useForm } from "react-hook-form";
 import "../../../../App.css";
 import { Button, TextInput } from "flowbite-react";

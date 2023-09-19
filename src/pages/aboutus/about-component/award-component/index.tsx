@@ -1,4 +1,3 @@
-import React from "react";
 import FwaImg from "../../../../assets/images/AboutUs/aboutAward/FWA.png";
 import WImg from "../../../../assets/images/AboutUs/aboutAward/W.png";
 import WebbyImg from "../../../../assets/images/AboutUs/aboutAward/webby.png";

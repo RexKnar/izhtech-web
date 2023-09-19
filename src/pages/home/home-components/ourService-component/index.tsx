@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { Button, TextInput } from "flowbite-react";
 import { useForm } from "react-hook-form";
 

@@ -1,4 +1,3 @@
-import progressLogo from "../../../../assets/images/Home/service/progress.png";
 import serviceCardImg from "../../../../assets/images/Home/service/Image.png";
 import shareLogo from "../../../../assets/images/Home/service/share.png";
 import fingerprintLOgo from "../../../../assets/images/Home/service/fingerprint.png";

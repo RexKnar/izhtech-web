@@ -1,7 +1,6 @@
-import React from "react";
 import videoImg from "../../../../assets/images/AboutUs/aboutHeading/Image.png";
 import capitalImg from "../../../../assets/images/AboutUs/aboutHeading/Column.png";
-import { Button, Progress, Tooltip } from "flowbite-react";
+import { Tooltip } from "flowbite-react";
 
 function AboutHeading() {
   return (

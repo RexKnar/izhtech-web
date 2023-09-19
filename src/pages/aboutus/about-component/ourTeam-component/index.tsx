@@ -1,4 +1,3 @@
-import React from "react";
 import mediaOne from "../../../../assets/images/AboutUs/our Team/Media.png";
 import mediaTwo from "../../../../assets/images/AboutUs/our Team/Media (1).png";
 import mediaThree from "../../../../assets/images/AboutUs/our Team/Media (2).png";

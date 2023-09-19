@@ -1,5 +1,4 @@
 import { Carousel } from "flowbite-react";
-import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 function AboutTestimonial() {
   return (

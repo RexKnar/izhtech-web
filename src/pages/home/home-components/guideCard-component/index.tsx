@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Card } from "flowbite-react";
 
 function GuideCard(props: any) {
