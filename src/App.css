@@ -1,11 +1,5 @@
- /* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */ 
-
-@import url('../node_modules/react-circular-progressbar/dist/styles.css');
+#root {
+}
 
 .logo {
   height: 6em;
@@ -34,11 +28,112 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.bgLine {
+  background-image: url("../public/images/homeBackground/section1/Vector\ line.png");
+}
+.Ellipse {
+  background-image: url("../public/images/homeBackground/section1/Ellipse 22.png");
+}
+.EllipseOne {
+  background-image: url("../public/images/homeBackground/section1/Ellipse 25.png");
+}
+
+.EllipseTwo {
+  background-image: url("../public/images/homeBackground/section1/Ellipse 20.png");
+}
+.EllipseThree {
+  background-image: url("../public/images/homeBackground/section1/Ellipse 24.png");
+}
+.EllipseFour {
+  background-image: url("../public/images/homeBackground/section1/Ellipse 23.png");
+}
+
+.GroupOne {
+  background-image: url("../public/images/homeBackground/section1/Group 12.png");
+}
+.GroupTwo {
+  background-image: url("../public/images/homeBackground/section1/Group 9.png");
+}
+.Vector {
+  background-image: url("../public/images/homeBackground/section1/Vector.svg");
+}
+
+.IntersectSecOne {
+  background-image: url("../public/images/homeBackground/section1/Intersect\ \(2\).png");
+}
+.IntersectSecTwo {
+  background-image: url("../public/images/homeBackground/section1/Intersect\ \(1\).png");
+}
+.IntersectSecThree {
+  background-image: url("../public/images/homeBackground/section1/Intersect.png");
+}
+.VectorSecOne {
+  background-image: url("../../../public/images/homeBackground/Vector.png");
+  width: 380px;
+  height: 12%;
+}
+
+.Intersect {
+  background-image: url("../public/images/homeBackground/vidoSection/Intersect.png");
+}
+
+.VectorVd {
+  background-image: url("../public/images/homeBackground/vidoSection/Vector.png");
+}
+
+.VectordemoSec {
+  background-image: url("../public/images/homeBackground/demoSection//Vector.png");
+}
+.VectorDatatracking {
+  background-image: url("../public/images/homeBackground/Datatracking/Vector.png");
+}
+.guideBg {
+  background-image: url("../public/images/homeBackground/guide//guideImg.png");
+}
+.blueround {
+  background-image: url("../public/images/homeBackground/service/blueround.png");
+}
+.yellowround {
+  background-image: url("../public/images/homeBackground/service/yellowround.png");
+}
+.redLineOne {
+  background-image: url("../public/images/homeBackground/process/redLineOne.png");
+}
+.redLineTwo {
+  background-image: url("../public/images/homeBackground/process/redLineTwo.png");
+}
+.redLineThree {
+  background-image: url("../public/images/homeBackground/process/redLineThree.png");
+}
+.coustBg {
+  background-image: url("../public/images/homeBackground/customer/Vector.png");
+}
+.secOneBg {
+  background-image: url("../public/images/contactbackground/secOne/Vector.png");
+}
+.sectwoBgleft {
+  background-image: url("../public/images/contactbackground/secTwo/Vector.png");
+}
+.secTwoBgright {
+  background-image: url("../public/images/contactbackground/secTwo/Group.png");
+}
+.blueRound {
+  background-image: url("../public/images/aboutBackground/heading//blueRound-About.png");
+}
+.vectorBlue {
+  background-image: url("../public/images/aboutBackground/heading/Vector.png");
+}
+.orangeRound {
+  background-image: url("../public/images/aboutBackground/client/Intersect.png");
+}
+.SectionBg {
+  background-image: url("../public/images/aboutBackground/Awards/Section.jpg");
 }

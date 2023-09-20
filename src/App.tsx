@@ -8,10 +8,11 @@ import { BrandingPage } from "./pages/branding";
 import { FooterNavigationMenu } from "./shared/components/FooterNavigationMenu";
 import { HeaderNavigationMenu } from "./shared/components/HeaderNavigationMenu";
 import {
+  Navigate,
   Route,
+  Routes,
   createBrowserRouter,
   createRoutesFromElements,
-  RouterProvider,
   redirect,
 } from "react-router-dom";
 
@@ -28,10 +29,18 @@ const router = createBrowserRouter(
   )
 );
 function App() {
+
   return (
     <>
       <HeaderNavigationMenu />
-      <RouterProvider router={router} />
+      <Routes>
+      <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="home" element={<HomePage />} />
+        <Route path="about" element={<AboutUsPage />} />
+        <Route path="service" element={<ServicesPage />} />
+        <Route path="contact" element={<ContactUsPage />} />
+        <Route path="branding" element={<BrandingPage/>}/>
+      </Routes>
       <FooterNavigationMenu />
     </>
   );
