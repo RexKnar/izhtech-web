@@ -1,8 +1,7 @@
-import brandImage2 from "../../../assets/images/Service-page-image/brandImage2.jpg"
-import arrowImage from "../../../assets/images/Service-page-image/arrow.png"
+import brandImage2 from "../../../../assets/images/Service-page-image/brandImage2.jpg"
+import arrowImage from "../../../../assets/images/Service-page-image/arrow.png"
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-
 const percentage = 66;
 const Webapp = (props: any) => {
   return (

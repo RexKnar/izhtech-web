@@ -29,7 +29,6 @@ export const serviceData2 ={
     }
  }
  export const serviceData4={
-    title:'',
     styles:{
         fontsize:'42px',fontweight: '700',fontfamily: 'DM Sans',fontstyle:'normal',letterspacing:'-2.34px',lineheight: '105%',
     },

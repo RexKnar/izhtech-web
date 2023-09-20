@@ -1,8 +1,8 @@
-import arrowImage from "../../../assets/images/Service-page-image/arrow.png"
+import arrowImage from "../../../../assets/images/Service-page-image/arrow.png"
 const servicefooter = (props: any) => {
     return (
         <>
-             <section className="p-20 bg-gray-900 text-white pr-[151px]"> 
+             <section className="p-20 bg-black text-white pr-[151px] pl-[137px]"> 
                 <div className="flex container g">
                     <div className="flex-1">
                         <p className="text-sm text-gray-600">LET’S COLLABORATE</p>

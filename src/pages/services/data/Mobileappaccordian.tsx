@@ -11,7 +11,7 @@ export default function DefaultAccordion() {
           </div>
         </Accordion.Title>
         <Accordion.Content>
-          <p className="text-black-500 font-normal font-extralight text-sm">
+          <p className="text-black-500  text-sm">
             We have created a full stack structure for our working
             workflow processes, were from the funny the century initial all the madness.
           </p>
@@ -24,7 +24,7 @@ export default function DefaultAccordion() {
             </p></div>
         </Accordion.Title>
         <Accordion.Content>
-          <p className="text-black-500 font-normal font-extralight dark:text-gray-400 text-sm">
+          <p className="text-black-500 text-sm">
             We have created a full stack structure for our working
             workflow processes, were from the funny the century initial all the madness.
           </p>

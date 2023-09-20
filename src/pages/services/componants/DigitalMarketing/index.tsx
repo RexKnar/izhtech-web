@@ -1,10 +1,10 @@
-import brandImage2 from "../../../assets/images/Service-page-image/brandImage2.jpg"
-import arrowImage from "../../../assets/images/Service-page-image/arrow.png"
+import brandImage2 from "../../../../assets/images/Service-page-image/brandImage2.jpg"
+import arrowImage from "../../../../assets/images/Service-page-image/arrow.png"
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const percentage = 66;
-const Webapp = (props: any) => {
+const DigitalMarketing = (props: any) => {
   return (
     <>
       <section className="grid grid-cols-4">
@@ -46,4 +46,4 @@ const Webapp = (props: any) => {
     </>
   );
 };
-export default Webapp;
+export default DigitalMarketing;
