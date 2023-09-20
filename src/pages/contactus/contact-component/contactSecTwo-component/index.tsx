@@ -1,14 +1,23 @@
-import { Label, TextInput, Select, Checkbox } from "flowbite-react";
+import { Label, TextInput } from "flowbite-react";
 import { useForm } from "react-hook-form";
+import ReCAPTCHA from "react-google-recaptcha";
+import { useState } from "react";
 function ContactSecTwo() {
-  const {
-    register,
-    handleSubmit,
-  } = useForm();
-  const onSubmit = (data: any) =>{
-     console.log(data);
+  const { register, handleSubmit } = useForm();
+  const [captchaValue, setCaptchaValue] = useState(null);
+
+  const handleCaptchaChange = (value: any) => {
+    setCaptchaValue(value);
+  };
+  const onSubmit = (data: any) => {
+    console.log(data);
+    data.preventDefault();
+    if (!captchaValue) {
+      alert("Please complete the CAPTCHA.");
+      return;
     }
- ;
+  };
+
   return (
     <main className="flex justify-center relative pt-16">
       <span className=" absolute left-0 top-[9vh] h-[65vh] w-[17vw] z-20 sectwoBgleft"></span>
@@ -106,7 +115,7 @@ function ContactSecTwo() {
                   {...register("Phone", { required: true })}
                 />
               </div>
-  
+
               <div className="col-span-2 ">
                 <div className="mb-2 block ">
                   <Label
@@ -125,7 +134,13 @@ function ContactSecTwo() {
                 />
               </div>
 
-             
+              <div className="col-span-2 ">
+                <ReCAPTCHA
+                  sitekey="6LfWPDooAAAAAJkXVNA-qbkmGOY4S2qLKRyXZWVk"
+                  onChange={handleCaptchaChange}
+                />
+              </div>
+
               <div>
                 <button
                   type="submit"
