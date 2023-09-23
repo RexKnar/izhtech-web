@@ -8,17 +8,18 @@ import values from "../../../../assets/images/Home/videoImg/values.png";
 function VideoComponent() {
   return (
     <main className="flex justify-center relative z-20 ">
-      <span className="absolute h-[57vh] w-[10vw] top-[2rem] left-[41.25rem] bg-no-repeat z-20 Intersect"></span>
-      <span className="absolute h-[27vh] w-[10vw] top-[2rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
-      <section className=" container bg-[#f4f8fd] rounded p-8 ">
-        <div className=" container grid grid-flow-row grid-cols-3  justify-center justify-items-center pt-[5rem] pb-[1rem] pr-4 pl-5">
-          <div className="gap-6 grid justify-start p-6">
-            <div className="relative ">
+      <span className="hidden lg:block absolute h-[57vh] w-[10vw] top-[2rem] left-[41.25rem] bg-no-repeat z-20 Intersect"></span>
+      <span className="hidden lg:block absolute h-[27vh] w-[10vw] top-[2rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
+      <section className=" container bg-[#f4f8fd] rounded p-1 lg:p-8 ">
+        <div className=" container grid grid-flow-row lg:grid-cols-3  justify-center justify-items-center lg:pt-[5rem] pb-[1rem] lg:pr-4 lg:pl-5">
+          <div className="lg:gap-6 gap-2 grid justify-start p-1 md:pl-4 lg:pl-0  lg:p-6">
+            <div className=" relative w-[93px] h-[93px] ">
               <img src={videoImg} alt="" />
-              <span className="text-4xl text-white absolute top-[30%] left-[7%]">
+              <span className="text-4xl text-white absolute top-[29px] left-[31px]  ">
                 <AiFillCaretRight />
               </span>
             </div>
+
             <p>#datatracking app</p>
             <h1 className="text-4xl font-bold">
               The app is great for basic setup and adjusts.
@@ -27,29 +28,30 @@ function VideoComponent() {
               So how does it work? Let’s check our <b>Getting Started</b>
               tutorial or contact us for a demo.
             </h6>
-            <div>
+            <div className="pb-3 lg:pb-0 ">
               <button className="border-2 border-black font-bold rounded p-2">
                 Explore Features
               </button>
             </div>
           </div>
           <div className="col-span-2 z-30 ">
-            <img src={mainVideoImg} alt="" />
+            <img src={mainVideoImg} alt="" className=" rounded" />
           </div>
         </div>
-        <div className="grid grid-flow-col justify-items-center gap-[10vh] p-1 ">
-          <div className="columns-3xs ">
+        <div className="grid md:grid-flow-col md:grid-cols-3  justify-center content-end  items-center gap-[3vh] p-1 ">
+          <div className=" ">
             <hr className="border-top-1 border-black p-6" />
-            <img src={mission} alt="" className="pb-6" />
+            <img src={mission} alt="" className="pb-6 " />
             <h1 className="text-2xl font-bold pb-4">Mission</h1>
             <p className="pb-4">
               Untangling Knots to give Clear Digital Solution
             </p>
             <button className="border-2 bg-black text-white border-black rounded flex content-center items-center px-3 py-1 ">
-            <p className="pr-2">Read More</p> <AiOutlineArrowRight/>
+              <p className="pr-2">Read More</p> <AiOutlineArrowRight />
             </button>
           </div>
-          <div className="columns-3xs ">
+
+          <div className=" ">
             <hr className="border-top-1 border-black p-6" />
             <img src={vision} alt="" className="pb-6" />
             <h1 className="text-2xl font-bold pb-4">Vision</h1>
@@ -57,16 +59,17 @@ function VideoComponent() {
               Make life simpler by providing complex tech in a simpler way.
             </p>
             <button className="border-2 bg-black text-white border-black rounded flex content-center items-center px-3 py-1 ">
-              <p className="pr-2">Read More</p> <AiOutlineArrowRight/>
+              <p className="pr-4">Read More</p> <AiOutlineArrowRight />
             </button>
           </div>
-          <div className="columns-3xs  ">
-            <hr className="border-top-2 border-black p-6" />
+
+          <div className="  ">
+            <hr className="border-top-1 border-black p-6" />
             <img src={values} alt="" className="pb-6 " />
             <h1 className="text-2xl font-bold pb-4">Values</h1>
             <p className="pb-4">Equally disciplined and relish work ethic.</p>
             <button className="border-2 bg-black text-white border-black rounded flex content-center items-center px-3 py-1 ">
-            <p className="pr-2">Read More</p> <AiOutlineArrowRight/>
+              <p className="pr-4">Read More</p> <AiOutlineArrowRight />
             </button>
           </div>
         </div>

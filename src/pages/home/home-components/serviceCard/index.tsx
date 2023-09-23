@@ -1,4 +1,3 @@
-import progressLogo from "../../../../assets/images/Home/service/progress.png";
 import serviceCardImg from "../../../../assets/images/Home/service/Image.png";
 import shareLogo from "../../../../assets/images/Home/service/share.png";
 import fingerprintLOgo from "../../../../assets/images/Home/service/fingerprint.png";
@@ -6,17 +5,17 @@ import collectionLogo from "../../../../assets/images/Home/service/collection.pn
 import {Card, Tooltip } from "flowbite-react";
 function ServiceCard() {
   return (
-    <main className="flex">
-      <section className="pr-8">
+    <main className="grid lg:flex w-fit">
+      <section className="lg:pr-8">
         <div className="">
           <Card imgAlt="" imgSrc={serviceCardImg}>
             <div className="">
               <h1 className="font-bold pb-4">Website & Mobile</h1>
 
               <div className="">
-                <Tooltip content="93%" className="">
+                <Tooltip content="93%" className="w-fit">
                   <button className="bg-transparent hover:!bg-transparent !border-hidden">
-                    <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 w-[600px]">
+                    <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 md:w-[600px] w-[320px]">
                       <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[50%] relative"></div>
                     </div>
                   </button>
@@ -32,7 +31,7 @@ function ServiceCard() {
         </div>
       </section>
       <section>
-        <div className="p-1 ">
+        <div className="p-4 lg:p-1 ">
           <div className="pb-14 ">
             <img src={fingerprintLOgo} alt="" />
             <h1 className="font-bold pt-2">1. Create a Free Account</h1>

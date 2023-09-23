@@ -20,10 +20,10 @@ function ContactSecTwo() {
 
   return (
     <main className="flex justify-center relative pt-16">
-      <span className=" absolute left-0 top-[9vh] h-[65vh] w-[17vw] z-20 sectwoBgleft"></span>
-      <span className=" absolute right-0 top-0 h-[34vh] w-[17vw] z-20 secTwoBgright"></span>
-      <section className="container pb-20">
-        <div className="grid grid-flow-col gap-16 grid-cols-4 pb-16">
+      <span className="hidden lg:block absolute left-0 top-[9vh] md:h-[65vh] md:w-[17vw]   sectwoBgleft"></span>
+      <span className=" absolute right-0 top-0 h-[44vh] md:w-[46vw] lg:h-[33vh] lg:w-[17vw] w-[82vw] secTwoBgright"></span>
+      <section className="container pb-20 z-20">
+        <div className="grid lg:grid-flow-col p-4 sm:p-0 gap-16 lg:grid-cols-4  pb-16">
           <div className=" leading-7 ">
             <h1 className="font-bold text-3xl pb-4">Our offices</h1>
             <p>Schedule your visit with us.</p>
@@ -37,15 +37,15 @@ function ContactSecTwo() {
             <p>Monday - Friday</p>
           </div>
         </div>
-        <div className="grid grid-cols-4  justify-start gap-16">
+        <div className="grid lg:grid-cols-4 p-4 sm:p-0 sm:justify-start gap-16 justify-items-center">
           <div>
-            <h1 className="font-bold text-3xl pb-4">Work inquiries</h1>
+            <h1 className="font-bold text-3xl pb-4 text-center sm:text-start">Work inquiries</h1>
             <p>Fill in this form or send us an e-mail with your inquiry.</p>
           </div>
 
-          <div className="col-span-3">
+          <div className="lg:col-span-3 ">
             <form
-              className="grid grid-flow-row gap-6 grid-cols-2"
+              className="grid grid-flow-row gap-6 lg:grid-cols-2 "
               onSubmit={handleSubmit(onSubmit)}
             >
               <div>
@@ -116,7 +116,7 @@ function ContactSecTwo() {
                 />
               </div>
 
-              <div className="col-span-2 ">
+              <div className="lg:col-span-2 ">
                 <div className="mb-2 block ">
                   <Label
                     htmlFor="Message"
@@ -134,7 +134,7 @@ function ContactSecTwo() {
                 />
               </div>
 
-              <div className="col-span-2 ">
+              <div className="lg :col-span-2 ">
                 <ReCAPTCHA
                   sitekey="6LfWPDooAAAAAJkXVNA-qbkmGOY4S2qLKRyXZWVk"
                   onChange={handleCaptchaChange}

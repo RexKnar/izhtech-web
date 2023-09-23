@@ -7,9 +7,9 @@ function Ourservice() {
   const onSubmit = (data: any) => console.log(data);
 
   return (
-    <main className="flex justify-center">
+    <main className="flex justify-center items-center">
       <section className="container">
-        <div className="flex justify-between p-16 ">
+        <div className="grid  lg:flex lg:justify-between lg:p-16 p-2 ">
           <div className="">
             <h1 className="text-5xl font-bold pb-6 ">
               Get started with <br />
@@ -21,10 +21,10 @@ function Ourservice() {
           </div>
           <div>
             <form
-              className="flex max-w-md flex-col p-4 text-sm font-semiboldtext-slate-50"
+              className="grid lg:flex max-w-md md:flex-col lg:p-4 pt-4 lg:pt-0 text-sm font-semiboldtext-slate-50"
               onSubmit={handleSubmit(onSubmit)}
             >
-              <Button.Group className="rounded">
+              <Button.Group className="rounded flex text-center">
                 <TextInput
                   id="email"
                   placeholder="yoy@domain.com"
@@ -36,13 +36,13 @@ function Ourservice() {
                 <Button
                   type="submit"
                   color="dark"
-                  className="block border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 text-slate-50  focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500  text-sm !rounded "
+                  className=" border disabled:cursor-not-allowed disabled:opacity-50 border-gray-300 text-slate-50  focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500  text-sm !rounded flex justify-center "
                 >
                   Get a Demo
                 </Button>
               </Button.Group>
             </form>
-            <p className="p-6">
+            <p className=" lg:p-6 lg:pt-0 pt-4">
               Already using our service?{" "}
               <a href="">
                 <span className="font-bold">Sign In</span>

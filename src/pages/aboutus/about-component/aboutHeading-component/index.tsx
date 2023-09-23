@@ -7,16 +7,16 @@ function AboutHeading() {
   return (
     <main className=" relative">
       <span className=" absolute right-0 top-0 h-[306px] w-[21vw] z-20 secOneBg"></span>
-      <span className=" absolute left-[38vw] top-[32vh] h-[365px] w-[368px] z-20 blueRound"></span>
-      <span className=" absolute left-[799px] bottom-0 h-[21vh] w-[17vw] vectorBlue z-20 "></span>
+      <span className="hidden lg:block absolute left-[38vw] top-[32vh] h-[365px] w-[368px] z-20 blueRound"></span>
+      <span className="hidden lg:block absolute left-[799px] bottom-0 h-[20vh] w-[17vw] vectorBlue z-20 "></span>
 
       <section className=" flex justify-center">
-        <div className="flex flex-col pt-24 container  ">
+        <div className="flex flex-col pt-24 container p-3 lg:p-0 ">
           <h1 className="text-5xl font-bold pt-16  ">About Us</h1>
           <h3 className="pt-6 ">
             Leave us a little info, and we’ll be in touch.
           </h3>
-          <div className="pt-4 pb-16 ">
+          <div className="pt-4 lg:pb-16 ">
             <button className="bg-black text-white rounded p-2">
               Contact Us
             </button>
@@ -24,13 +24,13 @@ function AboutHeading() {
         </div>
       </section>
 
-      <section className=" pt-24">
-        <div className="grid grid-cols-2 gap-20 ">
+      <section className="lg:pt-24 pt-4">
+        <div className="grid lg:grid-cols-2 gap-20 ">
           <div>
             <img src={videoImg} alt="" className="w-full h-auto" />
           </div>
 
-          <div className="grid grid-cols-3  justify-center gap-20 content-center items-start ">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-20 content-center items-start p-2 lg:p-0 ">
             <div className="grid leading-7 justify-start  ">
               <h1 className="text-4xl font-bold ">
                 Strategy & <br /> Art Direction.
@@ -46,9 +46,9 @@ function AboutHeading() {
               </p>
               <div className="grid justify-start pt-16 ">
                 <p>Structured Media Insights</p>
-                <Tooltip content="93%" className="   ">
+                <Tooltip content="93%">
                   <button className="bg-transparent hover:!bg-transparent !border-none !px-0 ">
-                    <div className="bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 w-[290px]">
+                    <div className="bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 lg:w-[290px] md:w-[50vw] w-[96vw]">
                       <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[93%] relative "></div>
                     </div>
                   </button>
@@ -73,8 +73,8 @@ function AboutHeading() {
             </div>
           </div>
 
-          <div className="grid  items-center justify-center content-center gap-20 pb-0">
-            <div className="h-auto w-[25vw] ">
+          <div className="grid  items-center justify-center content-center lg:gap-20 pb-0 p-2 lg:p-0">
+            <div className="h-auto lg:w-[25vw] ">
               <p className="pb-4">CAPABILITIES</p>
               <h1 className="text-5xl font-bold">
                 We work in the fields of UI/UX design, interiors, photography

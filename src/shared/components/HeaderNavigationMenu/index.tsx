@@ -18,9 +18,9 @@ export function HeaderNavigationMenu() {
     }
   }, [location]);
   return (
-    <main className="flex justify-center bg-transparent ">
+    <main className="flex justify-center bg-transparent pb-[11vh] sm:pb-0">
       <section className=" container  absolute bg-transparent  ">
-        <Navbar fluid rounded>
+        <Navbar fluid rounded className="z-50">
           <Navbar.Brand href="#">
             <img alt="Flowbite React Logo" className=" h-20 w-28 " src={logo} />
           </Navbar.Brand>

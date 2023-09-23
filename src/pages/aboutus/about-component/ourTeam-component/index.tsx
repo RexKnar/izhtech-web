@@ -20,7 +20,7 @@ function OurTeam() {
           </div>
         </section>
 
-        <section className="grid grid-cols-4 w-full text-1xl">
+        <section className="grid lg:grid-cols-4 md:grid-cols-2 w-full text-1xl">
           <div className="bg-black text-white flex flex-col justify-end gap-4 p-6">
             <div>
               <h1 className=" font-bold pb-2 text-3xl">Colin Lucido</h1>
@@ -104,7 +104,7 @@ function OurTeam() {
 
         <section className=" bg-black text-white flex justify-center">
           <div className="container pt-20 pb-20">
-            <div className=" grid grid-flow-col col-span-2 pb-8 justify-between">
+            <div className=" grid lg:grid-flow-col  pb-8 justify-between">
               <div className=" grid gap-4">
                 <p className=" font-semibold uppercase text-[#91929B]">
                   Let’s Collaborate
@@ -115,7 +115,7 @@ function OurTeam() {
                 </h1>
               </div>
 
-              <div>
+              <div className="pt-5 lg:pt-0">
                 <button className="bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 flex justify-center items-center rounded pl-1 pr-1 ">
                   <span className="p-2 text-[#fefdff]">Contact Us</span>{" "}
                   <AiOutlineArrowRight className="text-[#fefdff]" />

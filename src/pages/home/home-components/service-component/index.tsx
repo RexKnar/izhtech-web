@@ -5,9 +5,9 @@ import { useTheme } from "flowbite-react";
 function ServiceComponent() {
   const theme = useTheme().theme;
   theme.tab = {
-    base: " flex flex-row p-16",
+    base: " flex flex-col lg:flex-row p-4 lg:p-16",
     tablist: {
-      base: "flex justify-start flex-col flex-nowarp  w-[17vw]",
+      base: "flex justify-start lg:flex-col flex-nowarp  w-[17vw]",
       styles: {
         default: "flex flex-row border-r border-gray-200 dark:border-gray-700",
         underline:
@@ -30,8 +30,8 @@ function ServiceComponent() {
           underline: {
             base: "rounded-none",
             active: {
-              on: "text-cyan-600 rounded-none border-r-2 border-[#FFD074] active dark:text-cyan-500 dark:border-cyan-500",
-              off: "border-r-2 border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300",
+              on: "text-cyan-600 rounded-none lg:border-r-2 border-b-2 border-[#FFD074] active dark:text-cyan-500 dark:border-cyan-500",
+              off: "lg:border-r-2 border-b-2 border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300",
             },
           },
           pills: {
@@ -58,7 +58,7 @@ function ServiceComponent() {
     <main className="flex justify-center relative pt-16  ">
       <span className="h-[57%] w-[28%] absolute top-1 left-1 yellowround bg-no-repeat "></span>
       <span className="h-[57%] w-[17%] absolute bottom-0 right-0 blueround bg-no-repeat"></span>
-      <section className="container bg-[#90919C26] rounded pt-24 pb-18 z-40">
+      <section className="container bg-[#90919C26] rounded lg:pt-24 pt-3 pb-18 z-40">
         <div className="text-center pb-6">
           <p className="font-bold ">#Our Service</p>
           <h1 className="text-4xl font-bold ">What to expect?</h1>

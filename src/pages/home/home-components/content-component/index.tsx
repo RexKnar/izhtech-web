@@ -7,7 +7,7 @@ function ContentComponent() {
   return (
     <main className=" ">
       <section className="  ">
-        <div className="  bg-[#F3FEFD] grid grid-cols-4 grid-flow-row   content-center justify-center p-11 ">
+        <div className="  bg-[#F3FEFD] grid grid-cols-2 md:grid-cols-4 md:pt-6 grid-flow-row   content-center justify-center p-11 ">
           <div className="text-center  ">
             <a href="#" className="block max-w-sm p-6 bg-[#F3FEFD]">
               <div className="flex justify-center">
