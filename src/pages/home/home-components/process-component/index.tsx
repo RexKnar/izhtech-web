@@ -36,10 +36,10 @@ function ProcessComponent() {
   return (
     <main className="relative flex justify-center ">
       <span className="hidden lg:block absolute h-[131px] w-[3vw] top-[210px] right-[435px] redLineOne"></span>
-      <span className=" absolute h-[272px] w-[137px] opacity-30 top-[7vh] left-0 md:right-[300px] redLineTwo"></span>
-      <span className="hidden lg:block absolute h-[131px] w-[75vw] top-[7vh] left-[2vw] redLineThree"></span>
-      <section className="container p-1 lg:p-20 z-20">
-        <div className="lg:pb-8">
+      <span className=" absolute h-[272px] w-[137px] opacity-30 lg:opacity-100 top-[7vh]  lg:right-[300px] left-0 redLineTwo"></span>
+      <span className=" hidden lg:block absolute h-[131px] w-[75vw] top-[7vh] left-[2vw]  redLineThree"></span>
+      <section className="container p-4 lg:p-20 z-20">
+        <div className="lg:pb-8 pl-[3vw] lg:pl-0" >
           <h5 className="lg:pb-6 pb-3 font-bold">PROCESS</h5>
           <h1 className="text-4xl font-bold lg:pb-6 pb-3">How we do it?</h1>
           <h4 className="lg:pb-6 pb-3">
@@ -51,11 +51,11 @@ function ProcessComponent() {
           </button>
         </div>
 
-        <div className="grid grid-flow-row lg:gap-8 gap-1 lg:grid-cols-2 pt-6 lg:pt-24">
-          <div className="pb-8">
-            <Accordion collapseAll className=" bg-transparent">
-              <Accordion.Panel>
-                <Accordion.Title>
+        <div className="grid grid-flow-row lg:gap-8 gap-1 lg:grid-cols-2 pt-3 lg:pt-24">
+          <div className="LG:pb-8 ">
+            <Accordion collapseAll className=" bg-transparent border-none">
+              <Accordion.Panel  >
+                <Accordion.Title >
                   <h1 className="font-bold flex items-center text-2xl pb-6 ">
                     <BsArrowUpRightSquare className="mr-3" />
                     Client centric requisites
@@ -75,8 +75,8 @@ function ProcessComponent() {
                 </Accordion.Content>
               </Accordion.Panel>
 
-              <Accordion.Panel>
-                <Accordion.Title>
+              <Accordion.Panel >
+                <Accordion.Title className="border-none">
                   <h1 className="font-bold flex items-center text-2xl pb-6 ">
                     <BsArrowUpRightSquare className="mr-3" />
                     Design
@@ -85,7 +85,7 @@ function ProcessComponent() {
                 <Accordion.Content></Accordion.Content>
               </Accordion.Panel>
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="border-none">
                   <h1 className="font-bold flex items-center text-2xl pb-6 ">
                     <BsArrowUpRightSquare className="mr-3" />
                     What discounts are available?
@@ -96,15 +96,15 @@ function ProcessComponent() {
             </Accordion>
           </div>
 
-          <div className="pb-8">
-            <Accordion collapseAll>
+          <div className="lg:pb-8 ">
+            <Accordion collapseAll className=" bg-transparent border-none">
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="border-none">
                   <h1 className="font-bold flex items-center text-2xl pb-6 ">
                     <BsArrowUpRightSquare className="mr-3" />
                     Screen Mockups are our mid-fidelity
                   </h1>
-                </Accordion.Title>
+                </Accordion.Title >
                 <Accordion.Content>
                   <p className="pb-4">
                     To envisage the requirements we formulate an exemplar design
@@ -119,7 +119,7 @@ function ProcessComponent() {
               </Accordion.Panel>
 
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="border-none">
                   <h1 className="font-bold flex items-center text-2xl pb-6 ">
                     <BsArrowUpRightSquare className="mr-3" />
                     Design
@@ -128,7 +128,7 @@ function ProcessComponent() {
                 <Accordion.Content></Accordion.Content>
               </Accordion.Panel>
               <Accordion.Panel>
-                <Accordion.Title>
+                <Accordion.Title className="border-none">
                   <h1 className="font-bold flex items-center text-2xl pb-6 ">
                     <BsArrowUpRightSquare className="mr-3" />
                     Development

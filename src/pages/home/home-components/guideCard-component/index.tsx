@@ -14,7 +14,7 @@ function GuideCard(props: any) {
             />
             <div className="pl-4">
               <p>{cardDitails.content}</p>
-              <h1>{cardDitails.name}</h1>
+              <h1 className=" font-bold">{cardDitails.Name}</h1>
             </div>
           </div>
         </div>

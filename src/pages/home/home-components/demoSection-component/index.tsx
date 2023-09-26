@@ -8,7 +8,7 @@ function DemoSection() {
   return (
     <main className="flex justify-center relative lg:m-6">
       <span className="VectordemoSec absolute bottom-[5rem]  h-[456.27px] md:w-[456.27px]"></span>
-      <section className="container flex item-center justify-center  ">
+      <section className="container flex item-center justify-center p-4 lg:p-0 ">
         <div className="lg:w-1/3 bg-transparent columns-3xl md:p-4 p-2 ">
           <h1 className="font-bold text-4xl  pb-2">
             We are{" "}

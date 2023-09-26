@@ -81,7 +81,7 @@ function HeroComponent() {
               </h1>
             </div>
           </div>
-          <div className="flex justify-center items-start  pt-4">
+          <div className="flex justify-center items-start  pt-6">
             <img src={heroImg} alt="heroImg" className=" " />
           </div>
         </div>

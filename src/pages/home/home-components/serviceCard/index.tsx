@@ -12,10 +12,10 @@ function ServiceCard() {
             <div className="">
               <h1 className="font-bold pb-4">Website & Mobile</h1>
 
-              <div className="">
+              <div className=" ">
                 <Tooltip content="93%" className="w-fit">
                   <button className="bg-transparent hover:!bg-transparent !border-hidden">
-                    <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 md:w-[600px] w-[320px]">
+                    <div className=" bg-gray-200 rounded-full h-2.5 dark:bg-gray-700 md:w-[600px] w-[250px]">
                       <div className=" bg-gradient-to-r  from-indigo-500 via-purple-500 to-pink-500 h-2.5 rounded-full w-[50%] relative"></div>
                     </div>
                   </button>
@@ -32,7 +32,7 @@ function ServiceCard() {
       </section>
       <section>
         <div className="p-4 lg:p-1 ">
-          <div className="pb-14 ">
+          <div className="lg:pb-14 pb-4 ">
             <img src={fingerprintLOgo} alt="" />
             <h1 className="font-bold pt-2">1. Create a Free Account</h1>
             <p className="pr-16">
@@ -40,7 +40,7 @@ function ServiceCard() {
               simplest authentic. <b>Go to Sign Up / Create an Account.</b>
             </p>
           </div>
-          <div className="pb-14 ">
+          <div className="lg:pb-14 pb-4 ">
             <img src={shareLogo} alt="" />
             <h1 className="font-bold pt-2 ">
               2. Generate an API key for your app
@@ -50,7 +50,7 @@ function ServiceCard() {
               create an API Key. <b>Spaces of each debt in the.</b>
             </p>
           </div>
-          <div className="pb-14 ">
+          <div className="lg:pb-14 pb-4 ">
             <img src={collectionLogo} alt="" />
             <h1 className="font-bold pt-2">3. That’s it!</h1>
             <p className="pr-16">

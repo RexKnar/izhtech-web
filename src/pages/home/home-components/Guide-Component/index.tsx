@@ -7,10 +7,10 @@ function GuideComponent() {
     <main className="relative flex justify-center">
       <span className="absolute bottom-[10vh] left-0 h-full bg-contain min-h-screen w-[38%] guideBg bg-no-repeat"></span>
       <section className="container lg:pt-16 pt-3  z-30">
-        <div className="grid grid-flow-row lg:grid-cols-3 lg:gap-[3vh] gap-9 md:p-6 p-2 lg:p-0">
+        <div className="grid grid-flow-row lg:grid-cols-3 lg:gap-[3vh] gap-9 md:p-7 p-6 lg:p-0">
           <div className="lg:col-span-2 lg:grid leading-3 lg:w-[20vw] lg:h-[42vh] gap-5  ">
             <h5 className="font-bold ">FROM THE BLOG</h5>
-            <h1 className="text-5xl font-bold pt-3 lg:pt-0 ">
+            <h1 className="text-3xl lg:text-5xl font-bold pt-3 lg:pt-0 ">
               Quick and neat, just like your work.
             </h1>
             <p className="leading-[1.5rem] pt-3">

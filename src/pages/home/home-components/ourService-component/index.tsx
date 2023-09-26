@@ -8,10 +8,10 @@ function Ourservice() {
 
   return (
     <main className="flex justify-center items-center">
-      <section className="container">
-        <div className="grid  lg:flex lg:justify-between lg:p-16 p-2 ">
+      <section className="container ">
+        <div className="grid  lg:flex lg:justify-between lg:p-16 pl-6 py-4 ">
           <div className="">
-            <h1 className="text-5xl font-bold pb-6 ">
+            <h1 className="text-3xl LG:text-5xl font-bold pb-6 ">
               Get started with <br />
               our service today.
             </h1>

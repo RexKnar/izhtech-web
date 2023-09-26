@@ -10,15 +10,15 @@ function AboutAward() {
     <main>
       <section className="flex justify-center">
         <div className="container ">
-          <div className="grid p-3 lg-p-0  lg:grid-cols-3 lg:gap-24 gap-10 w-fit lg:pt-24 lg:pb-20">
-            <div className="lg:pr-36">
+          <div className="grid p-3 lg-p-0  lg:grid-cols-3 lg:gap-24w-fit lg:pt-24 lg:pb-20">
+            <div className="lg:pr-36 p-5 lg:p-0">
               <p className=" font-semibold">AWARDS & HONORS</p>
-              <h1 className="text-5xl font-bold pt-4  ">
+              <h1 className="lg:text-5xl text-3xl font-bold pt-4  ">
                 The awards won by our works.{" "}
               </h1>
             </div>
 
-            <div className="flex ">
+            <div className="flex p-5 lg:p-0">
               <p className="lg:pr-36">
                 When our team provides design and digital marketing. Applied
                 arts can include{" "}
@@ -27,7 +27,7 @@ function AboutAward() {
               </p>
             </div>
 
-            <div className="grid grid-cols-2 gap-6 items-baseline content-end">
+            <div className="grid grid-cols-2 lg:gap-6 gap-2 items-baseline content-end">
               <div className="p-4">
                 <img src={WImg} alt="" />
                 <p className="pt-4">5x Developer Award</p>
@@ -50,8 +50,9 @@ function AboutAward() {
       </section>
 
       <section>
-        <div className="SectionBg  w-full h-[50rem] bg-no-repeat flex justify-center">
+        <div className="SectionBg  w-full bg-cover bg-center lg:bg-cover h-[25rem] lg:h-[50rem] bg-no-repeat flex justify-center">
           <div className="flex md:justify-end items-end justify-center container">
+            
             <div className=" bg-red-600 text-white grid justify-center  p-10 md:pr-32">
               <div className="flex items-center ">
                 <img src={Diamond} alt="" />
@@ -62,7 +63,7 @@ function AboutAward() {
               </p>
             </div>
 
-            <div className=" bg-black text-white grid justify-center p-[35px] lg:p-[37px] md:pr-32">
+            <div className=" bg-black text-white grid justify-center p-[35px] lg:p-[37px]  md:pr-32 lg:pr-32">
               <div className="flex items-center ">
                 <img src={Square} alt="" />
                 <h1 className="font-bold lg:text-4xl text-3xl">28+</h1>

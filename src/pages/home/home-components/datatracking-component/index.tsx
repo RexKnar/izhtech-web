@@ -17,7 +17,7 @@ function Datatracking() {
                 <h5 className="pb-8 font-bold">
                   THE Number one #datatracking app
                 </h5>
-                <h1 className="font-bold text-5xl pb-6 md:text-left lg:w-[28vw] ">
+                <h1 className="font-bold text-3xl md:text-5xl pb-6 md:text-left lg:w-[28vw] ">
                   Keep pushing forward. We've got your back.
                 </h1>
                 <p className="pb-2 lg:w-[20vw]  md:text-left">
@@ -27,7 +27,7 @@ function Datatracking() {
               </div>
               <div className="grid grid-flow-col grid-cols-2 gap-6 justify-center  md:justify-start ">
                 <div className="md:w-[184px] md:h-[102px]  ">
-                  <hr className="border-top-2 border-black" />
+                  <hr className="border-top-2 font-semibold pb-2 border-black" />
                   <p>
                     <span className="font-bold text-5xl">36</span>
                     <span className="text-transparent bg-gradient-to-r bg-clip-text from-indigo-500 via-purple-500 to-pink-500 font-bold text-3xl ">
@@ -38,8 +38,8 @@ function Datatracking() {
                   </p>
                 </div>
                 <div className=" md:w-[184px] md:h-[102px] ">
-                  <hr className="border-top-2 border-black  " />
-                  <p>
+                  <hr className="border-top-1 font-semibold pb-2 border-black  " />
+                  <p >
                     <span className="font-bold text-5xl">345</span>
                     <span className="text-transparent bg-gradient-to-r bg-clip-text from-indigo-500 via-purple-500 to-pink-500 font-bold text-center text-3xl">
                       +

@@ -12,9 +12,9 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 function OurTeam() {
   return (
     <main>
-      <section>
-        <section className="flex justify-center pt-11">
-          <div className=" container  pt-16 pb-10 ">
+      <section className="">
+        <section className="flex justify-center lg:pt-11 p-5 lg:p-0">
+          <div className=" container  lg:pt-16 lg:pb-10  py-6">
             <h4 className=" uppercase font-semibold">Our team</h4>
             <h1 className="font-bold text-4xl pt-4">Meet the team.</h1>
           </div>
@@ -103,7 +103,7 @@ function OurTeam() {
         </section>
 
         <section className=" bg-black text-white flex justify-center">
-          <div className="container pt-20 pb-20">
+          <div className="container lg:pt-20 lg:pb-20 p-5 lg:p-0">
             <div className=" grid lg:grid-flow-col  pb-8 justify-between">
               <div className=" grid gap-4">
                 <p className=" font-semibold uppercase text-[#91929B]">
@@ -123,10 +123,10 @@ function OurTeam() {
               </div>
             </div>
             
-            <hr />
+            <hr className=" font-semibold"/>
 
             <div className="grid grid-flow-col col-span-2 pt-6">
-              <div className="pr-[50vw]">
+              <div className="lg:pr-[50vw]">
                 <p className="text-[#91929B]">
                   We're{" "}
                   <span className="font-semibold">a team of creatives</span> who

@@ -3,13 +3,13 @@ import React from "react";
 function AboutClient() {
   return (
     <main className="flex justify-center relative bg-[#f8f8f9]">
-      <section className="container pt-24 pb-24">
+      <section className="container lg:pt-24 lg:pb-24 p-5 lg:p-0">
         <span className="orangeRound absolute bottom-0 right-0 h-[52vh]  w-[19vw]"></span>
 
         <div className="flex justify-start lg:pb-10 p-3">
           <div>
             <p className=" uppercase ">Clients we work for</p>
-            <h1 className="text-5xl font-bold pt-4">Our clients.</h1>
+            <h1 className="lg:text-5xl text-3xl font-bold pt-4">Our clients.</h1>
           </div>
         </div>
 

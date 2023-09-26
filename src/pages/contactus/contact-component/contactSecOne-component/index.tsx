@@ -4,8 +4,8 @@ function ContactSecOne() {
       <span className="hidden sm:block absolute right-0 top-0 h-[306px] w-[21vw] z-20 secOneBg"></span>
       <section className="  container sm:pt-20 sm:pl-4">
         <div className="flex flex-col pt-12 p-4 sm:p-0 ">
-          <h1 className="text-5xl font-bold pt-16  flex ">Contact Us</h1>
-          <h3 className="pt-5 flex ">
+          <h1 className="text-3xl lg:text-5xl font-bold pt-16  flex ">Contact Us</h1>
+          <h3 className="lg:pt-5 pt-3 ">
             Leave us a little info,and we'll be in touch
           </h3>
           <div className="pt-4 sm:pb-16 flex ">
@@ -13,7 +13,7 @@ function ContactSecOne() {
               Send Us an Email
             </button>
           </div>
-          <div className="flex pt-4 pb-4  ">
+          <div className="flex pt-4 pb-3  ">
             <a href="">
               <h1>
                 <b>Home /</b>

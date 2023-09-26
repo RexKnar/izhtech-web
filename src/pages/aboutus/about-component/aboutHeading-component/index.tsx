@@ -1,7 +1,7 @@
 import React from "react";
 import videoImg from "../../../../assets/images/AboutUs/aboutHeading/Image.png";
 import capitalImg from "../../../../assets/images/AboutUs/aboutHeading/Column.png";
-import { Button, Progress, Tooltip } from "flowbite-react";
+import {Tooltip } from "flowbite-react";
 
 function AboutHeading() {
   return (
@@ -10,9 +10,9 @@ function AboutHeading() {
       <span className="hidden lg:block absolute left-[38vw] top-[32vh] h-[365px] w-[368px] z-20 blueRound"></span>
       <span className="hidden lg:block absolute left-[799px] bottom-0 h-[20vh] w-[17vw] vectorBlue z-20 "></span>
 
-      <section className=" flex justify-center">
-        <div className="flex flex-col pt-24 container p-3 lg:p-0 ">
-          <h1 className="text-5xl font-bold pt-16  ">About Us</h1>
+      <section className=" flex justify-center  sm:pt-0 ">
+        <div className="flex flex-col pt-24 container p-5 lg:p-0 ">
+          <h1 className="text-3xl md:text-5xl font-bold pt-5 lg:pt-16  ">About Us</h1>
           <h3 className="pt-6 ">
             Leave us a little info, and we’ll be in touch.
           </h3>
@@ -25,12 +25,12 @@ function AboutHeading() {
       </section>
 
       <section className="lg:pt-24 pt-4">
-        <div className="grid lg:grid-cols-2 gap-20 ">
-          <div>
+        <div className="grid lg:grid-cols-2 lg:gap-20 ">
+          <div className="pb-5 lg:pb-0">
             <img src={videoImg} alt="" className="w-full h-auto" />
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-20 content-center items-start p-2 lg:p-0 ">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-20 content-center items-start p-5 lg:p-0 ">
             <div className="grid leading-7 justify-start  ">
               <h1 className="text-4xl font-bold ">
                 Strategy & <br /> Art Direction.
@@ -73,10 +73,10 @@ function AboutHeading() {
             </div>
           </div>
 
-          <div className="grid  items-center justify-center content-center lg:gap-20 pb-0 p-2 lg:p-0">
+          <div className="grid  items-center justify-center content-center lg:gap-20 pb-0 p-5 lg:p-0">
             <div className="h-auto lg:w-[25vw] ">
               <p className="pb-4">CAPABILITIES</p>
-              <h1 className="text-5xl font-bold">
+              <h1 className="text-3xl lg:text-5xl font-bold pb-4 lg:pb-0">
                 We work in the fields of UI/UX design, interiors, photography
                 and art direction.
               </h1>
