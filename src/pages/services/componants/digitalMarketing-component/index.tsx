@@ -2,12 +2,13 @@ import brandImage2 from "../../../../assets/images/Service-page-image/brandImage
 import arrowImage from "../../../../assets/images/Service-page-image/arrow.png"
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+
 const percentage = 66;
-const Webapp = (props: any) => {
+const DigitalMarketing = (props: any) => {
   return (
     <>
-      <section className="grid grid-cols-4">
-        <div className="col-span-2 text-left pl-32 pr-36 my-20">
+      <section className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse">
+        <div className="col-span-1 text-left lg:pl-32 lg:pr-36 md:pl-4 md:pr-4 lg:my-20 mt-4 mb-12 p-[10px]">
           <p className="font-sans text-xs font-normal  pt-3 ">OUR SERVICES</p>
           <h2 style={{
             color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,
@@ -38,11 +39,11 @@ const Webapp = (props: any) => {
           <button className="flex rounded-md text-white text-small font-semibold 
             bg-black  px-3 py-1.5  mt-10">Learn More<img className=" bg-black mt-0.5 ml-2" src={arrowImage} /></button>
         </div>
-        <div className=" col-span-2">
+        <div className=" col-span-1">
           <img src={brandImage2} alt="" className="h-full p-0 w-auto" />
         </div>
       </section>
     </>
   );
 };
-export default Webapp;
+export default DigitalMarketing;

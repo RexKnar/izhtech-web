@@ -1,9 +1,9 @@
-import { Brandingheader } from "../branding/componants/Brandingheader/index";
-import { OurPassion } from "../branding/componants/OurPassion/index"
-import { OurServices} from "../branding/componants/OurServices/index"
-import  Brandingfooter  from "./componants/BrandingFooter/index"
+import { Brandingheader } from "./componants/brandingheader-component/index";
+import { OurPassion } from "./componants/ourPassion-component/index"
+import { OurServices} from "./componants/ourServices-component/index"
+import  Brandingfooter  from "./componants/brandingFooter-component/index"
 import {serviceData4 } from "./data/branding-data"
-import BrandingContent from "../branding/componants/BrandingContent/index";
+import BrandingContent from "./componants/brandingContent-component/index";
 export function BrandingPage() {
     return (
       <>

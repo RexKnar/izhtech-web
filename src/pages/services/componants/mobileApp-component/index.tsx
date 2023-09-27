@@ -4,11 +4,11 @@ import Mobileappaccordian from "../../data/Mobileappaccordian"
 const Mobileapp = (props: any) => {
   return (
     <>
-      <section className="grid grid-cols-4">
-        <div className=" col-span-2">
+      <section className="grid md:grid-cols-2 md:grid-flow-col">
+        <div className="md:col-span-1 sm:row-span-1">
           <img src={brandImage} alt="" className=" h-full p-0 w-auto" />
         </div>
-        <div className="col-span-2 text-left  pl-24 pr-36  py-20">
+        <div className="md:col-span-1 sm:row-span-1 text-left  lg:pl-24 lg:pr-36 pt-4 pb-8 lg:py-20 p-[10px]">
           <p className="font-sans text-xs font-normal">OUR SERVICES</p>
           <h2 style={{
             color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,

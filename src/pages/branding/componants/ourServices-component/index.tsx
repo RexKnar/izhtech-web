@@ -2,14 +2,14 @@ import BranddetailImage1 from "../../../../assets/images/Branding-image/p5x4IKEk
 export function OurServices() {
     return (
         <>
-            <section className="py-24 px-24">
-                <div className="grid grid-cols-2 gap-24">
+            <section className="md:py-24 md:px-24">
+                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-24">
                     <div className="col-span-1">
-                        <img className="h-[460px] pl-12 w-[520px] " src={BranddetailImage1} alt="" />
+                        <img className="h-[460px] md:pl-12 w-[520px] " src={BranddetailImage1} alt="" />
                     </div>
-                    <div className="col-span-1 text-left my-20">
+                    <div className="col-span-1 text-left md:my-20 mb-8 mt-5 p-4">
                         <p className="font-sans text-xs font-normal">OUR SERVICES</p>
-                        <h1 className="font-semibold text-5xl mt-5">
+                        <h1 className="font-semibold text-4xl md:text-5xl mt-5">
                             Tailor-Made Solutions for Every Business
                         </h1>
                         <section>

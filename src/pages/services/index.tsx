@@ -1,10 +1,10 @@
-import { ServicesHeader } from "./componants/ServiceHeader/index"
-import Branding from "./componants/Branding/index"
+import { ServicesHeader } from "./componants/serviceHeader-component/index"
+import Branding from "./componants/branding-component/index"
 import { serviceData,serviceData1,serviceData2,serviceData3,serviceData4 } from "./data/service-data"
-import Webapp from './componants/WebApp/index'
-import Mobileapp from "./componants/MobileApp/index"
-import DigitalMarketing from "./componants/DigitalMarketing/index"
-import Servicefooter from "./componants/ServiceFooter/index"
+import Webapp from './componants/webApp-component/index'
+import Mobileapp from "./componants/mobileApp-component/index"
+import DigitalMarketing from "./componants/digitalMarketing-component/index"
+import Servicefooter from "./componants/serviceFooter-component/index"
 export function ServicesPage() {
   return (
     <>
