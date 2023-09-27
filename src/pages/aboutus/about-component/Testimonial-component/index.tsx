@@ -3,13 +3,13 @@ import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 function AboutTestimonial() {
   return (
-    <main className="grid grid-flow-col  justify-center bg-black ">
-      <section className="container lg:pt-16 lg:pb-16">
+    <main className="grid grid-flow-col  justify-center bg-black lg:p-6 xl:p-0">
+      <section className="container lg:pt-16 lg:pb-16 lg:px-6 xl:px-0">
         <div className="lg:flex grid ">
           <div className="p-6 lg:pl-0 ">
             <p className="pb-5 uppercase text-[#c3c3c4]">Testimonials</p>
             <hr className="border-[#60606B]" />
-            <h1 className="lg:text-5xl text-3xl pt-5 font-bold text-[#fefdff]">
+            <h1 className="xl:text-5xl lg:text:4xl text-3xl pt-5 font-bold text-[#fefdff]">
               What our clients say about our studio.
             </h1>
             <div className="lg:pt-16 lg:pb-20 pt-4 pb-4">

@@ -22,7 +22,7 @@ function ContactSecTwo() {
     <main className="flex justify-center relative lg:pt-16">
       <span className="hidden lg:block absolute left-0 top-[9vh] md:h-[65vh] md:w-[17vw]   sectwoBgleft"></span>
       <span className="hidden md:block absolute right-0 top-1 h-[45vh] md:w-[46vw] lg:h-[33vh] lg:w-[17vw] w-[82vw] secTwoBgright"></span>
-      <section className="container lg:pb-20 z-20 pb-4 pr-4 ">
+      <section className="container lg:pb-20 z-20 pb-4 pr-4  lg:px-10 xl:px-0">
         <div className="grid lg:grid-flow-col p-4 lg:p-0 lg:gap-16  lg:grid-cols-4  lg:pb-16">
           <div className=" leading-7 ">
             <h1 className="font-bold text-3xl pb-4">Our offices</h1>

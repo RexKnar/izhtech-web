@@ -5,7 +5,7 @@ function CustomerComponent() {
   return (
     <main className="flex justify-center ">
       <section className="container relative">
-        <span className="coustBg absolute top-0 left-0 w-[15vw] h-[15vh]"></span>
+        <span className="coustBg absolute top-0 left-0 xl:w-[15vw] lg:w-[28vw] h-[15vh]"></span>
         <span className="coustBg absolute bottom-0 right-0 w-[15vw] h-[15vh]"></span>
         <section>
           <Card className="bg-[#925F8D17]">

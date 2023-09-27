@@ -8,8 +8,8 @@ import values from "../../../../assets/images/Home/videoImg/values.png";
 function VideoComponent() {
   return (
     <main className="flex justify-center relative z-20 ">
-      <span className="hidden lg:block absolute h-[57vh] w-[10vw] top-[2rem] left-[41.25rem] bg-no-repeat z-20 Intersect"></span>
-      <span className="hidden lg:block absolute h-[27vh] w-[10vw] top-[2rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
+      <span className="hidden lg:block absolute h-[57vh] xl:w-[10vw] lg:w-[20vw] top-[2rem]  left-[41.25rem]  bg-no-repeat z-20 Intersect"></span>
+      <span className="hidden lg:block absolute h-[27vh] xl:w-[10vw] lg:w-[20vw] top-[2rem] left-[841px] bg-no-repeat z-20 VectorVd"></span>
       <section className=" md:container bg-[#f4f8fd] rounded p-4 lg:p-8 ">
         <div className=" container grid grid-flow-row lg:grid-cols-3  justify-center justify-items-center lg:pt-[5rem] pb-[1rem] lg:pr-4 lg:pl-5">
           <div className="lg:gap-6 gap-4 grid justify-start p-3 md:pl-4 lg:pl-0  lg:p-6">

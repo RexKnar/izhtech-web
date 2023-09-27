@@ -8,12 +8,12 @@ import Square from "../../../../assets/images/AboutUs/aboutAward/square.png";
 function AboutAward() {
   return (
     <main>
-      <section className="flex justify-center">
+      <section className="flex justify-center lg:px-10 xl:px-0">
         <div className="container ">
           <div className="grid p-3 lg-p-0  lg:grid-cols-3 lg:gap-24w-fit lg:pt-24 lg:pb-20">
             <div className="lg:pr-36 p-5 lg:p-0">
               <p className=" font-semibold">AWARDS & HONORS</p>
-              <h1 className="lg:text-5xl text-3xl font-bold pt-4  ">
+              <h1 className="xl:text-5xl lg:text-4xl text-3xl font-bold pt-4  ">
                 The awards won by our works.{" "}
               </h1>
             </div>

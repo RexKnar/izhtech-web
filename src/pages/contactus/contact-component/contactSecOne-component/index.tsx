@@ -2,7 +2,7 @@ function ContactSecOne() {
   return (
     <main className="flex justify-center relative">
       <span className="hidden sm:block absolute right-0 top-0 h-[306px] w-[21vw] z-20 secOneBg"></span>
-      <section className="  container sm:pt-20 sm:pl-4">
+      <section className="  container sm:pt-20 sm:pl-4 lg:px-6 xl:px-0">
         <div className="flex flex-col pt-12 p-4 sm:p-0 ">
           <h1 className="text-3xl lg:text-5xl font-bold pt-16  flex ">Contact Us</h1>
           <h3 className="lg:pt-5 pt-3 ">

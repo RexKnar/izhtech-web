@@ -5,19 +5,19 @@ import datatrackingImg from "../../../../assets/images/Home/datatracking/Column.
 function Datatracking() {
   return (
     <main className="flex justify-center relative ">
-      <span className="VectorDatatracking absolute top-[16rem] right-0 h-[39vh] w-[18vw] z-40"></span>
+      <span className="VectorDatatracking absolute top-[16rem] right-0 h-[44vh] xl:h-[39vh] w-[21vw] xl:w-[18vw] z-40"></span>
       <section className="container ">
         <Card className="md:pl-6 md:pr-11  md:pt-11 md:pb-11 bg-[#F5F1F5] ">
-          <div className=" grid lg:grid-cols-2  ">
-            <div className="rounded rounded-l">
+          <div className=" grid lg:grid-cols-2 items-center xl:items-start  ">
+            <div className="rounded rounded-l ">
               <img src={datatrackingImg} alt=""className=" rounded" />
             </div>
-            <div>
-              <div className="pt-[2rem] pb-[2rem] ">
-                <h5 className="pb-8 font-bold">
+            <div className=" lg:pl-6 ">
+              <div className="xl:py-[2rem]  py-2 ">
+                <h5 className="xl:pb-8 pb-3 font-bold">
                   THE Number one #datatracking app
                 </h5>
-                <h1 className="font-bold text-3xl md:text-5xl pb-6 md:text-left lg:w-[28vw] ">
+                <h1 className="font-bold text-3xl md:text-4xl xl:text-5xl xl:pb-6 pb-4 md:text-left lg:w-[28vw] ">
                   Keep pushing forward. We've got your back.
                 </h1>
                 <p className="pb-2 lg:w-[20vw]  md:text-left">
