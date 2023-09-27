@@ -18,7 +18,7 @@ function GuideComponent() {
               just <b>$5 for an agent</b>.
             </p>
             <div className="pt-3 ">
-              <button className=" bg-transparent border-2 p-1 border-black rounded">
+              <button className=" bg-transparent border-2 p-2 border-black rounded">
                 <b>Read all Guides</b>
               </button>
             </div>

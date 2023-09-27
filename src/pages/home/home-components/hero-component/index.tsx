@@ -3,7 +3,7 @@ import heroImg from "../../../../assets/images/Home/Hero-Img/heroImg.png";
 
 function HeroComponent() {
   return (
-    <main className="flex justify-center relative min-h-screen  ">
+    <main className="flex justify-center relative md:min-h-screen min-h-[82vh] pt-32 p-4 sm:pt-0  ">
       <div className="hidden  lg:flex top-1/2 right-6 rotate-[-90deg] fixed ">
         <h3 className=" font-bold">
           Follow Us -<a href=""> /Bg.</a>
@@ -14,7 +14,9 @@ function HeroComponent() {
       <div className="hidden lg:hidden sm:block">
         <span className="absolute h-[100%] w-[100%] bg-no-repeat Ellipse"></span>
       </div>
-      <div className="hidden lg:block">
+      <span className="hidden sm:block absolute  lg:right-[22rem] right-0 bottom-0 VectorSecOne opacity-60 "></span>
+      <span className="hidden sm:block absolute h-[17.5rem] top-[15rem] left-0 lg:left-[7rem] w-[17.5rem] bg-no-repeat GroupOne opacity-40"></span>
+      <div className="hidden lg:block opacity-60">
         <div>
           <span className="absolute h-[100%] w-[90%] bg-no-repeat Ellipse"></span>
           <span className="absolute h-[30%] top-0 left-[7rem] w-1 bg-no-repeat bgLine"></span>
@@ -41,9 +43,8 @@ function HeroComponent() {
           <span className="absolute h-[30%] top-[45vh] left-[5rem] w-1 bg-no-repeat  bgLine rotate-90"></span>
           <span className="absolute h-[30%] top-[45vh] left-[19rem] w-1 bg-no-repeat  bgLine rotate-90"></span>
           <span className="absolute h-[30%] top-[29vh] left-[24rem] w-1 bg-no-repeat bgLine"></span>
-          <span className="absolute h-[30%] top-[49vh] left-[24rem] w-1 bg-no-repeatbgLine"></span>
-        </div>
-        <span className="absolute h-[17.5rem] top-[15rem] left-[7rem] w-[17.5rem] bg-no-repeat GroupOne"></span>
+          <span className="absolute h-[30%] top-[49vh] left-[24rem] w-1 bg-no-repeat bgLine"></span>
+        </div>      
         <div>
           <span className="absolute h-[45%] top-0 right-0 w-[27%] bg-no-repeat EllipseTwo"></span>
           <span className="absolute h-[60%] top-0 right-0 w-[23%] bg-no-repeat  Vector"></span>
@@ -64,25 +65,24 @@ function HeroComponent() {
           <span className="absolute h-[35%] top-[5.25rem] left-[15rem] w-[19%]  bg-no-repeat z-20 EllipseFour"></span>
           <span className="absolute h-[35%] top-[5.25rem] left-[15rem] w-[19%] bg-no-repeat z-20 IntersectSecThree"></span>
         </div>
-        <span className=" absolute  right-1/4 bottom-0 VectorSecOne  "></span>
       </div>
       <section className=" container relative ">
-        <div className="  absolute md:top-[10rem] md:left-[3px] grid  w-full grid-flow-row justify-center  z-40  md:grid-cols-2 top-1 left-1 p-6 lg:p-0  pt-[17vh] sm:pt-0 ">
-          <div className="relative flex justify-center lg:pt-26 md:pt-o ">
-            <span className="lg:hidden absolute bottom-[0vh] left-0 bg-contain h-[85%] w-[100%] guideBg bg-no-repeat"></span>
-            <div className="grid content-center lg:pt-[32vh] z-20 ">
-              <p>
+        <div className="  absolute md:top-[10rem] md:left-[3px] grid lg:w-fit  grid-flow-row justify-center  z-40  lg:grid-cols-3 md:grid-cols-2 top-1 left-1 p- lg:p-0 sm:pt-0 gap-4 ">
+          <div className="relative lg:col-span-2 flex justify-start  lg:pt-24 md:pt-o ">
+            <span className="lg:hidden absolute bottom-[0vh]  left-0 bg-contain xl:h-[85%] w-[100%] guideBg bg-no-repeat"></span>
+            <div className="grid content-end  z-20 ">
+              <p className=" xl:text-[24px] xl:pt-[16rem]">
                 Looking to enhance your online presence? We offer top-notch
-                digital growth services to help your your brand stand out in the
+                digital growth services to help  your your brand stand out in the
                 digital world.
               </p>
-              <h1 className="font-semibold text-6xl">
-                Elevate your Online presence
+              <h1 className="font-bold lg:text-5xl text-3xl ">
+                Elevate your <br/> Online presence
               </h1>
             </div>
           </div>
-          <div className="flex justify-center items-start  pt-6">
-            <img src={heroImg} alt="heroImg" className=" " />
+          <div className="flex justify-center items-start ">
+            <img src={heroImg} alt="heroImg" className=" object-cover " />
           </div>
         </div>
       </section>
