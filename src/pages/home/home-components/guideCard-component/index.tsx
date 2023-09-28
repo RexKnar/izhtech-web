@@ -4,7 +4,7 @@ function GuideCard(props: any) {
   const cardDitails = props.cartValue;
   return (
     <main className="z-40">
-      <Card className=" bg-[#F5F1F5] p-[3vh] xl:p-4 ">
+      <Card className=" bg-[#F5F1F5]  lg:p-4 ">
         <div className="pb-16 flex justify-between ">
           <div className="flex">
             <img

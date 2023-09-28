@@ -5,7 +5,7 @@ import { useTheme } from "flowbite-react";
 function ServiceComponent() {
   const theme = useTheme().theme;
   theme.tab = {
-    base: " flex flex-col lg:flex-row p-4 lg:p-16",
+    base: " flex flex-col lg:flex-row sm:p-4 lg:p-16",
     tablist: {
       base: "flex justify-center lg:justify-start overflow-scroll lg:overflow-hidden lg:flex-col flex-nowarp  w-cover",
       styles: {
@@ -18,7 +18,7 @@ function ServiceComponent() {
           "w-full text-sm font-medium divide-x divide-gray-200 shadow grid grid-flow-col dark:divide-gray-700 dark:text-gray-400 rounded-none",
       },
       tabitem: {
-        base: "flex flex-col content-start p-4 rounded-none text-sm font-medium first:ml-0 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500  focus:outline-none",
+        base: "flex flex-col content-start sm:p-4 rounded-none text-sm font-medium first:ml-0 disabled:cursor-not-allowed disabled:text-gray-400 disabled:dark:text-gray-500  focus:outline-none",
         styles: {
           default: {
             base: " ",
@@ -64,7 +64,7 @@ function ServiceComponent() {
           <h1 className="text-4xl font-bold ">What to expect?</h1>
         </div>
 
-        <div className=" ">
+        <div className="p-3 ">
           <Tabs.Group
             aria-label="Tabs with icons"
             style="underline"

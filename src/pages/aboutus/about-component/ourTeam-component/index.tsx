@@ -102,7 +102,7 @@ function OurTeam() {
           </div>
         </section>
 
-        <section className=" bg-black text-white flex justify-center lg:px-10 xl:px-0">
+        <section className=" bg-black text-white flex justify-center lg:px-10 ">
           <div className="container lg:pt-20 lg:pb-20 p-5 lg:p-0">
             <div className=" grid lg:grid-flow-col  pb-8 justify-between">
               <div className=" grid gap-4">
@@ -115,7 +115,7 @@ function OurTeam() {
                 </h1>
               </div>
 
-              <div className="pt-5 lg:pt-0">
+              <div className="pt-5 lg:pt-11">
                 <button className="bg-gradient-to-r  from-pink-500 via-purple-500 to-indigo-500 flex justify-center items-center rounded pl-1 pr-1 ">
                   <span className="p-2 text-[#fefdff]">Contact Us</span>{" "}
                   <AiOutlineArrowRight className="text-[#fefdff]" />

@@ -3,7 +3,7 @@ import heroImg from "../../../../assets/images/Home/Hero-Img/heroImg.png";
 
 function HeroComponent() {
   return (
-    <main className="flex justify-center relative md:min-h-screen min-h-[82vh] pt-32 p-4 sm:pt-0  ">
+    <main className="flex justify-center relative md:min-h-screen min-h-[82vh] p-4   ">
       <div className="hidden  xl:flex top-1/2 right-6 rotate-[-90deg] fixed ">
         <h3 className=" font-bold">
           Follow Us -<a href=""> /Bg.</a>
@@ -71,7 +71,7 @@ function HeroComponent() {
           <div className="relative  lg:col-span-2 flex justify-start  xl:pt-24 md:pt-o ">
             <span className="lg:hidden absolute bottom-[0vh]  left-0 bg-contain xl:h-[85%] w-[100%] guideBg bg-no-repeat"></span>
             <div className="grid content-end   lg:ml-[10rem] xl:ml-0  z-20 ">
-              <p className=" text xl:text-[24px] xl:pt-[16rem] ">
+              <p className=" xl:text-[24px] xl:pt-[16rem] ">
                 Looking to enhance your online presence? We offer top-notch
                 digital growth services to help  your your brand stand out in the
                 digital world.

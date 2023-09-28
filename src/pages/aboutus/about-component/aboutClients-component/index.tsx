@@ -7,7 +7,7 @@ function AboutClient() {
         <span className="orangeRound absolute bottom-0 right-0 h-[52vh]  w-[19vw]"></span>
 
         <div className="flex justify-start lg:pb-10 py-3">
-          <div>
+          <div className="pl-3 lg:pl-0">
             <p className=" uppercase ">Clients we work for</p>
             <h1 className="lg:text-5xl text-3xl font-bold pt-4">Our clients.</h1>
           </div>

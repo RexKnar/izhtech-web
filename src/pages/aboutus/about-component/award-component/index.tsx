@@ -8,7 +8,7 @@ import Square from "../../../../assets/images/AboutUs/aboutAward/square.png";
 function AboutAward() {
   return (
     <main>
-      <section className="flex justify-center lg:px-10 xl:px-0">
+      <section className="flex justify-center lg:px-8 xl:px-0">
         <div className="container ">
           <div className="grid p-3 lg-p-0  lg:grid-cols-3 lg:gap-24w-fit lg:pt-24 lg:pb-20">
             <div className="lg:pr-36 p-5 lg:p-0">

@@ -109,8 +109,8 @@ export function FooterNavigationMenu() {
                 href="#"
                 className="text-[#FFFFFFBF]"
               />
-              <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center ">
-                <Footer.LinkGroup className="text-[#FFFFFFBF]">
+              <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center   ">
+                <Footer.LinkGroup className="text-[#FFFFFFBF] gap-x-2 ">
                   <Footer.Link href="#">Sitemap</Footer.Link>
                   <Footer.Link href="#">Security</Footer.Link>
                   <Footer.Link href="#">Privacy Policy</Footer.Link>

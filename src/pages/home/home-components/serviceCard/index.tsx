@@ -5,7 +5,7 @@ import collectionLogo from "../../../../assets/images/Home/service/collection.pn
 import {Card, Tooltip } from "flowbite-react";
 function ServiceCard() {
   return (
-    <main className="grid lg:flex w-fit px-3">
+    <main className="grid lg:flex w-fit sm:px-3">
       <section className="xl:pr-8">
         <div className="">
           <Card imgAlt="" imgSrc={serviceCardImg}>
