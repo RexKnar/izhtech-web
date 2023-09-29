@@ -1,4 +1,3 @@
-import React from "react";
 import videoImg from "../../../../assets/images/AboutUs/aboutHeading/Image.png";
 import capitalImg from "../../../../assets/images/AboutUs/aboutHeading/Column.png";
 import {Tooltip } from "flowbite-react";
@@ -7,7 +6,7 @@ function AboutHeading() {
   return (
     <main className=" relative">
       <span className="hidden md:block absolute right-0 top-0 h-[306px] w-[21vw] z-20 secOneBg"></span>
-      <span className="hidden lg:block absolute xl:left-[29.2vw]  top-[21vh] xl:top-[18vh] lg:left-[31vw] h-[365px] w-[368px] z-20 blueRound"></span>
+      <span className="hidden lg:block absolute xl:left-[38vw]  top-[21vh] xl:top-[18vh] lg:left-[31vw] h-[365px] w-[368px] z-20 blueRound"></span>
       <span className="hidden lg:block absolute left-[799px] bottom-0 h-[20vh] xl:w-[17vw]lg:w-[22vw] vectorBlue z-20 "></span>
 
       <section className=" flex justify-center  sm:pt-0  lg:px-6 xl:px-0">
