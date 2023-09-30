@@ -8,7 +8,7 @@ const DigitalMarketing = (props: any) => {
   return (
     <>
       <section className="lg:grid lg:grid-cols-2 md:grid md:grid-cols-2 flex flex-col-reverse">
-        <div className="col-span-1 text-left lg:pl-32 lg:pr-36 md:pl-4 md:pr-4 lg:my-20 mt-4 mb-12 p-[10px]">
+        <div className="col-span-1 text-left lg:pl-32 lg:pr-36 md:pl-4 md:pr-4 lg:my-20 mt-4 mb-12 p-[24px]">
           <p className="font-sans text-xs font-normal  pt-3 ">OUR SERVICES</p>
           <h2 style={{
             color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,

@@ -7,7 +7,7 @@ const Webapp = (props: any) => {
   return (
     <>
       <section className="md:grid md:grid-cols-2 flex flex-col-reverse">
-        <div className="md:col-span-1  sm:row-span-1 text-left md:mt-4 md:mb-12 lg:pl-32 lg:pr-36 mt-4 mb-12 lg:my-20 p-[10px]">
+        <div className="md:col-span-1  sm:row-span-1 text-left md:mt-4 md:mb-12 lg:pl-32 lg:pr-36 mt-4 mb-12 lg:my-20 p-[24px]">
           <p className="font-sans text-xs font-normal  md:pt-3 ">OUR SERVICES</p>
           <h2 style={{
             color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,

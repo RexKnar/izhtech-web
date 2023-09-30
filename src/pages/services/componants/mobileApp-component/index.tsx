@@ -8,7 +8,7 @@ const Mobileapp = (props: any) => {
         <div className="md:col-span-1 sm:row-span-1">
           <img src={brandImage} alt="" className=" h-full p-0 w-auto" />
         </div>
-        <div className="md:col-span-1 sm:row-span-1 text-left  lg:pl-24 lg:pr-36 pt-4 pb-8 lg:py-20 p-[10px]">
+        <div className="md:col-span-1 sm:row-span-1 text-left  lg:pl-24 lg:pr-36 pt-4 pb-8 lg:py-20 p-[24px]">
           <p className="font-sans text-xs font-normal">OUR SERVICES</p>
           <h2 style={{
             color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,

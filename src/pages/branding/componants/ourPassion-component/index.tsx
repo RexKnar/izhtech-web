@@ -4,9 +4,9 @@ import ArrowImage2 from "../../../../assets/images/Branding-image/arrow (2).png"
 export function OurPassion() {
     return (
         <>
-            <section className="md:py-24 py-8 md:px-24 md:pl-[146px]">
-                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-20 ">
-                    <div className="hidden sm:block col-span-1 text-left md:my-20 mb-8 p-4">
+            <section className="md:py-24 py-8 lg:px-24 lg:pl-[148px]">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-20 md:gap-0">
+                    <div className="hidden md:block col-span-1 text-left md:mb-20  mb-8 p-4">
                         <p className="font-sans text-xs font-normal">OUR PASSION</p>
                         <h1 className="font-semibold md:text-5xl mt-5">
                             Guiding Businesses to Forge Impactful Brands
@@ -20,7 +20,7 @@ export function OurPassion() {
                     </div>
                     <div className="col-span-1 relative">
                         <img className="h-[460px] md:pl-12 w-[520px] " src={BranddetailImage1} alt="" />
-                        <div className="hidden sm:block absolute p-3 right-0 lg:bottom-[29px] md:bottom-[-70px] md:right-[-64px]  bg-white">
+                        <div className="hidden sm:block absolute p-3 right-0 lg:bottom-[-70px] md:bottom-[20px] lg:right-[-64px]  bg-white">
                             <div className="flex">
                                 <h6 className="p-3 justify-items-center font-semibold">Next service</h6>
                                 <img className="p-3 justify-items-center" src={ArrowImage} alt="" />

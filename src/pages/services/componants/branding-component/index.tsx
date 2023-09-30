@@ -9,7 +9,7 @@ const Branding = (props: any) => {
             <section className="md:grid md:grid-cols-2 flex flex-col">
                 <div className=" col-span-1 relative">
                     <img src={brandImage} alt="" className="h-full p-0 w-auto " />
-                    <div className="absolute bg-blue-950 bg-opacity-96 grid text-white content-end pt-3 p-8 pl-6 pb-3 right-[183px] lg:right-[263px] lg:pl-10 lg:pt-10 lg:pb-10 lg:pr-24  bottom-0">
+                    <div className="absolute bg-blue-950 bg-opacity-96 grid text-white content-end pr-[9px] pl-[6px] py-[5px] right-[142px] lg:right-[263px] lg:pl-10 lg:pt-10 lg:pb-10 lg:pr-24  bottom-0">
                         <div className="flex flex-row gap-2 text-end">
                             <div>
                                 <img src={circlefour} alt="" />
@@ -24,22 +24,22 @@ const Branding = (props: any) => {
                         <p className="sm:font-medium md:font-semibold mt-1 md:mt-3">designers<br />
                             and developers</p>
                     </div>
-                    <div className="absolute bg-gradient-to-tl from-blue-600 via-pink-500 to-yellow-300 grid text-white content-end pt-3 pr-8 pl-6 pb-3 lg:pl-10 lg:pt-10 lg:right- lg:pb-10 lg:pr-24 bottom-0 right-0">
+                    <div className="absolute bg-gradient-to-tl from-blue-600 via-pink-500 to-yellow-300 grid text-white content-end mt-[0.465px] pt-[5px] pr-[9px] pl-[6px] pb-[5px]  lg:pl-10 lg:pt-10 lg:right- lg:pb-10 lg:pr-24 bottom-0 right-0">
                         <div className="flex flex-row gap-2 text-end ">
                             <div className=" mt-1">
                                 <img src={flagImage} alt="" />
                             </div>
                             <div>
-                                <p className="font-bold text-4xl -mt-1 "> 28</p>
+                                <p className="font-bold text-4xl -mt-[5px] "> 28</p>
                             </div>
-                            <div className="font-bold text-2xl mt-1 md:mt-3">
+                            <div className="font-bold text-2xl mt-1 md:mt-3 lg:mt-0">
                                 <p> +</p>
                             </div>
                         </div>
-                        <p className="font-semibold mt-1">awards for digital<br />innovation</p>
+                        <p className="md:font-semibold font-medium md:mt-[1px] lg:mt-[10.465px]">awards for digital<br />innovation</p>
                     </div>
                 </div>
-                <div className="md:col-span-1 sm:row-span-1 text-left  lg:pl-24 lg:pr-36 pt-4 pb-8 lg:py-20 p-[10px]">
+                <div className="md:col-span-1 sm:row-span-1 text-left  lg:pl-24 lg:pr-36 pt-4 pb-8 lg:py-20 p-[24px]">
                     <p className="font-sans text-xs font-normal">OUR SERVICES</p>
                     <h2 style={{
                         color: props.serviceData.styles.color, fontSize: props.serviceData.styles.fontsize, fontWeight: props.serviceData.styles.fontweight,

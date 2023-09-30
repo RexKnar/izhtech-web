@@ -10,11 +10,11 @@ export function Brandingheader() {
                     <h2 className="mt-2 font-bold text-5xl font-xs">Branding.</h2>
                 </div>
             </section>
-            <section className=" pr-0 pl-0 md:pl-12 md:pr-32 ">
+            <section className=" pr-0 pl-0 md:ml-[67px] md:mr-[33px] lg:pl-12 lg:pr-32 ">
                 <div className="lg:flex lg:gap-10">
                     <div className=" bottom-0 left-0">
                         <img className="relative object-cover lg:h-96 lg:max-w-xl lg:ml-4" src={BranddetailImage} alt="" />
-                        <div className="absolute rounded-md top-[254px] left-[23px] md:top-[284px] md:left-[98px] flex flex-col bg-white ">
+                        <div className="absolute rounded-md top-[254px] left-[23px] lg:left-[157px] md:top-[284px] md:left-[98px] flex flex-col bg-white ">
                             <TiSocialFacebook  className="p-[3px] w-7 h-7 md:w-9 md:p-[6px] md:h-9"/>
                             <TiSocialTwitter className="p-[3px] w-7 h-7 md:w-9 md:p-[6px] md:h-9" />
                             <BiLogoPinterestAlt className="p-[3px] w-7 h-7 md:w-9 md:p-[6px] md:h-9"/>

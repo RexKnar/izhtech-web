@@ -137,8 +137,3 @@
 .SectionBg {
   background-image: url("../public/images/aboutBackground/Awards/Section.jpg");
 }
-.brandImg{
-  background-image: url("../src/assets/images/Service-page-image/brandImage.jpg");
-  height: 100px;
-  width: 100px;
-}
