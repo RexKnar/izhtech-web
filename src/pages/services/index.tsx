@@ -1,6 +1,6 @@
 import { ServicesHeader } from "./componants/serviceHeader-component/index"
 import Branding from "./componants/branding-component/index"
-import { serviceData,serviceData1,serviceData2,serviceData3,serviceData4 } from "./data/service-data"
+import { serviceData,serviceData1,serviceData2,serviceData3} from "./data/service-data"
 import Webapp from './componants/webApp-component/index'
 import Mobileapp from "./componants/mobileApp-component/index"
 import DigitalMarketing from "./componants/digitalMarketing-component/index"
@@ -14,7 +14,7 @@ export function ServicesPage() {
         <Webapp serviceData={serviceData1} />
         <Mobileapp serviceData={serviceData2} />
         <DigitalMarketing serviceData={serviceData3} />
-        <Servicefooter  serviceData={serviceData4}/>
+        <Servicefooter />
       </main>
     </>
   );
