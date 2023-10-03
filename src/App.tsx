@@ -10,23 +10,9 @@ import {
   Navigate,
   Route,
   Routes,
-  createBrowserRouter,
-  createRoutesFromElements,
-  redirect,
 } from "react-router-dom";
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <>
-      <Route index loader={() => redirect("home")} />
-      <Route path="home" element={<HomePage />} />
-      <Route path="about" element={<AboutUsPage />} />
-      <Route path="service" element={<ServicesPage />} />
-      <Route path="contact" element={<ContactUsPage />} />
-      <Route path="branding" element={<BrandingPage/>}/>
-    </>
-  )
-);
+
 
 function App() {
 
