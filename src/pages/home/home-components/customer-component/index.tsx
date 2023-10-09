@@ -5,17 +5,19 @@ function CustomerComponent() {
   return (
     <main className="flex justify-center ">
       <section className="container relative">
-        <span className="coustBg absolute top-0 left-0 w-[15vw] h-[17vh]"></span>
-        <span className="coustBg absolute bottom-0 right-0 w-[15vw] h-[17vh]"></span>
+        <span className="coustBg absolute top-0 left-0 xl:w-[15vw] lg:w-[28vw] h-[15vh]"></span>
+        <span className="coustBg absolute bottom-0 right-0 w-[15vw] h-[15vh]"></span>
         <section>
           <Card className="bg-[#925F8D17]">
-            <div className="flex justify-center">
-              <h1 className="text-4xl font-bold">Meet our customers.</h1>
+            <div className="flex lg:justify-center ">
+              <h1 className="text-4xl font-bold lg:text-center ">
+                Meet our customers.
+              </h1>
             </div>
-            <div className="p-6 flex ">
+            <div className=" lg:p-6 flex ">
               <Carousel className="h-[50vh] ">
-                <div className="grid grid-flow-row  h-full text-center justify-center  dark:text-white w-[17vw] ">
-                  <div className="flex justify-center p-2 ">
+                <div className="grid grid-flow-row  h-full md:text-center justify-center  dark:text-white lg:w-[17vw] w-full ">
+                  <div className="flex md:justify-center lg:p-2 ">
                     <h5 className=" rounded w-fit h-fit bg-[#90919C26]">
                       Design Quality
                     </h5>
@@ -24,7 +26,7 @@ function CustomerComponent() {
                     “The app is a part of our team, helping to crystalize our
                     vision and delivering incredible results in a record time.”
                   </p>
-                  <div className="flex justify-center">
+                  <div className="flex md:justify-center">
                     <img
                       src={customerpic}
                       alt=""

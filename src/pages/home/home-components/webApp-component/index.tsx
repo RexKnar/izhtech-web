@@ -5,11 +5,11 @@ import linkedinLogo from "../../../../assets/images/Home/webAppImg/linkedin-logo
 import walmartLogo from "../../../../assets/images/Home/webAppImg/walmart-logo.png";
 import inteltLogo from "../../../../assets/images/Home/webAppImg/Intel-logo.png";
 
-function WepApp() {
+function  WepApp() {
   return (
     <main className=" flex justify-center">
-      <section className="container min-w-screen p-10">
-        <div className="flex justify-around item-center g-6 m-6">
+      <section className="container min-w-screen p-2 lg:p-10">
+        <div className="md:flex grid grid-cols-2 justify-center items-center justify-items-center  content-around md:justify-around md:item-center gap-4 m-6 ">
           <div>
             <a href="">
               <img src={spotifyLogo} alt="" />

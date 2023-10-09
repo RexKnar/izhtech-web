@@ -5,7 +5,7 @@ function GuideCard(props: any) {
   const cardDitails = props.cartValue;
   return (
     <main className="z-40">
-      <Card className=" bg-[#F5F1F5] p-4 ">
+      <Card className=" bg-[#F5F1F5]  lg:p-4 ">
         <div className="pb-16 flex justify-between ">
           <div className="flex">
             <img
@@ -15,7 +15,7 @@ function GuideCard(props: any) {
             />
             <div className="pl-4">
               <p>{cardDitails.content}</p>
-              <h1>{cardDitails.name}</h1>
+              <h1 className=" font-bold">{cardDitails.Name}</h1>
             </div>
           </div>
         </div>

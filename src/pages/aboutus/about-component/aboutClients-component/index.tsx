@@ -1,17 +1,17 @@
 function AboutClient() {
   return (
     <main className="flex justify-center relative bg-[#f8f8f9]">
-      <section className="container pt-24 pb-24">
+      <section className="container lg:pt-24 lg:pb-24 p-5 lg:px-10 xl:px-0">
         <span className="orangeRound absolute bottom-0 right-0 h-[52vh]  w-[19vw]"></span>
 
-        <div className="flex justify-start pb-10">
-          <div>
+        <div className="flex justify-start lg:pb-10 py-3">
+          <div className="pl-3 lg:pl-0">
             <p className=" uppercase ">Clients we work for</p>
-            <h1 className="text-5xl font-bold pt-4">Our clients.</h1>
+            <h1 className="lg:text-5xl text-3xl font-bold pt-4">Our clients.</h1>
           </div>
         </div>
 
-        <div className="grid grid-flow-col grid-cols-4  ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2  p-3 lg:p-0 ">
           <div className="grid gap-7 ">
             <div>
               <h3 className="font-bold">JPMorgan Chase, 2020</h3>
