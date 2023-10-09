@@ -13,6 +13,8 @@ export function HeaderNavigationMenu() {
       setActiveLink("about");
     } else if (currentPathname === "/service") {
       setActiveLink("service");
+    } else if (currentPathname === "/branding") {
+        setActiveLink("branding");
     } else if (currentPathname === "/contact") {
       setActiveLink("contact");
     }
@@ -51,6 +53,14 @@ export function HeaderNavigationMenu() {
             >
               {" "}
               Service
+            </Link>
+
+            <Link
+              className={activeLink === "branding" ? "text-blue-500" : ""}
+              to={"/branding"}
+            >
+              {" "}
+              Branding
             </Link>
 
             <Link
